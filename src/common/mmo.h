@@ -38,9 +38,9 @@
 	#if PACKETVER >= 20180124
 		#define MAX_CHARS 15
 	#elif PACKETVER >= 20100413
-		#define MAX_CHARS 12
+		#define MAX_CHARS 15
 	#else
-		#define MAX_CHARS 9
+		#define MAX_CHARS 15
 	#endif
 #endif
 /** Number of slots carded equipment can have. Never set to less than 4 as they are also used to keep the data of forged items/equipment. [Skotlex]
@@ -55,7 +55,7 @@
 #define DEFAULT_WALK_SPEED 150 ///Default walk speed
 #define MIN_WALK_SPEED 20 ///Min walk speed
 #define MAX_WALK_SPEED 1000 ///Max walk speed
-#define MAX_STORAGE 600 ///Max number of storage slots a player can have
+#define MAX_STORAGE 900 ///Max number of storage slots a player can have
 #define MAX_GUILD_STORAGE 600 ///Max number of storage slots a guild
 #define MAX_PARTY 12 ///Max party member
 #define MAX_GUILD 16+10*6	///Increased max guild members +6 per 1 extension levels [Lupus]
