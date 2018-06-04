@@ -1,0 +1,34 @@
+﻿  tag.cpp
+  stream.cpp
+  singledocparser.cpp
+  simplekey.cpp
+  scantoken.cpp
+  scantag.cpp
+  scanscalar.cpp
+  scanner.cpp
+  regex_yaml.cpp
+  parser.cpp
+  parse.cpp
+  ostream_wrapper.cpp
+  null.cpp
+  node_data.cpp
+  nodeevents.cpp
+  nodebuilder.cpp
+  node.cpp
+  memory.cpp
+  exp.cpp
+  exceptions.cpp
+  Generating Code...
+  Compiling...
+  emitterutils.cpp
+  emitterstate.cpp
+  emitter.cpp
+  emitfromevents.cpp
+  emit.cpp
+  directives.cpp
+  convert.cpp
+  graphbuilderadapter.cpp
+  graphbuilder.cpp
+  binary.cpp
+  Generating Code...
+  yaml-cpp.vcxproj -> C:\Users\Incik Rakuzas\Documents\d3nr0\.vs\build\yaml-cpp.lib

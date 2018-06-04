@@ -1,0 +1,20 @@
+﻿  int_storage.cpp
+  int_quest.cpp
+  int_pet.cpp
+  int_party.cpp
+  int_mercenary.cpp
+  int_mail.cpp
+  int_homun.cpp
+  int_guild.cpp
+  int_elemental.cpp
+  int_clan.cpp
+  int_auction.cpp
+  int_achievement.cpp
+  inter.cpp
+  char_mapif.cpp
+  char_logif.cpp
+  char_cnslif.cpp
+  char_clif.cpp
+  char.cpp
+  Generating Code...
+  char-server.vcxproj -> C:\Users\Incik Rakuzas\Documents\d3nr0\char-server.exe
