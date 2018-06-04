@@ -1,0 +1,47 @@
+﻿  vending.cpp
+  unit.cpp
+  trade.cpp
+  storage.cpp
+  status.cpp
+  skill.cpp
+  searchstore.cpp
+  script.cpp
+  quest.cpp
+  pet.cpp
+  pc_groups.cpp
+  pc.cpp
+  path.cpp
+  party.cpp
+  npc_chat.cpp
+  npc.cpp
+  mob.cpp
+  mercenary.cpp
+  mapreg.cpp
+  map.cpp
+  Generating Code...
+  Compiling...
+  mail.cpp
+  log.cpp
+  itemdb.cpp
+  intif.cpp
+  instance.cpp
+  homunculus.cpp
+  guild.cpp
+  elemental.cpp
+  duel.cpp
+  date.cpp
+  clif.cpp
+  clan.cpp
+  chrif.cpp
+  chat.cpp
+  channel.cpp
+  cashshop.cpp
+  buyingstore.cpp
+  battleground.cpp
+  battle.cpp
+  atcommand.cpp
+  Generating Code...
+  Compiling...
+  achievement.cpp
+  Generating Code...
+  map-server.vcxproj -> C:\Users\Incik Rakuzas\Documents\d3nr0\map-server.exe

@@ -1,0 +1,31 @@
+﻿  utils.c
+  timer.c
+  thread.c
+  strlib.c
+  sql.c
+  socket.c
+  showmsg.c
+  random.c
+  raconf.c
+  nullpo.c
+  mutex.c
+  msg_conf.c
+  mempool.c
+  md5calc.c
+  mapindex.c
+  malloc.c
+  grfio.c
+  ers.c
+  des.c
+  db.c
+  Generating Code...
+  Compiling...
+  conf.c
+  cli.c
+  Generating Code...
+  utilities.cpp
+  yamlwrapper.cpp
+  winapi.cpp
+  core.cpp
+  Generating Code...
+  common.vcxproj -> C:\Users\Incik Rakuzas\Documents\d3nr0\.vs\build\common.lib
