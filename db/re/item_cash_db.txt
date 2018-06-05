@@ -17,3 +17,52 @@
 //
 // Price:
 //    Item cost, in cash points (#CASHPOINTS).
+
+//New
+0,14178,10		// Token of Siegfried 10 Box
+0,14216,100		// Bubblegum 5 Box
+0,41110,1		// Korean Rice Cake 50 Box
+0,41112,2		// Acid Bottle 5 Box
+0,13710,20		// Gym Pass 10 Box 
+0,14545,3		// Battle Manual X3
+0,14005,2		// Poison Bottle 5 Box
+
+// Headgear 
+1,18600,30 		// Cat Ear Beret
+1,18539,30 		// Red Skull Cap
+1,18601,30		// Red Pom Band
+1,18528,30		// Drooping Neko Crew
+1,18508,30		// Garuda Hat
+1,5654,30		// Holy Marching Hat
+1,18565,30		// Leprechaun Hat
+1,18597,30		// Mercury Riser Hat
+1,5469,30		// Musketeer Hat
+1,5379,30		// Tam
+1,19178,30		// Elemental Crown
+1,5531,30		// Baby Dragon Hat
+
+
+// Rental
+3,16682,10 		// Halter Lead - 7 Days
+3,17227,10		// Infinite Awakening Potion - 7 Days
+3,17228,10		// Infinite Berserk Potion - 7 Days
+3,17229,10		// Infinite Flywing - 7 Days
+
+// Gear 
+4,2589,30 		// Fallen Angel Wing
+4,2573,30 		// Archangel Wing
+4,2576,30		// Heroic Bagpack
+4,20748,30 		// Cloak of Casualties
+4,15040,30 		// Prison Uniform
+
+// Useable
+6,12103,10		// Bloody Branch
+
+// Other
+7,7620,2		// Enrich Oridedon
+7,7619,2		// Enrich Elunium
+7,6240,4		// HD Oridedon
+7,6241,4		// HD Elunium
+7,6226,8		// HD Branium
+7,6225,8		// HD Carnium
+
