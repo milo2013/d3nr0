@@ -10,6 +10,7 @@ prontera,147,230,5	script	Cashpoints Trader	493,{
 	mes "[ Cashpoints Trader ]";
 	mes "Please input your Cashpoints";
 	mes "1MZ = 1CP";
+	mes "1K MAX per Trade!!";
 	 next;
     input .@amount;
     
