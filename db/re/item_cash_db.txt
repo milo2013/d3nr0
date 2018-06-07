@@ -58,6 +58,7 @@
 
 // Useable
 6,12103,10		// Bloody Branch
+6,12211,1		// Kafra Card
 
 // Other
 7,7620,2		// Enrich Oridedon
