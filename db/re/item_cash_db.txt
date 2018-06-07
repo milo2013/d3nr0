@@ -25,7 +25,8 @@
 0,41112,2		// Acid Bottle 5 Box
 0,13710,20		// Gym Pass 10 Box 
 0,14545,3		// Battle Manual X3
-0,14005,2		// Poison Bottle 5 Box
+0,14005,2		// Poison Bottle Combo 50 Box
+0,6417,3		// Silvervine Fruit
 
 // Headgear 
 1,18600,30 		// Cat Ear Beret
