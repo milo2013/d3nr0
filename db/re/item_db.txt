@@ -495,9 +495,9 @@
 1139,Tale_Fing_,Tirfing,5,20,,1000,200,,1,0,0x000654E2,63,2,2,4,40,1,2,{ bonus bAtkEle,Ele_Dark; bonus2 bHPLossRate,35,10000; },{},{}
 1140,Byeorrun_Gum,Byeollungum,5,20,,900,150,,1,0,0x000654E2,63,2,2,4,40,1,2,{ bonus2 bSubClass,Class_Normal,-10; bonus2 bAddClass,Class_Boss,50; bonus bAllStats,2; },{},{}
 1141,Immaterial_Sword,Immaterial Sword,5,20,,900,140,,1,0,0x000654E2,63,2,2,4,40,1,2,{ bonus bAtkEle,Ele_Ghost; bonus2 bSPVanishRate,30,30; bonus bSPDrainValue,-1; bonus bUnbreakableWeapon; },{},{}
-1142,Jewel_Sword,Jeweled Sword,5,20,,2200,104,,1,0,0x000654E2,63,2,2,3,68,1,2,{ bonus2 bAddMonsterDropItemGroup,IG_Jewel,100; },{},{}
-1143,Gaia_Sword,Gaia Sword,5,20,,2500,140,,1,0,0x000654E2,63,2,2,3,74,1,2,{ bonus2 bAddMonsterDropItemGroup,IG_Ore,30; },{},{}
-1144,Sasimi,Sashimi,5,20,,1400,75,,1,0,0x000654E2,63,2,2,3,48,1,2,{ bonus bAtkEle,Ele_Wind; bonus3 bAddMonsterDropItem,544,RC_Fish,4000; },{},{}
+1142,Jewel_Sword,Jeweled Sword,5,20,,2200,104,,1,0,0x000654E2,63,2,2,3,68,1,2,{ bonus2 bAddMonsterDropItemGroup,IG_Jewel,5000; },{},{}
+1143,Gaia_Sword,Gaia Sword,5,20,,2500,140,,1,0,0x000654E2,63,2,2,3,74,1,2,{ bonus2 bAddMonsterDropItemGroup,IG_Ore,5000; },{},{}
+1144,Sasimi,Sashimi,5,20,,1400,75,,1,0,0x000654E2,63,2,2,3,48,1,2,{ bonus bAtkEle,Ele_Wind; bonus3 bAddMonsterDropItem,544,RC_Fish,5000; },{},{}
 1145,Holy_Avenger,Holy Avenger,5,450000,,1350,125,,1,0,0x00004000,63,2,2,3,75,1,2,{ bonus bAtkEle,Ele_Holy; bonus bVit,2; },{},{}
 1146,Town_Sword,Town Sword,5,42000,,800,100,,1,1,0x00000001,63,2,2,3,30,1,2,{},{},{}
 1147,Town_Sword_,Town Sword,5,42000,,800,100,,1,2,0x00000001,63,2,2,3,30,1,2,{},{},{}
@@ -667,7 +667,7 @@
 1302,Axe_,Axe,5,500,,800,38,,1,4,0x000654E3,63,2,2,1,3,1,6,{},{},{}
 1303,Axe__,Axe,5,500,,800,38,,1,0,0x000654E3,63,2,2,1,3,1,6,{},{},{}
 1304,Orcish_Axe,Orcish Axe,5,20,,1500,75,,1,0,0x000654E3,63,2,2,3,3,1,6,{},{},{}
-1305,Cleaver,Cleaver,5,20,,1200,140,,1,0,0x000444A2,63,2,2,4,44,1,6,{ bonus2 bSubRace,RC_DemiHuman,5; bonus2 bSubRace,RC_Player,5; bonus3 bAddMonsterDropItem,517,RC_Brute,3000; },{},{}
+1305,Cleaver,Cleaver,5,20,,1200,140,,1,0,0x000444A2,63,2,2,4,44,1,6,{ bonus2 bSubRace,RC_DemiHuman,5; bonus2 bSubRace,RC_Player,5; bonus3 bAddMonsterDropItem,517,RC_Brute,5000; },{},{}
 1306,War_Axe,War Axe,5,20,,4200,140,,1,1,0x00040400,63,2,2,3,76,1,6,{ bonus bDex,2; bonus bLuk,2; },{},{}
 1307,Windhawk,Windhawk,5,18000,,1500,115,,1,0,0x000654E2,63,2,2,2,14,1,6,{ bonus bAtkEle,Ele_Wind; bonus bAspdRate,5; },{},{}
 1308,Golden_Axe,Golden Axe,5,20,,3000,170,,1,0,0x00000001,63,2,2,4,45,1,6,{},{},{}
@@ -763,14 +763,14 @@
 1419,Pole_Axe_C,Pole Axe,5,1,,4800,195,,3,0,0x00004082,63,2,2,3,1,0,4,{ bonus bStr,1; bonus bInt,2; bonus bDex,1; },{},{}
 1420,Long_Horn,Long Horn,5,20,,1000,150,,3,1,0x00004082,18,2,2,4,65,1,4,{ bonus bAtkEle,Ele_Holy; bonus2 bAddEff,Eff_Bleeding,500; skill "TF_DETOXIFY",1; bonus bUnbreakableWeapon; },{},{}
 1421,Battle_Hook,Battle Hook,5,20,,900,140,,3,1,0x00004082,18,2,2,4,65,1,4,{ bonus2 bAddEff,Eff_Stun,500; bonus2 bAddRace,RC_DemiHuman,20; bonus2 bAddRace,RC_Player,20; skill "KN_PIERCE",3; },{},{}
-1422,Hunting_Spear,Hunting Spear,5,20,,4200,180,,3,1,0x00004082,18,2,2,4,60,1,4,{ bonus bIgnoreDefRace,RC_Brute; bonus3 bAddMonsterDropItem,517,RC_Brute,1000; bonus3 bAutoSpell,"LK_JOINTBEAT",3,100; },{},{}
+1422,Hunting_Spear,Hunting Spear,5,20,,4200,180,,3,1,0x00004082,18,2,2,4,60,1,4,{ bonus bIgnoreDefRace,RC_Brute; bonus3 bAddMonsterDropItem,517,RC_Brute,5000; bonus3 bAutoSpell,"LK_JOINTBEAT",3,100; },{},{}
 1423,Pole_XO,Pole XO,5,20,,0,120,,3,0,0x00004082,63,2,2,1,0,0,4,{ bonus2 bAddClass,Class_All,50; },{},{}
 1424,Skewer_C,Refined Brocca,5,1,,0,149,,3,0,0x00004082,63,2,2,4,0,0,4,{ bonus bIgnoreDefClass,Class_Normal; bonus2 bAddSize,Size_Medium,20; },{},{}
 1425,BF_Spear1,Assaulter Spear,5,20,,0,60,,3,0,0x00004082,63,2,2,3,80,1,4,{ bonus bStr,2; bonus2 bAddRace,RC_DemiHuman,95; bonus2 bAddRace,RC_Player,95; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,20; bonus2 bIgnoreDefRaceRate,RC_Player,20; bonus bUnbreakableWeapon; if(BaseJob==Job_Crusader) bonus bAspdRate,20; },{},{}
 1426,Krieger_Onehand_Spear1,Glorious Spear,5,20,,0,130,,3,0,0x00004082,63,2,2,4,80,1,4,{ bonus2 bAddRace,RC_DemiHuman,95; bonus2 bAddRace,RC_Player,95; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,20; bonus2 bIgnoreDefRaceRate,RC_Player,20; bonus bUnbreakableWeapon; .@r = getrefine(); if(.@r>5) { bonus2 bAddRace,RC_DemiHuman,pow(min(14,.@r)-4,2); bonus2 bAddRace,RC_Player,pow(min(14,.@r)-4,2); bonus2 bIgnoreDefRaceRate,RC_DemiHuman,5; bonus2 bIgnoreDefRaceRate,RC_Player,5; bonus bAspdRate,10; } if(.@r>8) { if(BaseJob==Job_Knight) bonus4 bAutoSpellOnSkill,"KN_PIERCE","NPC_CRITICALWOUND",2,200; else if(BaseJob==Job_Crusader) bonus3 bAutoSpell,"PA_PRESSURE",5,100; } },{},{}
 1427,Spear_Of_Excellent,Spear Of Excellent,5,20,,0,160,,3,0,0x00004082,63,2,2,3,0,0,4,{ bonus2 bSkillAtk,"SM_MAGNUM",25; bonus bStr,2; },{},{}
 1428,Long_Horn_M,Long Horn,5,20,,1000,150,,3,1,0x00004082,18,2,2,4,65,1,4,{ bonus bAtkEle,Ele_Holy; bonus2 bAddEff,Eff_Bleeding,500; skill "TF_DETOXIFY",1; bonus bUnbreakableWeapon; },{},{}
-1429,Hunting_Spear_M,Hunting Spear,5,20,,4200,180,,3,1,0x00004082,18,2,2,4,60,1,4,{ bonus bIgnoreDefRace,RC_Brute; bonus3 bAddMonsterDropItem,517,RC_Brute,1000; bonus3 bAutoSpell,"LK_JOINTBEAT",3,100; },{},{}
+1429,Hunting_Spear_M,Hunting Spear,5,20,,4200,180,,3,1,0x00004082,18,2,2,4,60,1,4,{ bonus bIgnoreDefRace,RC_Brute; bonus3 bAddMonsterDropItem,517,RC_Brute,5000; bonus3 bAutoSpell,"LK_JOINTBEAT",3,100; },{},{}
 1430,Pike_C,Pike,5,0,,0,74,,3,0,0x00004082,63,2,2,1,1,0,4,{ bonus2 bAddSize,Size_All,70; },{},{}
 1431,F_Pole_Axe_C,Pole Axe,5,1,,4800,195,,3,0,0x00004082,63,2,2,3,1,0,4,{ bonus bStr,1; bonus bInt,2; bonus bDex,1; },{},{}
 1432,E_Pole_Axe_C,Pole Axe,5,1,,4800,195,,3,0,0x00004082,63,2,2,3,1,0,4,{ bonus bStr,1; bonus bInt,2; bonus bDex,1; },{},{}
@@ -891,7 +891,7 @@
 1541,Nemesis,Nemesis,5,20,,900,120,,1,0,0x00008110,63,2,2,4,60,1,8,{ bonus bAtkEle,Ele_Holy; bonus2 bAddRace,RC_Undead,10; bonus2 bAddRace,RC_Demon,10; bonus3 bAutoSpell,"AL_CRUCIS",1+getrefine(),100; autobonus "{ bonus bBaseAtk,50; }",10,20000,BF_WEAPON,"{ specialeffect2 EF_BLOODDRAIN; }"; },{},{}
 1542,BF_Morning_Star1,Valorous Battlefield Morning Star,5,20,,0,105,,1,0,0x0004C5B3,63,2,2,3,80,1,8,{ bonus bStr,1; bonus bDex,1; bonus2 bAddRace,RC_DemiHuman,75; bonus2 bAddRace,RC_Player,75; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,20; bonus2 bIgnoreDefRaceRate,RC_Player,20; bonus bUnbreakableWeapon; },{},{}
 1543,BF_Morning_Star2,Brave Battlefield Morning Star,5,20,,0,105,,1,0,0x0004C5B3,63,2,2,3,80,1,8,{ bonus bStr,1; bonus bDex,1; bonus2 bAddRace,RC_DemiHuman,75; bonus2 bAddRace,RC_Player,75; bonus bUnbreakableWeapon; autobonus "{ bonus2 bAddEff,Eff_Stun,5000; }",10,6000,BF_WEAPON,"{ specialeffect2 EF_POTION_BERSERK; }"; },{},{}
-1544,Lunakaligo,Lunakaligo,5,20,,700,110,,1,3,0x00008110,18,2,2,3,50,1,8,{ if(readparam(bStr)>=77) { bonus bAspdRate,4; bonus2 bAddEff,Eff_Stun,1500; bonus3 bAddMonsterDropItem,12065,RC_Plant,500; bonus3 bAddMonsterDropItem,12043,RC_Brute,500; bonus3 bAddMonsterDropItem,12069,RC_Fish,500; } },{},{}
+1544,Lunakaligo,Lunakaligo,5,20,,700,110,,1,3,0x00008110,18,2,2,3,50,1,8,{ if(readparam(bStr)>=77) { bonus bAspdRate,4; bonus2 bAddEff,Eff_Stun,1500; bonus3 bAddMonsterDropItem,12065,RC_Plant,5000; bonus3 bAddMonsterDropItem,12043,RC_Brute,5000; bonus3 bAddMonsterDropItem,12069,RC_Fish,5000; } },{},{}
 1545,N_Mace,Novice Mace,5,0,,0,57,,1,3,0x0004C5B3,63,2,2,1,2,0,8,{},{},{}
 1546,Krieger_Onehand_Mace1,Glorious Morning Star,5,20,,0,130,,1,0,0x0004C5B3,63,2,2,4,80,1,8,{ bonus2 bAddRace,RC_DemiHuman,75; bonus2 bAddRace,RC_Player,75; bonus2 bIgnoreDefRaceRate,RC_DemiHuman,20; bonus2 bIgnoreDefRaceRate,RC_Player,20; bonus bUnbreakableWeapon; .@r = getrefine(); if(.@r>5) { bonus2 bAddRace,RC_DemiHuman,pow(min(14,.@r)-4,2); bonus2 bAddRace,RC_Player,pow(min(14,.@r)-4,2); bonus2 bIgnoreDefRaceRate,RC_DemiHuman,5; bonus2 bIgnoreDefRaceRate,RC_Player,5; bonus bAspdRate,5; } if(.@r>8) { bonus2 bAddEff,Eff_Stun,2000; bonus bAspdRate,5; } },{},{}
 1547,Mace_Of_Madness,Mace Of Madness,5,20,,0,150,,1,0,0x0004C5B2,63,2,2,3,0,0,8,{ bonus2 bSkillAtk,"MC_CARTREVOLUTION",25; bonus bStr,2; },{},{}
@@ -1071,7 +1071,7 @@
 1721,Repeting_CrossBow,Repeating Crossbow,5,89000,,2000,95,,9,1,0x00020840,63,2,34,3,65,1,11,{},{},{}
 1722,Balistar,Ballista,5,124000,,3500,145,,5,0,0x00080800,63,2,34,4,77,1,11,{},{},{}
 1723,Luna_Bow,Luna Bow,5,20,,2000,100,,5,2,0x00000800,63,2,34,3,30,1,11,{ .@r = getrefine(); bonus bDef,2+3*(.@r>5)+2*(.@r>8); },{},{}
-1724,Dragon_Wing,Dragon Wing,5,20,,1200,100,,5,0,0x000A0848,63,2,34,4,60,1,11,{ bonus3 bAddMonsterDropItem,1765,RC_Dragon,300; bonus bIgnoreDefRace,RC_Dragon; },{},{}
+1724,Dragon_Wing,Dragon Wing,5,20,,1200,100,,5,0,0x000A0848,63,2,34,4,60,1,11,{ bonus3 bAddMonsterDropItem,1765,RC_Dragon,5000; bonus bIgnoreDefRace,RC_Dragon; },{},{}
 1725,Bow_Of_Minstrel,Minstrel Bow,5,20,,1700,120,,5,1,0x00080800,63,2,34,4,70,1,11,{ bonus bInt,2; bonus bSPrecovRate,10; },{},{}
 1726,Hunter_Bow_,Hunter Bow,5,64000,,1500,125,,5,1,0x00000800,63,2,34,3,33,1,11,{},{},{}
 1727,Balistar_,Ballista,5,124000,,3500,145,,5,1,0x00080800,63,2,34,4,77,1,11,{},{},{}
@@ -1081,7 +1081,7 @@
 1731,Frozen_Bow,Frozen Bow,5,20,,1400,100,,5,1,0x000A0808,63,2,34,3,55,1,11,{ bonus2 bAddEff,Eff_Freeze,1000; },{},{}
 1732,Earth_Bow,Earth Bow,5,20,,1400,105,,5,1,0x000A0808,63,2,34,3,55,1,11,{},{},{}
 1733,Gust_Bow,Gust Bow,5,20,,1400,95,,5,1,0x000A0808,63,2,34,3,55,1,11,{},{},{}
-1734,Orc_Archer_Bow,Orc Archer Bow,5,20,,1600,120,,5,0,0x000A0808,63,2,34,3,65,1,11,{ bonus2 bAddMonsterDropItem,1753,200; },{},{}
+1734,Orc_Archer_Bow,Orc Archer Bow,5,20,,1600,120,,5,0,0x000A0808,63,2,34,3,65,1,11,{ bonus2 bAddMonsterDropItem,1753,5000; },{},{}
 1735,Kkakkung,Kkakkung,5,20,,0,120,,5,0,0x000A0848,63,2,34,1,1,0,11,{ bonus2 bAddClass,Class_All,50; },{},{}
 1736,Double_Bound,Double Bound,5,20,,900,70,,5,3,0x00000800,18,2,34,3,70,1,11,{ bonus3 bAutoSpell,"AC_DOUBLE",GetSkillLv("AC_DOUBLE"),10; },{},{}
 1737,Ixion_Wing,Ixion Wings,5,20,,300,135,,5,1,0x00000800,18,2,34,4,70,1,11,{ autobonus "{ bonus bAspdRate,7; }",10+(getrefine()*2),7000,BF_WEAPON,"{ specialeffect2 EF_HASTEUP; }"; bonus2 bAddSkillBlow,"AC_CHARGEARROW",3; },{},{}
@@ -1880,7 +1880,7 @@
 2673,Shining_Ring,Warrior's Shining Ring,4,0,,100,,0,,0,0xFFFFFFFE,63,2,136,,48,0,0,{ bonus bBaseAtk,10; bonus bSPrecovRate,3; },{},{}
 2674,Honor_Ring,Ring of Honor,4,20,,0,,0,,0,0xFFFFFFFF,63,2,136,,1,0,0,{},{},{}
 2675,Lord_Ring,Lord Ring,4,0,,10,,0,,0,0xFFFFFFFF,63,2,136,,1,0,0,{ bonus bAllStats,3; },{},{}
-2676,Hunter_Earring,Hunter's Earring,4,20,,300,,0,,0,0xFFFFFFFF,63,2,136,,1,0,0,{ bonus2 bAddMonsterDropItem,7618,100; },{},{}
+2676,Hunter_Earring,Hunter's Earring,4,20,,300,,0,,0,0xFFFFFFFF,63,2,136,,1,0,0,{ bonus2 bAddMonsterDropItem,7618,5000; },{},{}
 2677,Spiritual_Ring,Spiritual Ring,4,20,,100,,0,,0,0xFFFFFFFF,63,2,136,,0,0,0,{ bonus bInt,2; bonus bDex,1; },{},{}
 2678,Ring_Of_Flame_Lord,Ring Of Flame Lord,4,20,,100,,0,,0,0x00CFFF80,18,2,136,,0,0,0,{ bonus bStr,2; bonus bVit,1; bonus bBaseAtk,15; bonus2 bSubEle,Ele_Fire,10; bonus3 bAutoSpell,"CH_SOULCOLLECT",1,30; bonus3 bAutoSpell,"MO_EXPLOSIONSPIRITS",1,10; bonus3 bAutoSpell,"PA_PRESSURE",2,30; bonus3 bAutoSpell,"MG_FIREBALL",1,150; bonus3 bAutoSpell,"KN_BOWLINGBASH",5,20; },{},{}
 2679,Ring_Of_Resonance,Ring Of Resonance,4,20,,100,,2,,0,0x00CFFF80,18,2,136,,0,0,0,{ bonus bAgi,2; bonus bVit,1; bonus bMdef,2; bonus4 bAutoSpellWhenHit,"WZ_QUAGMIRE",1,50,0; bonus3 bAutoSpellWhenHit,"AS_SPLASHER",10,20; bonus3 bAutoSpellWhenHit,"AL_HEAL",10,30; bonus3 bAutoSpellWhenHit,"HP_ASSUMPTIO",3,20; bonus3 bAutoSpellWhenHit,"CG_TAROTCARD",5,20; },{},{}
@@ -1909,7 +1909,7 @@
 2702,Bison_Horn,Bison Horn,4,20,,100,,0,,1,0xFFFFFFFE,18,2,136,,90,0,0,{ bonus bAgi,2; },{},{}
 2703,Expert_Ring,Expert Ring,4,20,,150,,0,,1,0xFFFFFFFE,18,2,136,,50,0,0,{ bonus bDelayRate,-5; bonus bUseSPrate,5; },{},{}
 2704,Golden_Accessory,Golden Accessories,4,20,,100,,4,,0,0xFFFFFFFF,63,2,136,,0,0,0,{ bonus bMdef,4; },{},{}
-2705,Golden_Accessory2,Golden Accessories,4,20,,100,,4,,0,0xFFFFFFFF,63,2,136,,0,0,0,{ bonus2 bAddMonsterDropItem,12018,500; },{},{}
+2705,Golden_Accessory2,Golden Accessories,4,20,,100,,4,,0,0xFFFFFFFF,63,2,136,,0,0,0,{ bonus2 bAddMonsterDropItem,12018,5000; },{},{}
 2706,Handcuff,Arrest Handcuffs,4,0,,0,,0,,0,0xFFFFFFFF,63,2,136,,0,0,0,{},{},{}
 2707,Gusli,GUSLI,4,20,,100,,0,,0,0xFFFFFFFF,63,2,136,,0,0,0,{},{},{}
 2708,Chinese_Handicraft,Chinese Handicraft,4,0,,50,,0,,0,0xFFFFFFFF,63,2,136,,0,0,0,{ bonus3 bAutoSpell,"MG_FIREBOLT",5,50; },{},{}
@@ -2332,12 +2332,12 @@
 4146,Maya_Card,Maya Card,6,20,,10,,,,,,,,32,,,,,{ bonus bMagicDamageReturn,50; },{},{}
 4147,Baphomet_Card,Baphomet Card,6,20,,10,,,,,,,,2,,,,,{ bonus bHit,-10; bonus bSplashRange,1; },{},{}
 4148,Pharaoh_Card,Pharaoh Card,6,20,,10,,,,,,,,769,,,,,{ bonus bUseSPrate,-30; },{},{}
-4149,Gargoyle_Card,Gargoyle Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12028,RC_Insect,100; },{},{}
+4149,Gargoyle_Card,Gargoyle Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12028,RC_Insect,5000; },{},{}
 4150,Goat_Card,Goat Card,6,20,,10,,,,,,,,16,,,,,{ if(getrefine()<6) { bonus bDef,2; bonus bMdef,5; } },{},{}
 4151,Gajomart_Card,Gajomart Card,6,20,,10,,,,,,,,64,,,,,{ bonus2 bSubRace,RC_Plant,-20; bonus2 bExpAddRace,RC_Plant,10; },{},{}
-4152,Galapago_Card,Galapago Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Juice,50; bonus3 bAddMonsterDropItem,531,RC_Insect,300; bonus3 bAddMonsterDropItem,532,RC_Insect,300; bonus3 bAddMonsterDropItem,534,RC_Insect,300; },{},{}
+4152,Galapago_Card,Galapago Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Juice,50; bonus3 bAddMonsterDropItem,531,RC_Insect,5000; bonus3 bAddMonsterDropItem,532,RC_Insect,5000; bonus3 bAddMonsterDropItem,534,RC_Insect,5000; },{},{}
 4153,Crab_Card,Crab Card,6,20,,10,,,,,,,,2,,,,,{ bonus bBaseAtk,5; bonus2 bAddDamageClass,1266,30; },{},{}
-4154,Rice_Cake_Boy_Card,Dumpling Child Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Candy,50; bonus3 bAddMonsterDropItem,529,RC_DemiHuman,300; bonus3 bAddMonsterDropItem,530,RC_DemiHuman,100; },{},{}
+4154,Rice_Cake_Boy_Card,Dumpling Child Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Candy,50; bonus3 bAddMonsterDropItem,529,RC_DemiHuman,5000; bonus3 bAddMonsterDropItem,530,RC_DemiHuman,5000; },{},{}
 4155,Goblin_Leader_Card,Goblin Leader Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,RC2_Goblin,30; },{},{}
 4156,Steam_Goblin_Card,Goblin Steamrider Card,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,10; bonus2 bCriticalAddRace,RC_Formless,7; },{},{}
 4157,Goblin_Archer_Card,Goblin Archer Card,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,10; bonus2 bCriticalAddRace,RC_Undead,7; },{},{}
@@ -2360,7 +2360,7 @@
 4174,Deviling_Card,Deviling Card,6,20,,10,,,,,,,,4,,,,,{ bonus2 bSubEle,Ele_Neutral,50; bonus2 bSubEle,Ele_Water,-50; bonus2 bSubEle,Ele_Earth,-50; bonus2 bSubEle,Ele_Fire,-50; bonus2 bSubEle,Ele_Wind,-50; bonus2 bSubEle,Ele_Poison,-50; bonus2 bSubEle,Ele_Holy,-50; bonus2 bSubEle,Ele_Dark,-50; bonus2 bSubEle,Ele_Ghost,-50; bonus2 bSubEle,Ele_Undead,-50; },{},{}
 4175,Poison_Toad_Card,Poisonous Toad Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"TF_POISON",1,20; bonus2 bAddSkillBlow,52,5; },{},{}
 4176,Dullahan_Card,Dullahan Card,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,10; bonus2 bCriticalAddRace,RC_Dragon,7; },{},{}
-4177,Dryad_Card,Dryad Card,6,20,,10,,,,,,,,769,,,,,{ bonus3 bAddMonsterDropItem,993,RC_Plant,100; bonus2 bSubEle,Ele_Earth,10; },{},{}
+4177,Dryad_Card,Dryad Card,6,20,,10,,,,,,,,769,,,,,{ bonus3 bAddMonsterDropItem,993,RC_Plant,5000; bonus2 bSubEle,Ele_Earth,10; },{},{}
 4178,Dragon_Tail_Card,Dragon Tail Card,6,20,,10,,,,,,,,4,,,,,{ bonus bAgi,1; bonus bFlee,10; bonus2 bSkillAtk,"AC_DOUBLE",5; bonus2 bSkillAtk,"AC_SHOWER",5; },{},{}
 4179,Dragon_Fly_Card,Dragon Fly Card,6,20,,10,,,,,,,,4,,,,,{ bonus bAgi,1; },{},{}
 4180,Driller_Card,Driller Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSPGainRace,RC_Dragon,5; },{},{ heal 0,-5; }
@@ -2370,16 +2370,16 @@
 4184,Lava_Golem_Card,Lava Golem Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,RC2_Golem,30; },{},{}
 4185,Rideword_Card,Rideword Card,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,1; if(BaseClass==Job_Acolyte) { bonus bInt,1; bonus bMdef,1; } },{},{}
 4186,Raggler_Card,Raggler Card,6,20,,10,,,,,,,,64,,,,,{ bonus bStr,1; bonus bVit,1; },{},{}
-4187,Raydric_Archer_Card,Raydric Archer Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12030,RC_Demon,100; },{},{}
-4188,Leib_Olmai_Card,Leib Olmai Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bSubEle,Ele_Fire,10; bonus3 bAddMonsterDropItem,990,RC_Brute,100; },{},{}
+4187,Raydric_Archer_Card,Raydric Archer Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12030,RC_Demon,5000; },{},{}
+4188,Leib_Olmai_Card,Leib Olmai Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bSubEle,Ele_Fire,10; bonus3 bAddMonsterDropItem,990,RC_Brute,5000; },{},{}
 4189,Wraith_Dead_Card,Wraith Dead Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Curse,600; },{},{}
-4190,Wraith_Card,Wraith Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12027,RC_Undead,100; },{},{}
+4190,Wraith_Card,Wraith Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12027,RC_Undead,5000; },{},{}
 4191,Loli_Ruri_Card,Loli Ruri Card,6,20,,10,,,,,,,,16,,,,,{ bonus3 bAutoSpellWhenHit,"AL_HEAL",3,50; },{},{}
 4192,Rotar_Zairo_Card,Rotar Zairo Card,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,10; bonus2 bCriticalAddRace,RC_Fish,7; },{},{}
 4193,Lude_Card,Lude Card,6,20,,10,,,,,,,,136,,,,,{ if(BaseJob==Job_Novice||BaseJob==Job_SuperNovice) bonus3 bAutoSpellWhenHit,"SM_ENDURE",1,200; },{},{}
 4194,Rybio_Card,Rybio Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Stun,300+600*(readparam(bDex)>=77); },{},{}
-4195,Leaf_Cat_Card,Leaf Cat Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bSubEle,Ele_Water,10; bonus3 bAddMonsterDropItem,991,RC_Fish,100; },{},{}
-4196,Marin_Card,Marin Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,909,2000; bonus2 bAddMonsterDropItem,7126,10; },{},{}
+4195,Leaf_Cat_Card,Leaf Cat Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bSubEle,Ele_Water,10; bonus3 bAddMonsterDropItem,991,RC_Fish,5000; },{},{}
+4196,Marin_Card,Marin Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,909,5000; bonus2 bAddMonsterDropItem,7126,5000; },{},{}
 4197,Mastering_Card,Mastering Card,6,20,,10,,,,,,,,4,,,,,{ bonus bLuk,1; },{},{}
 4198,Maya_Puple_Card,Maya Purple Card,6,20,,10,,,,,,,,769,,,,,{ bonus bIntravision; },{},{}
 4199,Merman_Card,Merman Card,6,20,,10,,,,,,,,64,,,,,{ bonus bHPrecovRate,10; bonus bSPrecovRate,10; },{},{}
@@ -2398,24 +2398,24 @@
 4212,Bon_Gun_Card,Bongun Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"SM_BASH",1,20; bonus2 bAddSkillBlow,"SM_BASH",5; bonus2 bAddDefMonster,1026,-100; },{},{}
 4213,Brilight_Card,Brilight Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Silence,600; },{},{}
 4214,Bloody_Murderer_Card,Bloody Murderer Card,6,20,,10,,,,,,,,2,,,,,{ bonus bCritAtkRate,10; bonus2 bCriticalAddRace,RC_Insect,7; },{},{}
-4215,Blazzer_Card,Blazer Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItemGroup,IG_Food,600; },{},{}
+4215,Blazzer_Card,Blazer Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItemGroup,IG_Food,5000; },{},{}
 4216,Sasquatch_Card,Sasquatch Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Freeze,600; },{},{}
 4217,Live_Peach_Tree_Card,Enchanted Peach Tree Card,6,20,,10,,,,,,,,32,,,,,{ bonus3 bAutoSpell,"AL_HEAL",1+9*(getskilllv("AL_HEAL")==10),20; },{},{}
 4218,Succubus_Card,Succubus Card,6,20,,10,,,,,,,,16,,,,,{ bonus bVit,-3; bonus bHPrecovRate,-20; bonus bMaxHP,1000; },{},{}
-4219,Sageworm_Card,Sage Worm Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,715,30; bonus2 bAddMonsterDropItem,716,30; bonus2 bAddMonsterDropItem,717,30; },{},{}
+4219,Sageworm_Card,Sage Worm Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,715,5000; bonus2 bAddMonsterDropItem,716,5000; bonus2 bAddMonsterDropItem,717,5000; },{},{}
 4220,Solider_Card,Solider Card,6,20,,10,,,,,,,,16,,,,,{ bonus bDef,2; bonus bMdef,2; },{},{}
 4221,Skeleton_General_Card,Skeleton General Card,6,20,,10,,,,,,,,64,,,,,{ bonus2 bSubRace,RC_Insect,-20; bonus2 bExpAddRace,RC_Insect,10; },{},{}
 4222,Skel_Prisoner_Card,Skeleton Prisoner Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Sleep,300; },{},{}
 4223,Stalactic_Golem_Card,Stalactic Golem Card,6,20,,10,,,,,,,,769,,,,,{ bonus bDef,1; bonus2 bResEff,Eff_Stun,2000; },{},{}
-4224,Stem_Worm_Card,Stem Worm Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12032,RC_Brute,100; },{},{}
+4224,Stem_Worm_Card,Stem Worm Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12032,RC_Brute,5000; },{},{}
 4225,Stone_Shooter_Card,Stone Shooter Card,6,20,,10,,,,,,,,2,,,,,{ bonus bBaseAtk,10; bonus bHit,10; },{},{}
 4226,Sting_Card,Sting Card,6,20,,10,,,,,,,,32,,,,,{ bonus bDef,2; if(getrefine()>8) bonus bMdef,5; },{},{}
-4227,Spring_Rabbit_Card,Spring Rabbit Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Meat,50; bonus3 bAddMonsterDropItem,517,RC_Brute,200; bonus3 bAddMonsterDropItem,528,RC_Brute,200; },{},{}
+4227,Spring_Rabbit_Card,Spring Rabbit Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Meat,50; bonus3 bAddMonsterDropItem,517,RC_Brute,5000; bonus3 bAddMonsterDropItem,528,RC_Brute,5000; },{},{}
 4228,Sleeper_Card,Sleeper Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12031,RC_Fish,100; },{},{}
 4229,C_Tower_Manager_Card,Tower Keeper Card,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,1; bonus bVariableCastrate,-5; },{},{}
 4230,Shinobi_Card,Shinobi Card,6,20,,10,,,,,,,,136,,,,,{ bonus bAgi,1; bonus3 bAutoSpellWhenHit,"AS_CLOAKING",5,100; },{},{}
 4231,Increase_Soil_Card,Mi Gao Card,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubRace2,RC2_Guardian,50; },{},{}
-4232,Wild_Ginseng_Card,Hermit Plant Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Herb,50; bonus3 bAddMonsterDropItem,507,RC_Plant,300; bonus3 bAddMonsterDropItem,508,RC_Plant,200; bonus3 bAddMonsterDropItem,509,RC_Plant,100; },{},{}
+4232,Wild_Ginseng_Card,Hermit Plant Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Herb,5000; bonus3 bAddMonsterDropItem,507,RC_Plant,5000; bonus3 bAddMonsterDropItem,508,RC_Plant,5000; bonus3 bAddMonsterDropItem,509,RC_Plant,5000; },{},{}
 4233,Baby_Leopard_Card,Baby Leopard Card,6,20,,10,,,,,,,,16,,,,,{ bonus bLuk,3; if(BaseClass==Job_Merchant) bonus bUnbreakableArmor; },{},{}
 4234,Anolian_Card,Anolian Card,6,20,,10,,,,,,,,16,,,,,{ bonus3 bAutoSpellWhenHit,"AC_CONCENTRATION",1+9*(getskilllv("AC_CONCENTRATION")==10),30; },{},{}
 4235,Cookie_XMAS_Card,Christmas Cookie Card,6,20,,10,,,,,,,,64,,,,,{ bonus2 bSubRace,RC_Angel,-20; bonus2 bExpAddRace,RC_Angel,10; },{},{}
@@ -2439,22 +2439,22 @@
 4253,Alice_Card,Alice Card,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubClass,Class_Boss,40; bonus2 bSubClass,Class_Normal,-40; },{},{}
 4254,Tirfing_Card,Ogretooth Card,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubSize,Size_Medium,25; bonus bDef,1; },{},{}
 4255,Orc_Lady_Card,Orc Lady Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,RC2_Orc,30; },{},{}
-4256,Orc_Archer_Card,Orc Archer Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12034,RC_DemiHuman,100; },{},{}
+4256,Orc_Archer_Card,Orc Archer Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12034,RC_DemiHuman,5000; },{},{}
 4257,Wild_Rose_Card,Wild Rose Card,6,20,,10,,,,,,,,64,,,,,{ bonus bAgi,1; if(BaseClass==Job_Thief) bonus bFlee2,5; },{},{}
 4258,Wicked_Nymph_Card,Evil Nymph Card,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,1; bonus bMaxSP,50; },{},{}
 4259,Wooden_Golem_Card,Wooden Golem Card,6,20,,10,,,,,,,,16,,,,,{ bonus bDef,1; bonus bHPrecovRate,30; },{},{}
 4260,Wootan_Shooter_Card,Wootan Shooter Card,6,20,,10,,,,,,,,769,,,,,{ bonus bDef,1; bonus2 bResEff,Eff_Confusion,2000; },{},{}
 4261,Wootan_Fighter_Card,Wootan Fighter Card,6,20,,10,,,,,,,,769,,,,,{ bonus bDef,1; bonus2 bResEff,Eff_Bleeding,2000; },{},{}
-4262,Evil_Cloud_Hermit_Card,Cloud Hermit Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12029,RC_Plant,100; },{},{}
+4262,Evil_Cloud_Hermit_Card,Cloud Hermit Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12029,RC_Plant,5000; },{},{}
 4263,Incant_Samurai_Card,Samurai Spector Card,6,20,,10,,,,,,,,2,,,,,{ bonus bIgnoreDefClass,Class_Normal; bonus bHPrecovRate,-100; bonus2 bHPLossRate,666,10000; },{},{ if((Hp<=999) && !getmapflag(strcharinfo(3),mf_pvp) && !getmapflag(strcharinfo(3),mf_pvp_noparty) && !getmapflag(strcharinfo(3),mf_pvp_noguild)) { heal(1-Hp),0; } else { heal -999,0; } }
 4264,Wind_Ghost_Card,Wind Ghost Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"WZ_JUPITEL",3+7*(getskilllv("WZ_JUPITEL")==10),20; },{},{}
-4265,Li_Me_Mang_Ryang_Card,Jing Guai Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12033,RC_Angel,100; },{},{}
+4265,Li_Me_Mang_Ryang_Card,Jing Guai Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12033,RC_Angel,5000; },{},{}
 4266,Eclipse_Card,Eclipse Card,6,20,,10,,,,,,,,4,,,,,{ bonus bVit,1; },{},{}
 4267,Explosion_Card,Explosion Card,6,20,,10,,,,,,,,64,,,,,{ bonus2 bSubRace,RC_Dragon,-20; bonus2 bExpAddRace,RC_Dragon,10; },{},{}
 4268,Injustice_Card,Injustice Card,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAutoSpell,"AS_SONICBLOW",1,50; },{},{}
 4269,Incubus_Card,Incubus Card,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,-3; bonus bSPrecovRate,-20; bonus bMaxSP,150; },{},{}
 4270,Giant_Spider_Card,Giant Spider Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Poison,600; },{},{}
-4271,Giant_Honet_Card,Giant Hornet Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bSubEle,Ele_Wind,10; bonus3 bAddMonsterDropItem,992,RC_Insect,100; },{},{}
+4271,Giant_Honet_Card,Giant Hornet Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bSubEle,Ele_Wind,10; bonus3 bAddMonsterDropItem,992,RC_Insect,5000; },{},{}
 4272,Dancing_Dragon_Card,Zhu Po Long Card,6,20,,10,,,,,,,,136,,,,,{ bonus bAgi,1; bonus bCritical,3; },{},{}
 4273,Shellfish_Card,Shell Fish Card,6,20,,10,,,,,,,,2,,,,,{ bonus bBaseAtk,5; bonus2 bAddDamageClass,1073,30; },{},{}
 4274,Zombie_Master_Card,Zombie Master Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSPGainRace,RC_Undead,5; },{},{ heal 0,-5; }
@@ -2465,7 +2465,7 @@
 4279,Deleter_Card,Earth Deleter Card,6,20,,10,,,,,,,,16,,,,,{ bonus bSPrecovRate,-100; bonus bSPGainValue,10; },{},{ heal 0,-100; }
 4280,Geographer_Card,Geographer Card,6,20,,10,,,,,,,,16,,,,,{ bonus3 bAutoSpellWhenHit,"AL_BLESSING",2+8*(getskilllv("AL_BLESSING")==10),30; },{},{}
 4281,Zipper_Bear_Card,Zipper Bear Card,6,20,,10,,,,,,,,2,,,,,{ bonus bBaseAtk,30; bonus bSPDrainValue,-1; if(BaseClass==Job_Merchant) bonus bUnbreakableWeapon; },{},{}
-4282,Tengu_Card,Tengu Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItemGroup,IG_Recovery,600; },{},{}
+4282,Tengu_Card,Tengu Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItemGroup,IG_Recovery,5000; },{},{}
 4283,Greatest_General_Card,Greatest General Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"MO_CALLSPIRITS",5,2+18*(BaseClass==Job_Acolyte); },{},{}
 4284,Chepet_Card,Chepet Card,6,20,,10,,,,,,,,2,,,,,{ bonus4 bAutoSpell,"AL_HEAL",5,50,1; },{},{}
 4285,Choco_Card,Choco Card,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee2,5; bonus bFlee,10; },{},{}
@@ -2509,7 +2509,7 @@
 4323,Garm_Baby_Card,Hatii Babe Card,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAutoSpell,"MG_FROSTDIVER",3,50; },{},{}
 4324,Garm_Card,Hatii Card,6,20,,10,,,,,,,,16,,,,,{ bonus2 bAddEffWhenHit,Eff_Freeze,5000; },{},{}
 4325,Harpy_Card,Harpy Card,6,20,,10,,,,,,,,4,,,,,{ bonus2 bSubEle,Ele_Neutral,15; bonus2 bSkillAtk,"MG_NAPALMBEAT",5; },{},{}
-4326,See_Otter_Card,Sea-Otter Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Fish,50; bonus3 bAddMonsterDropItem,551,RC_Fish,300; bonus3 bAddMonsterDropItem,544,RC_Fish,300; },{},{}
+4326,See_Otter_Card,Sea-Otter Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddItemGroupHealRate,IG_Fish,50; bonus3 bAddMonsterDropItem,551,RC_Fish,5000; bonus3 bAddMonsterDropItem,544,RC_Fish,5000; },{},{}
 4327,Blood_Butterfly_Card,Bloody Butterfly Card,6,20,,10,,,,,,,,136,,,,,{ bonus bVariableCastrate,30; bonus bNoCastCancel; bonus2 bSkillAtk,"MG_FIREWALL",5; },{},{}
 4328,Hyegun_Card,Yao Jun Card,6,20,,10,,,,,,,,4,,,,,{ bonus bFlee,15; bonus bCritical,1; },{},{}
 4329,Phendark_Card,Phendark Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSPGainRace,RC_DemiHuman,5; bonus2 bSPGainRace,RC_Player,5; },{},{ heal 0,-5; }
@@ -2527,10 +2527,10 @@
 4341,Metaling_Card,Metaling Card,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAutoSpell,"RG_STRIPWEAPON",1,50; },{},{}
 4342,Rsx_0806_Card,RSX-0806 Card,6,20,,10,,,,,,,,16,,,,,{ bonus bVit,3; bonus bUnbreakableArmor; bonus bNoKnockback; },{},{}
 4343,Mole_Card,Holden Card,6,20,,10,,,,,,,,769,,,,,{ bonus bLuk,2; },{},{}
-4344,Anopheles_Card,Anopheles Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12058,RC_Insect,50; },{},{}
+4344,Anopheles_Card,Anopheles Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12058,RC_Insect,5000; },{},{}
 4345,Hill_Wind_Card,Hill Wind Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSkillAtk,"MG_THUNDERSTORM",5; bonus2 bSkillAtk,"WZ_JUPITEL",5; bonus2 bSkillAtk,"WZ_VERMILION",5; },{},{ heal 0,-50; }
 4346,Ygnizem_Card,Egnigem Cenia Card,6,20,,10,,,,,,,,16,,,,,{ bonus bStr,readparam(bInt)/18; },{},{}
-4347,Armaia_Card,Armeyer Dinze Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12053,RC_Fish,50; },{},{}
+4347,Armaia_Card,Armeyer Dinze Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12053,RC_Fish,5000; },{},{}
 4348,Whikebain_Card,Wickebine Tres Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"RG_STRIPARMOR",1,50; },{},{}
 4349,Erend_Card,Errende Ebecee Card,6,20,,10,,,,,,,,136,,,,,{ bonus4 bAutoSpellWhenHit,"AL_PNEUMA",1,50,0; },{},{}
 4350,Rawrel_Card,Laurell Weinder Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSkillAtk,"WZ_FROSTNOVA",3; bonus2 bSkillAtk,"WZ_STORMGUST",3; },{},{ heal 0,-50; }
@@ -2538,7 +2538,7 @@
 4352,B_Ygnizem_Card,General Egnigem Cenia Card,6,20,,10,,,,,,,,64,,,,,{ bonus bMaxHPrate,10; bonus bMaxSPrate,10; bonus2 bHPRegenRate,50,10000; bonus2 bSPRegenRate,10,10000; },{},{}
 4353,Removal_Card,Remover Card,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHP,800-40*getrefine(); bonus bHPrecovRate,10; },{},{}
 4354,Gemini_Card,Gemini-S58 Card,6,20,,10,,,,,,,,769,,,,,{ if(readparam(bAgi)>=90) { bonus2 bResEff,Eff_Silence,3000; bonus2 bResEff,Eff_Stun,3000; } if(readparam(bVit)>=80) { bonus2 bResEff,Eff_Stone,5000; bonus2 bResEff,Eff_Sleep,5000; } },{},{}
-4355,Gremlin_Card,Gremlin Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12043,RC_Brute,50; },{},{}
+4355,Gremlin_Card,Gremlin Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12043,RC_Brute,5000; },{},{}
 4356,Beholder_Card,Beholder Card,6,20,,10,,,,,,,,136,,,,,{ skill "SA_CASTCANCEL",1; },{},{}
 4357,B_Seyren_Card,Lord Knight Card,6,20,,10,,,,,,,,769,,,,,{ skill "LK_BERSERK",1; bonus bMaxHPrate,-50; },{},{}
 4358,Seyren_Card,Seyren Windsor Card,6,20,,10,,,,,,,,769,,,,,{ bonus bStr,getrefine()-6; },{},{}
@@ -2559,8 +2559,8 @@
 4373,Chung_E_Card,Green Maiden Card,6,20,,10,,,,,,,,4,,,,,{ .@r = getrefine(); bonus bLuk,.@r-5; bonus bCritical,.@r; },{},{}
 4374,Apocalips_H_Card,Vesper Card,6,20,,10,,,,,,,,769,,,,,{ bonus bDex,2; bonus2 bIgnoreMdefClassRate,Class_Boss,30; },{},{}
 4375,Orc_Baby_Card,Orc Baby Card,6,20,,10,,,,,,,,4,,,,,{ .@i = (getrefine()>=9?15:10); bonus2 bSubEle,Ele_Neutral,.@i; bonus bFlee,.@i; },{},{}
-4376,Lady_Tanee_Card,Lady Tanee Card,6,20,,10,,,,,,,,64,,,,,{ bonus bMaxHPrate,-40; bonus bMaxSPrate,50; bonus2 bAddMonsterDropItem,513,200; bonus2 bAddItemHealRate,513,100; },{},{}
-4377,Green_Iguana_Card,Grove Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12063,RC_Formless,50; },{},{}
+4376,Lady_Tanee_Card,Lady Tanee Card,6,20,,10,,,,,,,,64,,,,,{ bonus bMaxHPrate,-40; bonus bMaxSPrate,50; bonus2 bAddMonsterDropItem,513,5000; bonus2 bAddItemHealRate,513,100; },{},{}
+4377,Green_Iguana_Card,Grove Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12063,RC_Formless,5000; },{},{}
 4378,Acidus_Card,Gold Acidus Card,6,20,,10,,,,,,,,64,,,,,{ if(getrefine()<=4) { bonus bMaxHPrate,8; bonus bMaxSPrate,8; bonus bHPrecovRate,5; bonus bSPrecovRate,5; } else { bonus bMaxHPrate,4; bonus bMaxSPrate,4; } },{},{}
 4379,Acidus__Card,Blue Acidus Card,6,20,,10,,,,,,,,769,,,,,{ if(getrefine()<=4) { bonus bSPrecovRate,5; bonus bMaxSP,80; } else { bonus bMaxSP,40; } },{},{}
 4380,Ferus_Card,Red Ferus Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSkillAtk,"WZ_FIREPILLAR",5; bonus2 bSkillAtk,"WZ_METEOR",5; },{},{ heal 0,-50; }
@@ -2568,13 +2568,13 @@
 4382,Novus__Card,Yellow Novus Card,6,20,,10,,,,,,,,16,,,,,{ bonus bMaxHP,500; bonus bHPrecovRate,10; },{},{}
 4383,Novus_Card,Red Novus Card,6,20,,10,,,,,,,,16,,,,,{ bonus3 bAddEffWhenHit,Eff_Confusion,3000,ATF_TARGET|ATF_SELF; },{},{}
 4384,Hydro_Card,Hydrolancer Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"SA_SPELLBREAKER",1,100; },{},{}
-4385,Dragon_Egg_Card,Dragon Egg Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12048,RC_Dragon,50; },{},{}
+4385,Dragon_Egg_Card,Dragon Egg Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12048,RC_Dragon,5000; },{},{}
 4386,Detale_Card,Detardeurus Card,6,20,,10,,,,,,,,16,,,,,{ bonus bMdef,-20; bonus2 bResEff,Eff_Freeze,10000; bonus5 bAutoSpellWhenHit,"SA_LANDPROTECTOR",1,70,BF_MAGIC,0; },{},{}
 4387,Ancient_Mimic_Card,Ancient Mimic Card,6,20,,10,,,,,,,,16,,,,,{ bonus bAgi,readparam(bLuk)/18; },{},{}
 4388,Deathword_Card,Death Word Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bSkillAtk,"MG_NAPALMBEAT",5; bonus2 bSkillAtk,"MG_SOULSTRIKE",5; bonus2 bSkillAtk,"HW_NAPALMVULCAN",5; },{},{ heal 0,-50; }
-4389,Plasma_Card,Plasma Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,12118,50; bonus2 bAddMonsterDropItem,12119,50; bonus2 bAddMonsterDropItem,12120,50; bonus2 bAddMonsterDropItem,12121,50; },{},{}
+4389,Plasma_Card,Plasma Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,12118,5000; bonus2 bAddMonsterDropItem,12119,5000; bonus2 bAddMonsterDropItem,12120,5000; bonus2 bAddMonsterDropItem,12121,5000; },{},{}
 4390,Breeze_Card,Breeze Card,6,20,,10,,,,,,,,2,,,,,{ bonus bBaseAtk,5; bonus2 bAddEff,Eff_Bleeding,500; },{},{}
-4391,Retribution_Card,Baroness of Retribution Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12068,RC_Angel,50; },{},{}
+4391,Retribution_Card,Baroness of Retribution Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAddMonsterDropItem,12068,RC_Angel,5000; },{},{}
 4392,Observation_Card,Dame of Sentinel Card,6,20,,10,,,,,,,,16,,,,,{ bonus bDex,readparam(bVit)/18; },{},{}
 4393,Shelter_Card,Mistress of Shelter Card,6,20,,10,,,,,,,,16,,,,,{ bonus bInt,readparam(bStr)/18; },{},{}
 4394,Solace_Card,Lady Solace Card,6,20,,10,,,,,,,,2,,,,,{ if(BaseJob==Job_Priest) bonus3 bAutoSpell,"CR_GRANDCROSS",5,20; },{},{}
@@ -2598,7 +2598,7 @@
 4412,Isilla_Card,Isilla Card,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,2; autobonus "{ bonus bVariableCastrate,-50; bonus bFlee,30; }",50,5000,BF_MAGIC,"{ specialeffect2 EF_SUFFRAGIUM; }"; },{},{}
 4413,Hodremlin_Card,Hodremlin Card,6,20,,10,,,,,,,,32,,,,,{ bonus2 bSubSize,Size_All,15; autobonus2 "{ bonus bFlee2,30; }",3,10000,BF_WEAPON|BF_MAGIC,"{ specialeffect2 EF_WIND; }"; },{},{}
 4414,Seeker_Card,Seeker Card,6,20,,10,,,,,,,,32,,,,,{ skill "MG_STONECURSE",1; bonus2 bResEff,Eff_Stone,3000; bonus bMdef,10; },{},{}
-4415,Snowier_Card,Snowier Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,536,500; bonus2 bAddItemHealRate,536,100; },{},{}
+4415,Snowier_Card,Snowier Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bAddMonsterDropItem,536,5000; bonus2 bAddItemHealRate,536,100; },{},{}
 4416,Siroma_Card,Siroma Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bSkillAtk,"MG_COLDBOLT",25; bonus2 bVariableCastrate,"MG_COLDBOLT",-25; },{},{}
 4417,Ice_Titan_Card,Ice Titan Card,6,20,,10,,,,,,,,64,,,,,{ bonus bVit,2; autobonus2 "{ bonus bDef,10; }",3,10000,BF_WEAPON|BF_MAGIC,"{ specialeffect2 EF_FREEZED; }"; },{},{}
 4418,Gazeti_Card,Gazeti Card,6,20,,10,,,,,,,,136,,,,,{ bonus3 bAutoSpell,"MG_COLDBOLT",2,100; },{},{}
@@ -2617,7 +2617,7 @@
 4431,Kasa_Card,Kasa Card,6,20,,10,,,,,,,,4,,,,,{ bonus3 bAutoSpell,"MG_FIREBALL",5,20; bonus3 bAutoSpell,"MG_FIREBOLT",5,20; },{},{}
 4432,Magmaring_Card,Magmaring Card,6,20,,10,,,,,,,,4,,,,,{ bonus bBaseAtk,5; bonus2 bAddEle,Ele_Earth,10; bonus2 bCriticalAddRace,RC_Brute,15; },{},{}
 4433,Imp_Card,Imp Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bSkillAtk,"MG_FIREBOLT",25; bonus2 bVariableCastrate,"MG_FIREBOLT",-25; },{},{}
-4434,Knocker_Card,Knocker Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bAddRace,RC_Formless,5; bonus3 bAddMonsterDropItem,756,RC_Formless,10; bonus3 bAddMonsterDropItem,757,RC_Formless,10; },{},{}
+4434,Knocker_Card,Knocker Card,6,20,,10,,,,,,,,769,,,,,{ bonus2 bAddRace,RC_Formless,5; bonus3 bAddMonsterDropItem,756,RC_Formless,5000; bonus3 bAddMonsterDropItem,757,RC_Formless,5000; },{},{}
 4435,Zombie_Slaughter_Card,Zombie Slaughter Card,6,20,,10,,,,,,,,64,,,,,{ bonus2 bAddRace,RC_DemiHuman,1; bonus2 bAddRace,RC_Player,1; bonus2 bMagicAddRace,RC_DemiHuman,1; bonus2 bMagicAddRace,RC_Player,1; bonus bHPGainValue,50; },{},{}
 4436,Ragged_Zombie_Card,Ragged Zombie Card,6,20,,10,,,,,,,,136,,,,,{ bonus2 bCriticalAddRace,RC_DemiHuman,5; bonus2 bCriticalAddRace,RC_Player,5; bonus2 bAddRace,RC_DemiHuman,1; bonus2 bAddRace,RC_Player,1; bonus2 bMagicAddRace,RC_DemiHuman,1; bonus2 bMagicAddRace,RC_Player,1; bonus2 bAddEff2,Eff_Bleeding,10; },{},{}
 4437,Hell_Poodle_Card,Hell Poodle Card,6,20,,10,,,,,,,,136,,,,,{ bonus bHit,1; bonus2 bAddItemHealRate,517,100; bonus3 bAddEff,Eff_Bleeding,50,ATF_SHORT; },{},{}
@@ -2651,7 +2651,7 @@
 4465,Panat_Card,Fanat Card,6,20,,10,,,,,,,,2,,,,,{ bonus bBaseAtk,10; if(getiteminfo(getequipid(EQI_HAND_R),11)==W_2HSWORD) { .@r = getrefine(); if(.@r>=10) { bonus bAspd,1; } if(.@r>=14) { bonus bAspd,1; } } },{},{}
 4466,Beholder_Master_Card,Beholder Master Card,6,20,,10,,,,,,,,2,,,,,{ bonus bLongAtkRate,3; if(getiteminfo(getequipid(EQI_HAND_R),11)==W_BOW) { .@r = getrefine(); if(.@r>=10) { bonus bAspd,1; } if(.@r>=14) { bonus bAspd,1; } } },{},{}
 4467,Heavy_Metaling_Card,Heavy Metaling Card,6,20,,10,,,,,,,,64,,,,,{ bonus bStr,2; if(BaseClass==Job_Merchant){ bonus2 bSkillAtk,"MC_CARTREVOLUTION",50; } },{},{}
-4468,Pinguicula_Dark_Card,Dark Pinguicula Card,6,20,,10,,,,,,,,769,,,,,{ bonus bBaseAtk,10; bonus2 bAddMonsterDropItem,7932,10; bonus2 bAddMonsterDropItem,7933,10; bonus2 bAddMonsterDropItem,7934,10; bonus2 bAddMonsterDropItem,7935,10; bonus2 bAddMonsterDropItem,7936,10; bonus2 bAddMonsterDropItem,7937,10; },{},{}
+4468,Pinguicula_Dark_Card,Dark Pinguicula Card,6,20,,10,,,,,,,,769,,,,,{ bonus bBaseAtk,10; bonus2 bAddMonsterDropItem,7932,5000; bonus2 bAddMonsterDropItem,7933,5000; bonus2 bAddMonsterDropItem,7934,5000; bonus2 bAddMonsterDropItem,7935,5000; bonus2 bAddMonsterDropItem,7936,5000; bonus2 bAddMonsterDropItem,7937,5000; },{},{}
 4469,Naga_Card,Naga Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bMagicAddRace,RC_Fish,10; },{},{}
 4470,Nepenthes_Card,Nepenthes Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bMagicAddRace,RC_Plant,10; },{},{}
 4471,Egg_Of_Draco_Card,Draco Egg Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bMagicAddRace,RC_Dragon,10; },{},{}
@@ -2690,7 +2690,7 @@
 4504,Sealed_Eddga_Card,Sealed Eddga Card,6,20,,10,,,,,,,,64,,,,,{ bonus bMaxHPrate,((getrefine()>14)?-35:-50); },{ sc_start4 SC_ENDURE,60000,10,0,0,1; },{ sc_end SC_ENDURE; }
 4505,Scaraba_Card,Scaraba Card,6,20,,10,,,,,,,,136,,,,,{ bonus bMatk,20; bonus bMaxSPrate,-1; },{},{}
 4506,Dolomedes_Card,Dolomedes Card,6,20,,10,,,,,,,,769,,,,,{ bonus bDex,2; if(BaseClass==Job_Archer){ bonus bDex,getrefine()/3; } },{},{}
-4507,Q_Scaraba_Card,Queen Scaraba Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,RC2_SCARABA,30; bonus2 bAddMonsterDropItem,12806,30; },{},{}
+4507,Q_Scaraba_Card,Queen Scaraba Card,6,20,,10,,,,,,,,2,,,,,{ bonus2 bAddRace2,RC2_SCARABA,30; bonus2 bAddMonsterDropItem,12806,5000; },{},{}
 4508,Gold_Scaraba_Card,Gold Scaraba Card,6,20,,10,,,,,,,,136,,,,,{ bonus bBaseAtk,20; bonus bMaxHPrate,-1; },{},{}
 4509,Gold_Q_Scaraba_Card,Gold Queen Scaraba Card,6,20,,10,,,,,,,,769,,,,,{ bonus bInt,3; bonus2 bSubRace,RC_Insect,10; if(getrefine()>=9) { bonus2 bSubRace,RC_Insect,5; } },{},{}
 4510,Miming_Card,Miming Card,6,20,,10,,,,,,,,2,,,,,{ bonus3 bAutoSpell,"WM_LULLABY_DEEPSLEEP",1,30; },{},{}
@@ -3275,13 +3275,13 @@
 5102,Round_Eyes,Blank Eyes,4,20,,100,,0,,0,0xFFFFFFFF,63,2,512,,0,0,185,{},{},{}
 5103,Sunflower_Hairpin,Sunflower Hairpin,4,20,,600,,2,,0,0xFFFFFFFE,63,2,256,,30,0,186,{ bonus bAgi,2; bonus bCritical,5; },{},{}
 5104,Dark_Blindfold,Dark Blinder,4,20,,100,,0,,0,0xFFFFFFFE,63,2,512,,0,0,187,{ bonus2 bResEff,Eff_Blind,10000; bonus2 bResEff,Eff_Stun,200; },{},{}
-5105,Hat_Of_Cake_,2nd Anniversary Hat,4,20,,1000,,2,,0,0xFFFFFFFF,63,2,256,,24,1,109,{ bonus bDex,1; bonus bMaxSP,80; bonus3 bAddMonsterDropItem,7864,7,50; },{},{}
+5105,Hat_Of_Cake_,2nd Anniversary Hat,4,20,,1000,,2,,0,0xFFFFFFFF,63,2,256,,24,1,109,{ bonus bDex,1; bonus bMaxSP,80; bonus3 bAddMonsterDropItem,7864,7,5000; },{},{}
 5106,Cone_Hat_INA,2nd Anniversary Hat,4,20,,300,,10,,0,0xFFFFFFFF,63,2,256,,1,0,144,{ bonus bLuk,1; bonus bMatkRate,3; bonus bFlee,3; bonus bHit,3; bonus bFlee2,3; },{},{}
 5107,Well_Baked_Toast,Crunch Toast,4,20,,50,,0,,0,0xFFFFFFFF,63,2,1,,0,0,188,{},{},{}
 5108,Detective_Hat,Renown Detective's Cap,4,20,,350,,6,,1,0xFFFFFFFF,63,2,256,,0,1,189,{},{},{}
 5109,Red_Bonnet,Red Bonnet,4,20,,400,,4,,0,0xFFFFFFFF,63,2,256,,0,1,190,{},{},{}
 5110,Baby_Pacifier,Baby Pacifier,4,20,,50,,0,,0,0xFFFFFFFF,63,2,1,,0,0,191,{},{},{}
-5111,Galapago_Cap,Galapago Cap,4,20,,500,,4,,0,0xFFFFFFFF,63,2,256,,55,1,192,{ bonus2 bAddMonsterDropItem,605,100; },{},{}
+5111,Galapago_Cap,Galapago Cap,4,20,,500,,4,,0,0xFFFFFFFF,63,2,256,,55,1,192,{ bonus2 bAddMonsterDropItem,605,5000; },{},{}
 5112,Super_Novice_Hat,Super Novice Hat,4,8500,,400,,8,,0,0x00000001,63,2,256,,40,1,193,{ bonus bAllStats,1; },{},{}
 5113,Angry_Mouth,Angry Snarl,4,20,,50,,0,,0,0xFFFFFFFF,63,2,1,,0,0,194,{},{},{}
 5114,Fedora,Bucket Hat,4,6000,,300,,6,,0,0xFFFFFFFF,63,2,256,,0,1,195,{},{},{}
@@ -3372,9 +3372,9 @@
 5199,Baseball_Cap_I,Baseball Cap,4,0,,200,,3,,0,0xFFFFFFFF,63,2,256,,0,1,216,{},{},{}
 5200,Coppola,Coppola,4,10,,300,,0,,0,0xFFFFFFFF,63,2,256,,0,1,252,{},{},{}
 5201,Party_Hat_B,Party Hat,4,20,,300,,4,,0,0xFFFFFFFF,63,2,256,,0,1,144,{ bonus bAllStats,3; },{},{}
-5202,Pumpkin_Hat_,Fantastic Pumpkin-Head,4,20,,200,,3,,0,0xFFFFFFFF,63,2,256,,0,1,206,{ bonus2 bSubRace,RC_Demon,5; bonus3 bAddMonsterDropItem,529,RC_DemiHuman,1500; },{},{}
+5202,Pumpkin_Hat_,Fantastic Pumpkin-Head,4,20,,200,,3,,0,0xFFFFFFFF,63,2,256,,0,1,206,{ bonus2 bSubRace,RC_Demon,5; bonus3 bAddMonsterDropItem,529,RC_DemiHuman,5000; },{},{}
 5203,Tongue_Mask,Smiling Mask,4,20,,200,,2,,0,0xFFFFFFFF,63,2,513,,0,0,253,{ bonus bSpeedRate,25; },{},{}
-5204,Event_Pierrot_Nose,Rudolph's Nose,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,0,0,49,{ bonus2 bResEff,Eff_Blind,3000; bonus2 bAddMonsterDropItem,12130,30; },{},{}
+5204,Event_Pierrot_Nose,Rudolph's Nose,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,0,0,49,{ bonus2 bResEff,Eff_Blind,3000; bonus2 bAddMonsterDropItem,12130,5000; },{},{}
 5205,Wreath,Emperor's Laurel Crown,4,20,,1000,,3,,0,0xFFFFFFFF,63,2,768,,0,1,261,{ bonus bAllStats,1; bonus bMdef,3; },{},{}
 5206,Romantic_White_Flower,Romantic White Flower,4,20,,100,,0,,0,0xFFFFFFFE,63,2,1,,0,0,259,{ bonus2 bSubRace,RC_Plant,3; },{},{}
 5207,Gold_Spirit_Chain,Angel Blessing,4,20,,100,,0,,0,0xFFFFFFFF,63,2,256,,0,0,260,{ bonus bLuk,1; bonus2 bSubEle,Ele_Holy,5; },{},{}
@@ -3477,7 +3477,7 @@
 5304,Cap_Of_Blindness,Cap Of Blindness,4,20,,800,,4,,1,0xFFFFFFFF,63,2,769,,30,1,326,{ bonus2 bResEff,Eff_Curse,700; bonus2 bResEff,Eff_Blind,10000; },{},{}
 5305,Pirate_Dagger,Pirate Dagger,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,0,0,327,{ bonus bBaseAtk,5; },{},{}
 5306,Freyja_Crown,Freya's Crown,4,0,,500,,20,,0,0xFFFFFFFE,63,2,256,,0,0,328,{ bonus2 bSubRace,RC_DemiHuman,5; bonus2 bSubRace,RC_Player,5; },{},{}
-5307,Carmen_Miranda's_Hat,Carmen Miranda's Hat,4,20,,400,,10,,1,0xFFFFFFFF,63,2,256,,0,1,329,{ bonus bMdef,3; .@r = getrefine(); bonus2 bSubEle,Ele_Fire,(.@r>=7?10:5); if(.@r>=7){ bonus bBaseAtk,15; bonus bMatk,15; } bonus3 bAddMonsterDropItem,512,RC_All,10; bonus3 bAddMonsterDropItem,513,RC_All,10; bonus3 bAddMonsterDropItem,514,RC_All,10; bonus3 bAddMonsterDropItem,578,RC_All,10; },{},{}
+5307,Carmen_Miranda's_Hat,Carmen Miranda's Hat,4,20,,400,,10,,1,0xFFFFFFFF,63,2,256,,0,1,329,{ bonus bMdef,3; .@r = getrefine(); bonus2 bSubEle,Ele_Fire,(.@r>=7?10:5); if(.@r>=7){ bonus bBaseAtk,15; bonus bMatk,15; } bonus3 bAddMonsterDropItem,512,RC_All,5000; bonus3 bAddMonsterDropItem,513,RC_All,5000; bonus3 bAddMonsterDropItem,514,RC_All,5000; bonus3 bAddMonsterDropItem,578,RC_All,5000; },{},{}
 5308,Brazilian_Flag_Hat,Brazil National Flag Hat,4,20,,300,,5,,1,0xFFFFFFFF,63,2,256,,0,1,330,{ bonus bSpeedAddRate,25; },{},{}
 5309,Mahican,Wool Mask,4,20,,200,,1,,0,0xFFFFFFFF,63,2,769,,0,1,331,{ skill "RG_GRAFFITI",1; },{},{}
 5310,Bulb_Hairband,Shining Electric Bulb Hairband,4,20,,100,,5,,1,0xFFFFFFFF,63,2,256,,0,1,332,{ bonus2 bSubEle,Ele_Dark,10; skill "MG_SIGHT",1; },{},{ sc_end SC_SIGHT; }
@@ -3491,7 +3491,7 @@
 5318,Poring_Party_Hat,Poring Party Hat,4,20,,0,,2,,0,0xFFFFFFFF,63,2,256,,0,1,340,{ bonus bFlee,6; },{},{}
 5319,Hellomother_Hat,Hello Mother Hat,4,20,,200,,3,,1,0xFFFFFFFE,63,2,256,,1,1,341,{ bonus bHPrecovRate,150; bonus bMaxHP,80+(80*getrefine()); },{},{}
 5320,Champion_Wreath,Champion Wreath,4,20,,500,,8,,0,0xFFFFFFFE,63,2,256,,0,1,261,{ bonus bAllStats,2; bonus4 bAutoSpellWhenHit,"AL_HEAL",1,50,0; },{},{}
-5321,Indonesian_Bandana,Bandana Merah Putih,4,20,,500,,4,,0,0xFFFFFFFF,63,2,256,,0,1,342,{ bonus2 bAddMonsterDropItem,518,300; },{},{}
+5321,Indonesian_Bandana,Bandana Merah Putih,4,20,,500,,4,,0,0xFFFFFFFF,63,2,256,,0,1,342,{ bonus2 bAddMonsterDropItem,518,5000; },{},{}
 5322,Scarf,Kerchief,4,20,,100,,4,,0,0xFFFFFFFF,63,2,256,,24,1,343,{ bonus bMdef,2; bonus bFlee,5; },{},{}
 5323,Misstrance_Crown,Misstrance Crown,4,20,,0,,14,,0,0xFFFFFFFF,63,2,256,,0,0,165,{ bonus bAllStats,2; },{},{}
 5324,Little_Angel_Doll,Little Angel Doll,4,20,,300,,4,,0,0xFFFFFFFF,63,2,256,,10,1,344,{ bonus bDex,3; bonus4 bAutoSpellWhenHit,"CR_GRANDCROSS",3,30,0; },{},{}
@@ -3534,12 +3534,12 @@
 5361,Gang_Scarf,Gangster Scarf,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,0,0,369,{ bonus bBaseAtk,5; if(BaseJob==Job_Rogue) skill "RG_GANGSTER",1; },{},{}
 5362,Ninja_Scroll,Ninja Scroll,4,20,,200,,0,,0,0xFFFFFFFF,63,2,1,,0,0,370,{ bonus bMatkRate,1; },{},{}
 5363,Helm_Of_Abyss,Helm Of Abyss,4,20,,1000,,9,,1,0x000654E2,63,2,256,,70,1,371,{ bonus2 bSubClass,Class_Normal,-5; bonus2 bSubClass,Class_Boss,10; },{},{}
-5364,Dark_Snake_Lord_Hat,Evil Snake Lord Hat,4,20,,500,,4,,1,0xFFFFFFFF,63,2,256,,60,1,372,{ bonus bStr,1; bonus bInt,1; bonus bAgi,2; bonus2 bAddMonsterDropItem,12582,30; },{},{}
+5364,Dark_Snake_Lord_Hat,Evil Snake Lord Hat,4,20,,500,,4,,1,0xFFFFFFFF,63,2,256,,60,1,372,{ bonus bStr,1; bonus bInt,1; bonus bAgi,2; bonus2 bAddMonsterDropItem,12582,5000; },{},{}
 5365,Fried_Egg,Magnolia Hat,4,20,,100,,2,,1,0xFFFFFFFF,63,2,256,,1,0,373,{ bonus bBaseAtk,5; bonus3 bAutoSpellWhenHit,"BS_GREED",1,5; },{},{}
 5366,Hat_0f_King,Love Dad Bandana,4,20,,200,,5,,0,0xFFFFFFFF,63,2,256,,0,1,374,{ bonus bAllStats,5; },{},{}
 5367,Hyegun_Hat,Hyegun Hat,4,20,,100,,5,,1,0xFFFFFFFF,63,2,769,,10,0,375,{ bonus bMdef,3; bonus2 bSubRace,RC_Demon,10; },{},{}
-5368,White_Wing,White Wing,4,20,,100,,4,,0,0xFFFFFFFF,63,2,256,,0,1,38,{ bonus2 bAddMonsterDropItem,12280,300; },{},{}
-5369,Dark_Wing,Dark Wing,4,20,,100,,4,,0,0xFFFFFFFF,63,2,256,,0,1,39,{ bonus2 bAddMonsterDropItem,12279,300; },{},{}
+5368,White_Wing,White Wing,4,20,,100,,4,,0,0xFFFFFFFF,63,2,256,,0,1,38,{ bonus2 bAddMonsterDropItem,12280,5000; },{},{}
+5369,Dark_Wing,Dark Wing,4,20,,100,,4,,0,0xFFFFFFFF,63,2,256,,0,1,39,{ bonus2 bAddMonsterDropItem,12279,5000; },{},{}
 5370,Orchid_Hairband,Orchid Hairband,4,20,,200,,1,,0,0xFFFFFFFF,63,2,256,,0,1,376,{ bonus bInt,1; },{},{}
 5371,Hat_Of_Judge,Judge Hat,4,20,,300,,2,,0,0xFFFFFFFF,63,2,768,,0,1,377,{ bonus bLuk,1; bonus bMaxSP,30; },{},{}
 5372,Drooping_White_Kitty,Koneko Hat,4,20,,500,,3,,0,0xFFFFFFFF,63,2,256,,0,1,378,{ bonus bInt,1; bonus bDelayRate,-3; bonus bMatkRate,3; bonus bMaxSPrate,3; bonus bMdef,3; },{},{}
@@ -3556,12 +3556,12 @@
 5383,Hunting_Cap,Hunter's Cap,4,20,,250,,6,,1,0xFFFFFFFE,63,2,256,,50,1,389,{ bonus bLuk,1; bonus2 bAddRace,RC_Brute,10; bonus2 bAddRace,RC_DemiHuman,5; bonus2 bAddRace,RC_Player,5; },{},{}
 5384,Santa_Hat_1,Twin Pompom By JB,4,20,,200,,2,,1,0xFFFFFFFF,63,2,256,,20,1,390,{ bonus bLuk,3; skill "WZ_ESTIMATION",1; bonus3 bAutoSpell,"AL_INCAGI",1,500; },{},{}
 5385,Yoyo_Hat,Yoyo Hat,4,20,,300,,2,,0,0xFFFFFFFF,63,2,256,,20,1,391,{ skill "TF_HIDING",1; },{},{ sc_end SC_HIDING; }
-5386,Ayam_,Ayam,4,0,,70,,7,,0,0xFFFFFFFF,63,2,256,,1,0,228,{ bonus bMdef,7; bonus bFlee,7; bonus2 bAddMonsterDropItem,12198,200; },{},{}
+5386,Ayam_,Ayam,4,0,,70,,7,,0,0xFFFFFFFF,63,2,256,,1,0,228,{ bonus bMdef,7; bonus bFlee,7; bonus2 bAddMonsterDropItem,12198,5000; },{},{}
 5387,Neko_Mimi_Kafra,Neko Mimi Kafra,4,20,,200,,1,,1,0xFFFFFFFF,63,2,256,,30,1,392,{ bonus bMdef,5; bonus2 bAddEffWhenHit,Eff_Silence,1000; bonus2 bAddEffWhenHit,Eff_Poison,1000; bonus2 bAddEffWhenHit,Eff_Curse,1000; bonus2 bAddEffWhenHit,Eff_Blind,1000; bonus2 bAddEffWhenHit,Eff_Stone,1000; bonus2 bAddEffWhenHit,Eff_Freeze,1000; bonus2 bAddEffWhenHit,Eff_Stun,1000; bonus2 bAddEffWhenHit,Eff_Sleep,1000; },{},{}
 5388,Snake_Head,Snake Head Hat,4,20,,200,,2,,1,0xFFFFFFFF,63,2,256,,30,1,393,{ skill "TF_DOUBLE",5; bonus bDoubleRate,25; },{},{}
 5389,Angel_Spirit,Angel Spirit,4,20,,200,,0,,0,0xFFFFFFFF,63,2,512,,0,0,394,{ bonus bStr,2; bonus bHit,15; },{},{}
 5390,Santa_Hat_2,Frozen Twin Pompom,4,20,,100,,4,,0,0xFFFFFFFF,63,2,256,,0,1,395,{ bonus2 bResEff,Eff_Freeze,3000; },{},{}
-5391,Toast_C,Toast,4,20,,0,,1,,0,0xFFFFFFFF,63,2,1,,0,0,188,{ bonus bMaxHP,100; bonus2 bAddMonsterDropItem,617,10; },{},{}
+5391,Toast_C,Toast,4,20,,0,,1,,0,0xFFFFFFFF,63,2,1,,0,0,188,{ bonus bMaxHP,100; bonus2 bAddMonsterDropItem,617,5000; },{},{}
 5392,Louyang_Cap,Louyang NewYear Hat,4,20,,300,,6,,1,0xFFFFFFFF,63,2,256,,0,1,396,{ bonus bLuk,2; },{},{}
 5393,Valentine_Hat,Love Valentine's Hat,4,20,,200,,4,,0,0xFFFFFFFF,63,2,256,,0,0,397,{ bonus bMaxSPrate,7; bonus bMaxHPrate,7; },{},{}
 5394,Bubblegum_Lower,Bubblegum,4,0,,0,,0,,0,0xFFFFFFFF,63,2,1,,0,0,572,{ bonus2 bExpAddClass,Class_All,100; },{},{}
@@ -3573,7 +3573,7 @@
 5400,Fox_Hat,Fox Hat,4,20,,200,,0,,0,0xFFFFFFFF,63,0,769,,0,0,403,{ bonus bLuk,1; },{},{}
 5401,Black_Glasses,Black Frame Glasses,4,20,,200,,2,,0,0xFFFFFFFF,63,2,512,,70,0,404,{ bonus bInt,1; bonus bMdef,2; bonus bUnbreakableHelm; },{},{}
 5402,Mischievous_Fairy,Mischievous Fairy,4,10,,200,,2,,0,0xFFFFFFFF,63,2,512,,70,0,405,{ bonus bUnbreakableHelm; bonus bFlee2,3; },{},{}
-5403,Fish_In_Mouth,Fish In Mouth,4,10,,200,,0,,0,0xFFFFFFFF,63,2,1,,30,0,406,{ bonus2 bAddMonsterDropItem,579,500; bonus2 bAddItemHealRate,579,25; },{},{}
+5403,Fish_In_Mouth,Fish In Mouth,4,10,,200,,0,,0,0xFFFFFFFF,63,2,1,,30,0,406,{ bonus2 bAddMonsterDropItem,579,5000; bonus2 bAddItemHealRate,579,25; },{},{}
 5404,Blue_Ribbon,Blue Ribbon,4,10,,100,,2,,1,0xFFFFFFFF,63,2,256,,45,1,407,{ bonus4 bAutoSpellWhenHit,"AC_CONCENTRATION",2,7,0; },{},{}
 5405,Filir_Hat,Filir Hat,4,10,,200,,2,,0,0xFFFFFFFF,63,2,256,,80,0,408,{ bonus bShortWeaponDamageReturn,1; },{},{}
 5406,Academy_Freshman_Hat,Academy Freshman Hat,4,0,,500,,3,,0,0xFFFFFFFF,63,2,256,,0,1,409,{ bonus bInt,1; bonus bDex,2; bonus bVit,1; bonus bDelayrate,-5; },{},{}
@@ -3642,8 +3642,8 @@
 5469,Noble_Hat,Musketeer Hat,4,20,,300,,4,,1,0xFFFFFFFF,63,2,256,,60,1,466,{ bonus bDex,3; bonus bFlee,3; .@r = getrefine(); if(.@r>=7){ bonus bFlee,3; bonus bLongAtkRate,3; } if(.@r>=9){ bonus bFlee,4; bonus bLongAtkRate,2; } },{},{}
 5470,Eyes_Of_Darkness,Eye Of Darkness,4,20,,100,,1,,0,0xFFFFFFFF,63,2,512,,50,0,467,{ bonus bDex,1; bonus2 bResEff,Eff_Blind,10000; },{},{}
 5471,Hairband_Of_Reginleif,Hairband Of Reginleif,4,20,,800,,2,,0,0xFFFFFFFF,63,2,512,,50,0,468,{ bonus2 bSubEle,Ele_Water,3; bonus2 bSubEle,Ele_Fire,3; bonus2 bSubEle,Ele_Undead,3; bonus2 bSubEle,Ele_Ghost,3; },{},{}
-5472,Red_White_Hat,Red Hat,4,20,,100,,0,,0,0xFFFFFFFF,63,2,256,,0,1,469,{ bonus3 bAddMonsterDropItem,554,RC_DemiHuman,200; },{},{}
-5473,Forceps_Hairpin,Nipper Crab Hairpin,4,20,,500,,8,,0,0xFFFFFFFF,63,2,256,,30,1,470,{ bonus3 bAutoSpellWhenHit,"MG_COLDBOLT",1,30; bonus3 bAddMonsterDropItem,991,RC_Fish,100; },{},{}
+5472,Red_White_Hat,Red Hat,4,20,,100,,0,,0,0xFFFFFFFF,63,2,256,,0,1,469,{ bonus3 bAddMonsterDropItem,554,RC_DemiHuman,5000; },{},{}
+5473,Forceps_Hairpin,Nipper Crab Hairpin,4,20,,500,,8,,0,0xFFFFFFFF,63,2,256,,30,1,470,{ bonus3 bAutoSpellWhenHit,"MG_COLDBOLT",1,30; bonus3 bAddMonsterDropItem,991,RC_Fish,5000; },{},{}
 5474,Notice_Board,AFK Hat,4,20,,700,,2,,0,0xFFFFFFFF,63,2,256,,10,0,471,{},{},{}
 5475,Cube_Mask,Mask Cube,4,20,,100,,1,,0,0xFFFFFFFF,63,2,513,,0,0,472,{ bonus bAllStats,1; },{},{}
 5476,Hairband_Of_Grandpeco,Grand Peco Hairband,4,20,,800,,5,,0,0xFFFFFFFF,63,2,768,,1,1,473,{ bonus2 bAddRace,RC_Brute,7; bonus2 bMagicAddRace,RC_Brute,7; bonus2 bAddRace,RC_DemiHuman,7; bonus2 bMagicAddRace,RC_DemiHuman,7; bonus3 bAddEff,Eff_Curse,10,ATF_SHORT; },{},{}
@@ -3696,7 +3696,7 @@
 5523,Sakura_Mist_Hat,Sakura Mist Hat,4,20,,100,,4,,1,0xFFFFFFFF,63,2,256,,0,1,517,{ bonus bDex,1; },{},{}
 5524,Sakura_Milk_Tea_Hat,Sakura Milk Tea Hat,4,20,,100,,4,,1,0xFFFFFFFF,63,2,256,,0,1,518,{ bonus bVit,1; },{},{}
 5525,First_Leaf_Tea_Hat,Flower Hat,4,20,,100,,4,,1,0xFFFFFFFF,63,2,256,,0,1,519,{ bonus bMaxHP,80; bonus bMaxSP,20; },{},{}
-5526,Lady_Tanee_Doll,Tanigumi Girl Doll,4,20,,300,,4,,0,0xFFFFFFFF,63,2,256,,60,0,520,{ bonus bAgi,2; bonus bFlee,3; bonus2 bSubEle,Ele_Wind,5; bonus2 bAddMonsterDropItem,513,200; },{},{}
+5526,Lady_Tanee_Doll,Tanigumi Girl Doll,4,20,,300,,4,,0,0xFFFFFFFF,63,2,256,,60,0,520,{ bonus bAgi,2; bonus bFlee,3; bonus2 bSubEle,Ele_Wind,5; bonus2 bAddMonsterDropItem,513,5000; },{},{}
 5527,Lunatic_Hat,Lunatic Hat,4,20,,300,,2,,0,0xFFFFFFFF,63,2,256,,1,1,521,{ bonus bLuk,3; bonus bCritical,5; bonus2 bAddRace,RC_Plant,20; },{},{}
 5528,King_Frog_Hat,Frog King Hat,4,20,,500,,4,,1,0xFFFFFFFE,63,2,256,,30,0,522,{ bonus bAgi,1; },{},{}
 5529,Evil's_Bone_Hat,Satanic Bone Helm,4,20,,600,,6,,1,0xFFFFFFFF,63,2,768,,70,1,523,{ bonus bStr,2; bonus bInt,2; bonus bMdef,2; bonus2 bSubEle,Ele_Neutral,5; skill "WZ_FROSTNOVA",1; },{},{}
@@ -3706,7 +3706,7 @@
 5533,Emperor_Wreath_J,Emperor Wreath,4,20,,800,,3,,1,0xFFFFFFFF,63,2,256,,80,1,261,{ bonus bAllStats,1; },{},{}
 5534,Fox_Hat_J,Fox Hat,4,20,,100,,1,,0,0xFFFFFFFF,63,2,513,,70,0,403,{ bonus bAgi,1; bonus bFlee2,2; },{},{}
 5535,Side_Cap,Side Cap,4,20,,500,,6,,0,0xFFFFFFFF,63,2,256,,0,1,529,{ bonus bVit,1; bonus bDex,1; bonus bMdef,3; bonus2 bSubRace,RC_DemiHuman,5; bonus2 bSubRace,RC_Player,5; bonus2 bAddRace,RC_DemiHuman,3; bonus2 bAddRace,RC_Player,3; },{},{}
-5536,Spare_Card,Spare Card,4,20,,10,,1,,0,0xFFFFFFFF,63,2,1,,1,0,526,{ bonus bLuk,1; bonus2 bAddMonsterDropItem,6187,1000; bonus bFlee2,1; bonus2 bAddMonsterDropItem,617,5; bonus2 bAddMonsterDropItem,12132,30; bonus2 bAddMonsterDropItem,12130,30; },{},{}
+5536,Spare_Card,Spare Card,4,20,,10,,1,,0,0xFFFFFFFF,63,2,1,,1,0,526,{ bonus bLuk,1; bonus2 bAddMonsterDropItem,6187,5000; bonus bFlee2,1; bonus2 bAddMonsterDropItem,617,5000; bonus2 bAddMonsterDropItem,12132,5000; bonus2 bAddMonsterDropItem,12130,5000; },{},{}
 5537,Quati_Hat,Kwati Hat,4,20,,700,,2,,1,0xFFFFFFFF,63,2,256,,45,0,527,{ bonus bAgi,3; bonus2 bAddRace,RC_Plant,10; },{},{}
 5538,Tucan_Hat,Tucan Hat,4,20,,600,,2,,1,0xFFFFFFFF,63,2,768,,45,0,528,{ bonus bDex,3; bonus bCritical,5; },{},{}
 5539,Jaguar_Hat,Jaguar Hat,4,20,,400,,4,,1,0xFFFFFFFF,63,2,769,,25,1,530,{ bonus bMdef,2; skill "MC_LOUD",1; },{},{}
@@ -3728,7 +3728,7 @@
 5555,Leaf_Cat_Hat,Leaf Cat Hat,4,20,,100,,6,,0,0xFFFFFFFF,63,2,256,,0,1,539,{ bonus bAgi,2; bonus3 bAutoSpellWhenHit,"AL_HEAL",3,50; },{},{}
 5556,Fur_Seal_Hat,Seal Hat,4,20,,500,,3,,0,0xFFFFFFFF,63,2,769,,55,1,540,{ bonus bInt,1; bonus3 bAutoSpell,"WZ_FROSTNOVA",1,100; },{},{}
 5557,Wild_Rose_Hat,Wild Rose Hat,4,20,,500,,6,,1,0xFFFFFFFE,63,2,256,,20,1,541,{ bonus bAgi,3; },{},{}
-5558,Saci_Hat,Luxury Hat,4,20,,100,,6,,1,0xFFFFFFFF,63,2,256,,30,1,542,{ bonus3 bAddMonsterDropItem,510,RC_Plant,20; },{},{}
+5558,Saci_Hat,Luxury Hat,4,20,,100,,6,,1,0xFFFFFFFF,63,2,256,,30,1,542,{ bonus3 bAddMonsterDropItem,510,RC_Plant,5000; },{},{}
 5559,Piece_Of_White_Cloth_E,Piece Of White Cloth,4,0,,0,,1,,0,0xFFFFFFFF,63,2,256,,0,1,543,{ bonus2 bAddClass,Class_All,6; bonus bMatkRate,6; bonus bLongAtkRate,6; bonus bHealPower,6; bonus bVariableCastrate,-20; bonus bAspd,1; },{},{}
 5560,Bullock_Helm_J,Bullock Helm,4,20,,3000,,3,,0,0xFFFFFFFF,63,2,256,,75,1,322,{ bonus bMaxHP,100; bonus bNoKnockback; bonus2 bSubEle,Ele_Neutral,-20; bonus2 bSubEle,Ele_Fire,-20; bonus2 bSubEle,Ele_Water,-20; bonus2 bSubEle,Ele_Wind,-20; bonus2 bSubEle,Ele_Earth,-20; bonus2 bSubEle,Ele_Dark,-20; bonus2 bSubEle,Ele_Holy,-20; bonus2 bSubEle,Ele_Ghost,-20; },{},{}
 5561,Rabbit_Magic_Hat_J,Magic Rabbit Hat,4,0,,800,,1,,0,0xFFFFFFFF,63,2,256,,0,1,497,{ bonus bInt,1; bonus bMaxSP,50; bonus4 bAutoSpellWhenHit,"MG_FIREBOLT",3,10,3; bonus4 bAutoSpellWhenHit,"MG_COLDBOLT",3,10,3; bonus4 bAutoSpellWhenHit,"MG_LIGHTNINGBOLT",3,10,3; bonus3 bAutoSpellWhenHit,"AL_HEAL",1,10; },{},{}
@@ -3743,7 +3743,7 @@
 5570,Gemini_Crown,Gemini Crown,4,20,,300,,6,,1,0xFFFFFFFF,63,2,256,,0,1,551,{ bonus bAgi,2; bonus bFlee,10; if(getrefine()>6) { bonus bHit,5; bonus bAtk,30; } },{},{}
 5571,Rasta_Wig,Rasta Wig,4,20,,100,,1,,0,0xFFFFFFFF,63,2,256,,0,1,552,{ bonus bStr,1; bonus3 bAutoSpellWhenHit,"BA_FROSTJOKER",1,50; },{},{}
 5572,Savage_Baby_Hat,Savage Babe Hat,4,20,,100,,1,,1,0xFFFFFFFF,63,2,256,,30,1,553,{ bonus bVit,2; bonus2 bAddEff,Eff_Stun,500; bonus2 bSubRace,RC_Brute,-10; },{},{}
-5573,Bogy_Horn,Dokebi Horn,4,20,,100,,1,,1,0xFFFFFFFF,63,2,256,,75,1,554,{ bonus2 bAddMonsterDropItemGroup,IG_Jewel,100; bonus3 bAutoSpell,"MC_MAMMONITE",5,70; },{},{}
+5573,Bogy_Horn,Dokebi Horn,4,20,,100,,1,,1,0xFFFFFFFF,63,2,256,,75,1,554,{ bonus2 bAddMonsterDropItemGroup,IG_Jewel,10000; bonus3 bAutoSpell,"MC_MAMMONITE",5,70; },{},{}
 5574,Pencil_In_Mouth,Well-Chewed Pencil,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,10,0,555,{ bonus bHit,3; },{},{}
 5575,Onigiri_Hat,Rice Ball Hat,4,20,,100,,6,,1,0xFFFFFFFF,63,2,256,,30,0,556,{},{},{}
 5576,Japan_Winecup,Wine Cup,4,20,,100,,1,,0,0xFFFFFFFF,63,2,1,,0,0,557,{},{},{}
@@ -3766,7 +3766,7 @@
 5593,K_Rabbit_Bonnet,Rabbit Bonnet,4,20,,200,,1,,1,0xFFFFFFFF,63,2,768,,1,1,549,{ bonus bBaseAtk,10; bonus bMatk,10; bonus2 bSubRace,RC_DemiHuman,3; bonus2 bSubRace,RC_Player,3; bonus bDelayRate,-3; if(getrefine()>6) { bonus2 bSubDefEle,Ele_All,5; } },{},{}
 5594,Donut_In_Mouth,Donut In Mouth,4,20,,50,,1,,0,0xFFFFFFFF,63,2,1,,1,0,569,{ bonus2 bHPRegenRate,1,10000; bonus bMaxHP,100; },{},{}
 5595,Eye_Of_Juno,Eye Of Juno,4,20,,400,,2,,1,0xFFFFFFFF,63,2,256,,1,1,570,{ bonus bMdef,2; .@i = JobLevel/14; if(BaseClass==Job_Mage||BaseClass==Job_Archer||BaseClass==Job_Acolyte){ bonus bInt,2; bonus bDex,2; bonus2 bSubEle,Ele_Neutral,.@i; bonus2 bSubEle,Ele_Water,.@i; } else if(BaseClass==Job_Swordman||BaseClass==Job_Merchant||BaseClass==Job_Thief){ bonus bAgi,2; bonus bVit,2; bonus2 bSubEle,Ele_Neutral,.@i; bonus2 bSubEle,Ele_Water,.@i; } },{},{}
-5596,4Leaf_Clover_In_Mouth,4Leaf Clover In Mouth,4,20,,0,,2,,0,0xFFFFFFFF,63,2,1,,1,0,571,{ bonus bMdef,2; bonus2 bAddMonsterDropItem,12245,10; },{},{}
+5596,4Leaf_Clover_In_Mouth,4Leaf Clover In Mouth,4,20,,0,,2,,0,0xFFFFFFFF,63,2,1,,1,0,571,{ bonus bMdef,2; bonus2 bAddMonsterDropItem,12245,10000; },{},{}
 5597,Bubble_Gum_In_Mouth,Bubble Gum In Mouth,4,20,,0,,2,,0,0xFFFFFFFF,63,2,1,,1,0,572,{ bonus bBaseAtk,5; bonus bMatk,5; bonus bMdef,2; /*Gold PC Room: bonus bAllStats,1;*/},{},{}
 5598,Virgo_Crown,Virgo Crown,4,20,,300,,3,,0,0xFFFFFFFF,63,2,256,,70,1,573,{ bonus bDex,2; bonus bAspdRate,1; if(getrefine()>6) { bonus2 bSubEle,Ele_Earth,5; autobonus "{ bonus bDex,20; }",10,6000,BF_WEAPON,"{ specialeffect2 EF_ENHANCE; }"; } },{},{}
 5599,Virgo_Diadem,Virgo Diadem,4,20,,300,,3,,1,0xFFFFFFFF,63,2,256,,70,1,574,{ bonus bAspdRate,3; bonus2 bSubEle,Ele_Earth,5; if(getrefine()>6) bonus3 bAutoSpell,"MO_BALKYOUNG",1,50; },{},{}
@@ -3838,14 +3838,14 @@
 5665,Shaman_Hat,Shaman Hat,4,20,,400,,1,,1,0xFFFFFFFF,63,2,256,,1,1,596,{ bonus bMdef,5; bonus2 bSubEle,Ele_Neutral,3; bonus2 bSubEle,Ele_Water,3; bonus2 bSubEle,Ele_Earth,3; bonus2 bSubEle,Ele_Fire,3; bonus2 bSubEle,Ele_Wind,3; bonus2 bSubEle,Ele_Poison,3; bonus2 bSubEle,Ele_Holy,3; bonus2 bSubEle,Ele_Dark,3; bonus2 bSubEle,Ele_Ghost,3; bonus2 bSubEle,Ele_Undead,3; },{},{}
 5666,Golden_Crown,Golden Crown,4,20,,500,,8,,1,0xFFFFFFFF,63,2,256,,1,1,597,{ bonus bInt,1; bonus bDex,1; bonus bLuk,1; },{},{}
 5667,Skull_Hood,Skull Hood,4,20,,100,,1,,1,0xFFFFFFFF,63,2,768,,30,1,598,{ bonus2 bSubRace,RC_Demon,10; bonus2 bSubRace,RC_Undead,10; if(getrefine()>=7) autobonus "{ bonus bCritical,30; bonus bHit,10; }",10,10000,0,"{ specialeffect2 EF_ENHANCE; }"; },{},{}
-5668,Weird_Pumpkin_Hat,Weird Pumpkin Hat,4,20,,0,,5,,0,0xFFFFFFFF,63,2,256,,1,1,206,{ bonus bMdef,5; bonus2 bAddMonsterDropItem,6097,10; },{},{}
+5668,Weird_Pumpkin_Hat,Weird Pumpkin Hat,4,20,,0,,5,,0,0xFFFFFFFF,63,2,256,,1,1,206,{ bonus bMdef,5; bonus2 bAddMonsterDropItem,6097,10000; },{},{}
 5669,Poring_Party_Hat_J,Poring Party Hat J,4,20,,300,,1,,0,0xFFFFFFFF,63,2,256,,1,1,340,{},{},{}
 5670,Aniv_Star_Hat,Aniv Star Hat,4,20,,300,,0,,0,0xFFFFFFFF,63,2,256,,1,1,599,{},{},{}
 5671,Drooping_Morocc_Minion,Drooping Morocc Minion,4,20,,300,,0,,1,0xFFFFFFFF,63,2,256,,70,0,600,{ bonus bSPGainValue,2; bonus3 bAutoSpellWhenHit,"NPC_CRITICALWOUND",2,2; },{},{}
 5672,Southern_Cross,Southern Cross,4,20,,600,,3,,1,0xFFFFFFFF,63,2,256,,50,1,601,{ bonus bInt,1; },{},{}
 5673,Home_Cherry_Blossom,Home Cherry Blossom,4,20,,100,,2,,1,0xFFFFFFFF,63,2,256,,30,1,602,{ bonus bNoCastCancel; bonus bVariableCastrate,35; },{},{}
 5674,Pig_Moneybox,Pig Moneybox,4,20,,1000,,3,,0,0xFFFFFFFF,63,2,256,,10,0,603,{},{},{}
-5675,Poring_Letter,Poring Letter,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,10,0,604,{ bonus2 bAddMonsterDropItem,619,10; bonus bUnbreakableHelm; },{},{}
+5675,Poring_Letter,Poring Letter,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,10,0,604,{ bonus2 bAddMonsterDropItem,619,10000; bonus bUnbreakableHelm; },{},{}
 5676,Scorpio_Crown,Scorpio Crown,4,20,,300,,3,,0,0xFFFFFFFF,63,2,256,,1,1,605,{ bonus bAspdRate,3; bonus2 bSubEle,Ele_Water,5; .@r = getrefine(); if (.@r>6) { bonus3 bAutoSpell,"TK_SEVENWIND",3,20; } if (.@r>7) { bonus bAspdRate,2; } if (.@r>8) { bonus3 bAutoSpell,"WZ_FROSTNOVA",5,10; } if (.@r>9) { bonus bAspdRate,2; bonus bBaseAtk,5; } },{},{}
 5677,Scorpio_Diadem,Scorpio Diadem,4,20,,300,,3,,0,0xFFFFFFFF,63,2,256,,1,1,606,{ bonus bDex,2; if (getrefine()>6) { bonus bDex,1; bonus bAtk,5; } },{},{}
 5678,Notation_Hairband,Notation Hairband,4,200,,100,,5,,0,0xFFFFFFFF,63,2,256,,1,1,607,{ bonus bUnbreakableHelm; },{},{}
@@ -3907,12 +3907,12 @@
 5734,E_Magestic_Goat_C,E Magestic Goat C,4,2,,0,,5,,0,0xFFFFFFFE,63,2,256,,0,0,41,{ bonus bStr,1; },{},{}
 5735,E_Ribbon_Green,Green Ribbon,4,800,,100,,1,,0,0xFFFFFFFF,63,0,256,,0,1,244,{ bonus bMdef,3; },{},{}
 5736,EF_Whisper_Mask,Whisper Mask,4,20,,0,,0,,0,0xFFFFFFFF,63,2,769,,0,0,321,{ bonus bAgi,3; bonus2 bSubEle,Ele_Ghost,-10; },{},{}
-5737,Cactus_Hat,Cactus Hat,4,20,,300,,1,,0,0xFFFFFFFF,63,2,256,,1,0,615,{ bonus3 bAddMonsterDropItem,952,RC_Plant,500; },{},{}
+5737,Cactus_Hat,Cactus Hat,4,20,,300,,1,,0,0xFFFFFFFF,63,2,256,,1,0,615,{ bonus3 bAddMonsterDropItem,952,RC_Plant,5000; },{},{}
 5738,Snowman_Hat,Snowman Hat,4,20,,300,,4,,1,0xFFFFFFFF,63,2,256,,1,1,616,{ bonus bStr,1; bonus bInt,1; bonus bMdef,3; bonus2 bSubEle,Ele_Water,7; bonus2 bAddMonsterDropItem,12354,100; bonus2 bAddMonsterDropItem,530,300; bonus5 bAutoSpellwhenhit,"BA_FROSTJOKER",(getrefine()>7?5:1),20,BF_WEAPON|BF_MAGIC,0; },{},{}
 5739,Sagittarius_Crown,Sagittarius Crown,4,20,,300,,3,,1,0xFFFFFFFF,63,2,256,,1,1,617,{ bonus bDex,2; bonus2 bSubEle,Ele_Fire,7; .@r = getrefine(); if (.@r>6) { bonus bAspdRate,2; } if (.@r>7) { bonus bAgi,2; } if (.@r>8) { bonus bLongAtkRate,5; } if (.@r>9) { autobonus "{ bonus bAgi,10; bonus bDex,10; }",3,10000,0,"{ specialeffect2 EF_ENHANCE; }"; } },{},{}
 5740,Sagittarius_Diadem,Sagittarius Diadem,4,20,,300,,3,,1,0xFFFFFFFF,63,2,256,,1,1,618,{ bonus bDex,2; bonus bMdef,3; bonus2 bSubEle,Ele_Fire,7; .@r = getrefine(); if (.@r>6) { bonus bVariableCastrate,-3; } if (.@r>7) { bonus5 bAutoSpell,"WZ_SIGHTRASHER",10,5,BF_MAGIC,0; } if (.@r>8) { bonus bVariableCastrate,-2; } if (.@r>9) { bonus bMatkRate,4; } },{},{}
 5741,Im_Egg_Shell_Hat,Eternal Egg Shell,4,20,,0,,1,,0,0xFFFFFFFF,63,2,256,,10,1,101,{ bonus2 bAddItemGroupHealRate,IG_Potion,10; bonus bHealPower2,10; },{},{}
-5742,Rudolf_Santa_Hat,Rudolph Santa Hat,4,20,,400,,5,,0,0xFFFFFFFF,63,2,256,,10,1,619,{ bonus2 bAddMonsterDropItem,538,100; bonus2 bAddMonsterDropItem,539,100; bonus2 bAddItemHealRate,538,100; bonus2 bAddItemHealRate,539,100; },{},{}
+5742,Rudolf_Santa_Hat,Rudolph Santa Hat,4,20,,400,,5,,0,0xFFFFFFFF,63,2,256,,10,1,619,{ bonus2 bAddMonsterDropItem,538,5000; bonus2 bAddMonsterDropItem,539,5000; bonus2 bAddItemHealRate,538,100; bonus2 bAddItemHealRate,539,100; },{},{}
 5743,Orange_Stem_Hat,Orange Stem Hat,4,20,,100,,0,,0,0x00000000,63,2,256,,1,0,620,{ bonus bLuk,3; },{},{}
 5744,Capricorn_Crown,Capricorn Crown,4,20,,300,,3,,1,0xFFFFFFFF,63,2,256,,1,1,621,{ bonus bVit,2; bonus bDex,2; if (getrefine()>6) { bonus3 bAutoSpell,"TK_SEVENWIND",1,500; } },{},{}
 5745,Capricorn_Diadem,Capricorn Diadem,4,20,,300,,3,,0,0xFFFFFFFF,63,2,256,,1,1,622,{ bonus bDex,2; bonus bMdef,5; bonus2 bSubEle,Ele_Earth,5; .@r = getrefine(); if (.@r>6) { bonus bInt,2; } if (.@r>7) { bonus bVariableCastrate,-3; } if (.@r>8) { bonus bHealPower2,4; } if (.@r>9) { bonus3 bAutoSpell,"BS_HAMMERFALL",5,5; } },{},{}
@@ -3947,7 +3947,7 @@
 5774,Red_Pirate_Hat,Red Pirate Hat,4,3000,,500,,1,,0,0xFFFFFFFF,63,2,256,,95,1,496,{ bonus2 bSubRace,RC_DemiHuman,10; bonus2 bSubRace,RC_Player,10; },{},{}
 5775,Choco_Donut_In_Mouth,Choco Donut In Mouth,4,20,,50,,1,,0,0xFFFFFFFF,63,2,1,,1,0,653,{ bonus bMaxHP,50; },{},{}
 5776,Blazing_Sun,Blazing Sun,4,0,,500,,0,,0,0xFFFFFFFF,63,2,256,,1,1,654,{ bonus2 bVariableCastrate,"MG_FIREBOLT",-5; bonus2 bSkillAtk,"MG_FIREBOLT",5; bonus2 bVariableCastrate,"MG_FIREBALL",-5; bonus2 bSkillAtk,"MG_FIREBALL",5; bonus2 bSkillAtk,"MG_FIREWALL",3; bonus2 bSkillAtk,"WZ_METEOR",3; bonus bUseSPrate,5; },{},{}
-5777,Remover_Hat,Remover Hat,4,20,,800,,2,,0,0xFFFFFFFF,63,2,256,,30,0,655,{ bonus bMdef,1; bonus3 bAddMonsterDropItem,713,RC_Formless,200; bonus3 bAddMonsterDropItem,971,RC_Formless,30; bonus3 bAddMonsterDropItem,972,RC_Formless,10; },{},{}
+5777,Remover_Hat,Remover Hat,4,20,,800,,2,,0,0xFFFFFFFF,63,2,256,,30,0,655,{ bonus bMdef,1; bonus3 bAddMonsterDropItem,713,RC_Formless,5000; bonus3 bAddMonsterDropItem,971,RC_Formless,5000; bonus3 bAddMonsterDropItem,972,RC_Formless,5000; },{},{}
 5778,Blue_Arara_Hat,Blue Arara Hat,4,20,,100,,3,,0,0xFFFFFFFF,63,2,256,,1,1,656,{ bonus bStr,2; autobonus "{ bonus bAspdRate,5; }",10,10000,0,"{ specialeffect2 EF_ENHANCE; }"; },{},{}
 5779,Drooping_Boto,Drooping Boto,4,20,,100,,3,,0,0xFFFFFFFF,63,2,256,,1,1,657,{ bonus bInt,2; autobonus "{ bonus bMatkRate,3; }",10,10000,BF_MAGIC,"{ specialeffect2 EF_SUFFRAGIUM; }"; },{},{}
 5780,Tendrilion_Hat,Tendrilion Hat,4,20,,100,,0,,0,0xFFFFFFFF,63,2,256,,1,1,658,{ skill "WZ_EARTHSPIKE",3; bonus2 bSubRace,RC_DemiHuman,10; bonus2 bSubRace,RC_Player,10; },{},{}
@@ -3974,7 +3974,7 @@
 5800,Blush_Of_Groom,Blush of Groom,4,20,,50,,0,,0,0xFFFFFFFF,63,2,512,,0,0,125,{ bonus2 bSubRace,RC_DemiHuman,3; bonus2 bSubRace,RC_Player,3; },{},{}
 5801,Ribbon_Of_Bride,Red Tailed Ribbon,4,20,,100,,5,,0,0xFFFFFFFF,63,2,256,,0,1,167,{ bonus bAllStats,2; bonus2 bSubRace,RC_DemiHuman,10; bonus2 bSubRace,RC_Player,10; bonus3 bAutoSpellWhenHit,"AL_HEAL",(getskilllv("AL_HEAL")==10?10:5),20; },{},{}
 5802,Upgrade_Elephant_Hat,Upgraded Elephant Hat,4,0,,500,,3,,1,0xFFFFFFFF,63,2,256,,0,1,215,{},{},{}
-5803,Flower_Love_Hat,Love Flower Hat,4,20,,100,,2,,0,0xFFFFFFFF,63,2,256,,0,1,5,{ bonus2 bAddMonsterDropItem,608,100; },{},{}
+5803,Flower_Love_Hat,Love Flower Hat,4,20,,100,,2,,0,0xFFFFFFFF,63,2,256,,0,1,5,{ bonus2 bAddMonsterDropItem,608,10000; },{},{}
 5804,Pirate_Eyepatch,Pirate Eye Bandage,4,1000,,100,,0,,0,0xFFFFFFFF,63,2,512,,0,0,13,{},{},{}
 5805,Victorious_Coronet,Victorious Coronet,4,0,,150,,1,,0,0xFFFFFFFF,63,2,256,,70,0,43,{ bonus bMaxHPrate,15; bonus bSPrecovRate,5; },{},{}
 5806,Poem_Natalia_Hat,Poet Natalie's Hat,4,20,,300,,5,,0,0xFFFFFFFF,63,2,256,,0,0,67,{},{},{}
@@ -4051,7 +4051,7 @@
 5895,RCC2013_ANV_Hat,RCC2013 ANV Hat,4,20,,2500,,7,,1,0xFFFFFFFF,63,2,256,,1,0,1109,{ bonus bAllStats,1; bonus2 bAddClass,Class_All,2; bonus bMatkRate,2; },{},{}
 5900,Divine_Guard_Hat,Divine Guard Hat,4,0,,200,,10,,1,0x00004000,56,2,256,,100,1,1121,{ .@r = getrefine(); bonus2 bSubSize,Size_All,5; if(.@r>=7) { .@level = getskilllv("AL_HEAL"); bonus3 bAutoSpellWhenHit,"AL_HEAL",(.@level ? .@level : 5),10; } if(.@r>=9) { bonus2 bSkillAtk,"LG_RAYOFGENESIS",20; } },{},{}
 5901,Focus_Beret,Focus Beret,4,0,,200,,10,,1,0x00008000,56,2,256,,100,1,1122,{ .@r = getrefine(); bonus4 bAutoSpellOnSkill,"SR_DRAGONCOMBO","SR_FALLENEMPIRE",max(getskilllv("SR_FALLENEMPIRE"),1),100; if(.@r>=7) { autobonus "{ bonus bAspd,2; }",30,5000,0,"{ specialeffect2 EF_ENHANCE; }"; } if(.@r>=9) { bonus2 bSkillAtk,"SR_FALLENEMPIRE",30; } },{},{}
-5902,Harvester_Hat,Harvester Hat,4,0,,200,,10,,1,0x00040000,56,2,256,,100,1,1123,{ .@r = getrefine(); bonus2 bAddMonsterDropItem,6211,100; bonus2 bAddMonsterDropItem,6212,100; if(.@r>=7) { bonus2 bAddMonsterDropItem,6210,50; } if(.@r>=9) { bonus2 bSkillAtk,"GN_CARTCANNON",15; } },{},{}
+5902,Harvester_Hat,Harvester Hat,4,0,,200,,10,,1,0x00040000,56,2,256,,100,1,1123,{ .@r = getrefine(); bonus2 bAddMonsterDropItem,6211,10000; bonus2 bAddMonsterDropItem,6212,10000; if(.@r>=7) { bonus2 bAddMonsterDropItem,6210,5000; } if(.@r>=9) { bonus2 bSkillAtk,"GN_CARTCANNON",15; } },{},{}
 5903,Deadman_Bandana,Deadman Bandana,4,0,,200,,15,,1,0x00810204,63,2,256,,99,1,1124,{ .@r = getrefine(); .@rate = 1; bonus bCritical,.@r*2; bonus bFixedCastrate,-2; bonus3 bAutoSpellWhenHit,"SL_SWOO",getskilllv("SL_SWOO"),(.@rate*10); if (.@r>=7) { bonus bMatk,20; .@rate += 3; } if(.@r>=9) { bonus bVariableCastrate,-20; bonus2 bSkillUseSP,"SL_STUN",5; bonus2 bSkillUseSP,"SL_SMA",5; } },{},{}
 5904,Inconspicuous_Hat,Inconspicuous Hat,4,0,,200,,10,,1,0x00020000,56,2,256,,100,1,1125,{ .@r = getrefine(); if (.@r>=9) { .@matk = 5; } bonus bMatkRate,(7+.@matk); if (.@r>=7) { bonus bMatk,(readparam(bInt)/5)*2; } },{},{}
 5905,Lyrica_Hat,Lyrica Hat,4,0,,200,,10,,1,0x00080000,56,2,256,,100,1,1126,{ .@r = getrefine(); bonus2 bSkillAtk,"WM_SEVERE_RAINSTORM",15; if(.@r>=7) { bonus bFixedCastrate,4*(getskilllv("WM_LESSON")); } if(.@r>=9) { bonus2 bSkillUseSP,"WM_SEVERE_RAINSTORM",10; } },{},{}
@@ -8749,7 +8749,7 @@
 // More Maces
 //===================================================================
 16000,Erde,Erde,5,20,,500,130,,1,2,0x0004C5B2,18,2,2,3,50,1,8,{ bonus2 bSkillAtk,"AM_ACIDTERROR",20; bonus2 bSkillAtk,"AM_DEMONSTRATION",20; bonus bMaxSP,50; bonus bHealPower,10; },{},{}
-16001,Red_Square_Bag,Red Square Bag,5,20,,500,130,,1,2,0x0004C5B2,18,2,2,3,50,1,8,{ bonus bMaxHP,200; bonus2 bSkillAtk,"AM_ACIDTERROR",20; bonus2 bSkillAtk,"AM_DEMONSTRATION",20; bonus2 bAddMonsterDropItem,501,50; bonus2 bAddMonsterDropItem,502,20; bonus2 bAddMonsterDropItem,503,20; bonus2 bAddMonsterDropItem,504,20; bonus2 bAddMonsterDropItem,505,10; if(readparam(bStr)>=95) bonus2 bAddEff,Eff_Stun,500; },{},{}
+16001,Red_Square_Bag,Red Square Bag,5,20,,500,130,,1,2,0x0004C5B2,18,2,2,3,50,1,8,{ bonus bMaxHP,200; bonus2 bSkillAtk,"AM_ACIDTERROR",20; bonus2 bSkillAtk,"AM_DEMONSTRATION",20; bonus2 bAddMonsterDropItem,501,5000; bonus2 bAddMonsterDropItem,502,5000; bonus2 bAddMonsterDropItem,503,5000; bonus2 bAddMonsterDropItem,504,5000; bonus2 bAddMonsterDropItem,505,5000; if(readparam(bStr)>=95) bonus2 bAddEff,Eff_Stun,500; },{},{}
 16002,Stunner_C,Stunner,5,0,,0,175,,1,0,0x00008110,63,2,2,3,1,0,8,{ bonus2 bAddEff,Eff_Stun,1000; bonus2 bAddSize,Size_All,40; },{},{}
 16003,Carga_Mace,Carga Mace,5,20,,1500,175,,1,2,0x0004C5B2,63,2,2,3,100,1,8,{},{},{}
 16004,P_Mace1,Eden Mace I,5,0,,0,142,,1,0,0x0004C5B2,63,2,2,2,26,0,8,{},{},{}
@@ -9534,7 +9534,7 @@
 18502,Cheer_Scarf10,Cheer Scarf10,4,0,,0,,0,,0,0xFFFFFFFF,63,2,1,,1,0,369,{ bonus2 bExpAddClass,Class_All,100; },{},{}
 18503,Small_Horn_Of_Devil,Small Devil Horns,4,20,,100,,2,,0,0xFFFFFFFF,63,2,512,,1,0,562,{ bonus2 bAddClass,Class_All,5; bonus bMatkRate,5; bonus bMaxHPrate,10; bonus bMaxSPrate,10; },{},{}
 18504,Anubis_Helm_J,Anubis Helm J,4,20,,1000,,0,,0,0xFFFFFFFF,63,2,769,,70,0,485,{ bonus bMdefRate,-50; bonus bDefRate,-50; bonus5 bAutoSpellWhenHit,"NPC_WIDESTONE",2,10,BF_WEAPON|BF_MAGIC,0; },{},{}
-18505,Umbala_Spirit,Umbala Spirit,4,0,,0,,1,,0,0xFFFFFFFF,63,2,1,,30,0,675,{ bonus bMaxHPrate,1; bonus2 bAddMonsterDropItem,517,500; bonus2 bAddItemHealRate,517,25; /*Gold PC Room: bonus bAllStats,1;*/},{},{}
+18505,Umbala_Spirit,Umbala Spirit,4,0,,0,,1,,0,0xFFFFFFFF,63,2,1,,30,0,675,{ bonus bMaxHPrate,1; bonus2 bAddMonsterDropItem,517,5000; bonus2 bAddItemHealRate,517,25; /*Gold PC Room: bonus bAllStats,1;*/},{},{}
 18506,Hattah_Black,Hattah Black,4,12000,,4000,,2,,1,0xFFFFFFFF,63,2,769,,1,1,676,{ bonus bMaxHPrate,10; bonus bMaxSPrate,10; },{},{}
 18507,Elven_Ears_,Elven Ears,4,20,,100,,0,,1,0xFFFFFFFE,63,2,512,,70,0,73,{},{},{}
 18508,Garuda_Hat,Garuda Hat,4,20,,100,,4,,1,0xFFFFFFFE,63,2,256,,30,1,677,{ bonus bLuk,5; bonus bMdef,3; bonus2 bSubEle,Ele_All,5; bonus bHit,10; bonus bDelayRate,-5; .@r = getrefine(); if(.@r>=7) bonus2 bAddMonsterDropItem,522,100*(.@r-6); },{},{}
@@ -9556,18 +9556,18 @@
 18524,Dokkebi_Mask,Dokkebi Mask,4,20,,700,,1,,0,0xFFFFFFFF,63,2,513,,50,0,689,{ bonus bStr,2; },{},{}
 18525,Watermelon_Hat,Watermelon Cap,4,20,,100,,4,,1,0xFFFFFFFF,63,2,256,,30,1,690,{ bonus bVit,1; bonus bLuk,1; bonus bMdef,4; bonus2 bAddEle,Ele_Fire,3; },{},{}
 18526,Yummy_Lollipop,Candy Cane In Mouth,4,20,,100,,2,,0,0xFFFFFFFF,63,2,1,,1,0,446,{ bonus bMatk,5; bonus bBaseAtk,5; bonus bAspd,1; bonus bFixedCastrate,-20; bonus bHealPower,5; },{},{}
-18527,Gloomy_Pumpkin_Hat,Dark Pumpkin-head,4,20,,500,,5,,0,0xFFFFFFFF,63,2,256,,45,1,691,{ bonus2 bAddMonsterDropItem,12192,10; bonus bMdef,5; },{},{}
+18527,Gloomy_Pumpkin_Hat,Dark Pumpkin-head,4,20,,500,,5,,0,0xFFFFFFFF,63,2,256,,45,1,691,{ bonus2 bAddMonsterDropItem,12192,1000; bonus bMdef,5; },{},{}
 18528,Tare_Neko_Cru,Drooping Neko Crew,4,20,,100,,0,,1,0xFFFFFFFF,63,2,256,,1,1,692,{ bonus bInt,2; bonus bMdef,5; .@r = getrefine(); if(.@r>=7){ .@i = 1; bonus bMatkRate,(.@r>=9)?7:2; } else .@i = 5; bonus2 bIgnoreMdefClassRate,Class_Normal,.@i+.@r; bonus2 bIgnoreMdefClassRate,Class_Boss,.@i+.@r; },{},{}
 18529,Drooping_Wild_Rose,Accurate Wild Rose,4,20,,500,,5,,1,0xFFFFFFFF,63,2,768,,30,1,541,{ bonus bMaxHPrate,-10; bonus bAspdRate,3; },{},{}
 18530,Tha_Despero_Mask,Thanatos Despero Mask,4,20,,100,,0,,0,0xFFFFFFFF,63,2,513,,30,0,693,{ bonus bUnbreakableHelm; bonus bLuk,-5; bonus bFlee,4; },{},{}
 18531,Drooping_Permeter,Drooping Permeter,4,20,,1000,,8,,1,0xFFFFFFFF,63,2,256,,10,1,694,{ bonus2 bAddDefMonster,1314,-20; bonus2 bAddDefMonster,1316,-20; bonus2 bAddDefMonster,1319,-20; bonus2 bAddDefMonster,1315,-20; bonus2 bAddDefMonster,1318,-20; bonus2 bAddDefMonster,1312,-20; },{},{}
 18532,Heart_Ribbon_Band,Heart Ribbon Hairband,4,20,,100,,0,,1,0xFFFFFFFF,63,2,256,,10,1,708,{ bonus bInt,2; },{},{}
-18533,Honeybee_Hat,Honey Bee Hat,4,20,,100,,3,,1,0xFFFFFFFF,63,2,256,,50,1,709,{ bonus bMdef,3; bonus2 bAddRace,RC_Insect,5; bonus2 bMagicAddRace,RC_Insect,5; bonus2 bSubRace,RC_Insect,5; bonus3 bAddMonsterDropItem,518,RC_Insect,2; },{},{}
+18533,Honeybee_Hat,Honey Bee Hat,4,20,,100,,3,,1,0xFFFFFFFF,63,2,256,,50,1,709,{ bonus bMdef,3; bonus2 bAddRace,RC_Insect,5; bonus2 bMagicAddRace,RC_Insect,5; bonus2 bSubRace,RC_Insect,5; bonus3 bAddMonsterDropItem,518,RC_Insect,5000; },{},{}
 18534,Fancy_Phantom_Mask,Fancy Phantom Mask,4,20,,1000,,5,,1,0xFFFFFFFF,63,2,768,,20,1,710,{ bonus bStr,1; bonus2 bAddClass,Class_All,5; bonus bDelayRate,-1; bonus bMaxHP,getrefine()*100; bonus2 bSkillAtk,"MC_MAMMONITE",20; bonus2 bSkillAtk,"NJ_ZENYNAGE",20; },{},{}
 18535,Pumpkin_Hat_2010,Pumpkin Hat 2010,4,20,,200,,0,,0,0xFFFFFFFF,63,2,256,,0,1,206,{},{},{}
 18536,Foxtail,Foxtail,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,0,0,711,{ bonus bMatk,10; bonus bFixedCast,-100; },{},{}
 18537,Malangdo_Hat,Malangdo Hat,4,20,,100,,5,,1,0xFFFFFFFF,63,2,256,,0,1,726,{ bonus bFlee,6; },{},{}
-18538,Devil_Whisper,Spirit Whispers,4,20,,300,,3,,0,0xFFFFFFFF,63,2,512,,0,0,712,{ bonus bUnbreakableHelm; bonus bMdef,3; bonus2 bSubRace,RC_Angel,1; bonus2 bSubRace,RC_Demon,1; bonus3 bAddMonsterDropItem,12020,RC_Angel,400; bonus3 bAddMonsterDropItem,523,RC_Demon,400; },{},{}
+18538,Devil_Whisper,Spirit Whispers,4,20,,300,,3,,0,0xFFFFFFFF,63,2,512,,0,0,712,{ bonus bUnbreakableHelm; bonus bMdef,3; bonus2 bSubRace,RC_Angel,1; bonus2 bSubRace,RC_Demon,1; bonus3 bAddMonsterDropItem,12020,RC_Angel,5000; bonus3 bAddMonsterDropItem,523,RC_Demon,5000; },{},{}
 18539,Skull_Cap,Skull Cap,4,40,,200,,5,,1,0xFFFFFFFF,63,2,256,,10,1,713,{ bonus bMatkRate,2; .@r = getrefine(); if(.@r >= 5) { bonus bMatkRate,3; } if(.@r >= 7) { bonus bMatkRate,3; } },{},{}
 18540,Evil_Mask,Evil Mask,4,20,,1000,,3,,0,0xFFFFFFFF,63,2,513,,10,0,714,{ bonus2 bSPLossRate,1,2000; bonus bAspdRate,1; },{},{}
 18541,Little_Feather_Hat,Little Feather Hat,4,20,,500,,1,,1,0xFFFFFFFF,63,2,256,,30,1,715,{ bonus bDex,2; bonus bCritAtkRate,10; },{},{}
@@ -9578,13 +9578,13 @@
 18546,Lover_In_Mouth,Lover In Mouth,4,20,,300,,0,,0,0xFFFFFFFF,63,2,1,,0,0,720,{},{},{}
 18547,Campus_Festival,Campus Festival,4,20,,100,,0,,0,0xFFFFFFFF,63,2,256,,0,1,721,{},{},{}
 18548,Tiny_Hat,Tiny Hat,4,20,,30,,0,,0,0xFFFFFFFF,63,2,256,,0,1,722,{ bonus bInt,1; bonus bAgi,1; },{},{}
-18549,Nabi_Hair_Pin,Butterfly Hairpin,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,20,1,723,{ bonus bInt,1; bonus bAgi,1; bonus bMdef,3; bonus2 bAddRace,RC_Plant,5; bonus2 bMagicAddRace,RC_Plant,5; bonus2 bSubRace,RC_Plant,5; bonus3 bAddMonsterDropItem,709,RC_Plant,30; },{},{}
+18549,Nabi_Hair_Pin,Butterfly Hairpin,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,20,1,723,{ bonus bInt,1; bonus bAgi,1; bonus bMdef,3; bonus2 bAddRace,RC_Plant,5; bonus2 bMagicAddRace,RC_Plant,5; bonus2 bSubRace,RC_Plant,5; bonus3 bAddMonsterDropItem,709,RC_Plant,5000; },{},{}
 18550,Asgard_Blessing,Asgard Blessing,4,20,,300,,3,,1,0xFFFFFFFF,63,2,256,,30,1,724,{ bonus bAllStats,2; bonus2 bSubEle,Ele_All,5; bonus2 bHPRegenRate,(MaxHp/100),10000; },{},{}
 18551,Galaxy_Circlet,Galaxy Circlet,4,20,,1000,,5,,1,0xFFFFFFFF,63,2,256,,50,1,725,{ .@r = getrefine(); .@a = .@r*10; .@b = .@r/2; bonus bMdef,5; bonus bMaxHP,.@a; bonus bMaxSP,.@a; bonus2 bSubEle,Ele_Earth,.@b; bonus2 bSubEle,Ele_Fire,.@b; bonus2 bSubEle,Ele_Water,.@b; },{},{}
 18552,Proba_Angel_Blessing,Proba Angel Blessing,4,20,,1200,,0,,1,0xFFFFFFFF,63,2,256,,10,1,444,{ bonus bLuk,2; },{},{}
-18553,Mini_Tree,Mini Tree,4,20,,50,,5,,0,0xFFFFFFFF,63,2,256,,0,1,727,{ bonus2 bResEff,Eff_Stun,20; bonus2 bResEff,Eff_Curse,20; bonus2 bResEff,Eff_Blind,20; bonus2 bResEff,Eff_Confusion,20; bonus2 bAddMonsterDropItem,529,300; bonus2 bAddMonsterDropItem,529,644; },{},{}
+18553,Mini_Tree,Mini Tree,4,20,,50,,5,,0,0xFFFFFFFF,63,2,256,,0,1,727,{ bonus2 bResEff,Eff_Stun,20; bonus2 bResEff,Eff_Curse,20; bonus2 bResEff,Eff_Blind,20; bonus2 bResEff,Eff_Confusion,20; bonus2 bAddMonsterDropItem,529,5000; bonus2 bAddMonsterDropItem,529,5000; },{},{}
 18554,King_Prawn_Hat,King Prawn Hat,4,20,,1000,,8,,0,0xFFFFFFFF,63,2,256,,0,0,728,{ bonus2 bAddItemGroupHealRate,IG_Fish,100; },{},{}
-18555,General_Helmet,General Helmet,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,10,1,729,{ bonus bMdef,3; bonus2 bAddRace,RC_Dragon,5; bonus2 bMagicAddRace,RC_Dragon,5; bonus2 bSubRace,RC_Dragon,5; bonus3 bAddMonsterDropItem,7444,RC_Dragon,2; },{},{}
+18555,General_Helmet,General Helmet,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,10,1,729,{ bonus bMdef,3; bonus2 bAddRace,RC_Dragon,5; bonus2 bMagicAddRace,RC_Dragon,5; bonus2 bSubRace,RC_Dragon,5; bonus3 bAddMonsterDropItem,7444,RC_Dragon,5000; },{},{}
 18556,Angel_Helmet,Angel Helmet,4,0,,0,,0,,0,0xFFFFFFFF,63,2,512,,0,0,3,{ bonus3 bAddMonsterIdDropItem,6464,2220,310; },{},{}
 18557,Devil_Helmet,Devil Helmet,4,0,,0,,0,,0,0xFFFFFFFF,63,2,512,,0,0,12,{ bonus3 bAddMonsterIdDropItem,6345,1812,310; },{},{}
 18558,Sinsuncho_Hat,Sinsuncho Hat,4,20,,1000,,0,,0,0xFFFFFFFF,63,2,256,,10,0,730,{ bonus2 bExpAddRace,RC_Plant,5; bonus2 bSubRace,RC_Plant,-10; },{},{}
@@ -9594,7 +9594,7 @@
 18562,Bone_Hat,Bone Hat,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,10,1,732,{ bonus bMdef,3; },{},{}
 18563,Heart_Wing_Hairband,Heart Wing Hairband,4,20,,300,,0,,1,0xFFFFFFFF,63,2,256,,50,1,733,{ .@r = getrefine()/3; bonus bUseSPrate,-(10+.@r*3); bonus bDelayrate,-(5+.@r*3); },{},{}
 18564,Love_Piece,Love Piece,4,20,,200,,0,,0,0xFFFFFFFF,63,2,1,,50,0,734,{ bonus bNoCastCancel; bonus bUseSPrate,15; },{},{}
-18565,Leprechaun_Hat,St Patrick's Hat,4,20,,300,,8,,1,0xFFFFFFFF,63,2,256,,40,1,735,{ bonus bStr,1; bonus bInt,1; bonus bMdef,4; if(getrefine()>7){ bonus2 bAddMonsterDropItem,12135,50; } },{},{}
+18565,Leprechaun_Hat,St Patrick's Hat,4,20,,300,,8,,1,0xFFFFFFFF,63,2,256,,40,1,735,{ bonus bStr,1; bonus bInt,1; bonus bMdef,4; if(getrefine()>7){ bonus2 bAddMonsterDropItem,12135,5000; } },{},{}
 18566,Nut_Donut_In_Mouth,Nut Donut In Mouth,4,20,,0,,1,,0,0xFFFFFFFF,63,2,1,,0,0,736,{ bonus bBaseAtk,5; bonus bMatk,5; },{},{}
 18567,Stretched_Nose,Stretched Nose,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,0,0,737,{},{},{}
 18568,Humming_Bird,Humming Bird,4,20,,100,,3,,0,0xFFFFFFFF,63,2,256,,10,0,702,{ bonus bMdef,6; },{},{}
@@ -9618,7 +9618,7 @@
 18586,Violet_Bunny_Hairband,Violet Bunny Hairband,4,20,,10,,0,,1,0xFFFFFFFF,63,2,256,,0,1,752,{ bonus bStr,1; bonus bInt,3; bonus bVit,2; bonus bDex,1; },{},{}
 18587,Blue_Bunny_Hairband,Blue Bunny Hairband,4,20,,10,,0,,1,0xFFFFFFFF,63,2,256,,0,1,753,{ bonus bStr,3; bonus bInt,1; bonus bVit,2; bonus bDex,1; },{},{}
 18588,Silver_Bunny_Hairband,Silver Bunny Hairband,4,20,,10,,0,,1,0xFFFFFFFF,63,2,256,,0,1,754,{ bonus bStr,2; bonus bInt,3; bonus bVit,1; bonus bDex,1; },{},{}
-18589,Strawberry_Hat,Strawberry Hat,4,20,,100,,5,,1,0xFFFFFFFF,63,2,256,,0,1,755,{ .@r = getrefine(); bonus2 bAddMonsterDropItem,578,(.@r>10?200:100+(.@r*10)); },{},{}
+18589,Strawberry_Hat,Strawberry Hat,4,20,,100,,5,,1,0xFFFFFFFF,63,2,256,,0,1,755,{ .@r = getrefine(); bonus2 bAddMonsterDropItem,578,(.@r>10?200:1000+(.@r*10)); },{},{}
 18590,Gemma_Hairband,Gemma Hairband,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,10,1,564,{ bonus bMdef,3; },{},{}
 18591,Mini_Glasses_,Mini Glasses,4,20,,100,,2,,1,0xFFFFFFFE,63,2,512,,0,0,47,{},{},{}
 18592,Nestea_Hat,Nestea Hat,4,20,,200,,5,,0,0xFFFFFFFF,63,2,256,,0,1,756,{ bonus bMdef,5; },{},{}
@@ -9660,7 +9660,7 @@
 18628,Tare_Brownie,Tare Brownie,4,20,,500,,5,,1,0xFFFFFFFF,63,2,256,,50,0,781,{ bonus bMdef,5; },{},{}
 18629,B_Desert_Wolf_Hat,Baby Desert Wolf Hat,4,10,,300,,0,,1,0xFFFFFFFF,63,2,256,,1,1,783,{ bonus bMdef,5; bonus bLongAtkDef,5; },{},{}
 18630,Dep_Alice_Hat,Drooping Alicel,4,20,,500,,6,,0,0xFFFFFFFE,63,2,256,,70,1,784,{ bonus2 bAddRace,RC_DemiHuman,10; bonus2 bAddRace,RC_Player,10; if (getrefine() > 10) { autobonus "{ bonus bAspdRate,100; }",10,7000,BF_WEAPON,"{ specialeffect2 EF_POTION_BERSERK; }"; } },{},{}
-18631,Ribbon_Chef_Hat,Ribbon Chef Hat,4,20,,300,,5,,0,0xFFFFFFFF,63,2,256,,70,1,785,{ bonus bDex,3; bonus bLuk,1; if (getrefine() > 6) { bonus2 bAddMonsterDropItem,12125,500; bonus2 bAddMonsterDropItem,12126,500; bonus2 bAddMonsterDropItem,12127,400; bonus2 bAddMonsterDropItem,12128,300; bonus2 bAddMonsterDropItem,12129,200; } },{},{}
+18631,Ribbon_Chef_Hat,Ribbon Chef Hat,4,20,,300,,5,,0,0xFFFFFFFF,63,2,256,,70,1,785,{ bonus bDex,3; bonus bLuk,1; if (getrefine() > 6) { bonus2 bAddMonsterDropItem,12125,5000; bonus2 bAddMonsterDropItem,12126,5000; bonus2 bAddMonsterDropItem,12127,5000; bonus2 bAddMonsterDropItem,12128,5000; bonus2 bAddMonsterDropItem,12129,5000; } },{},{}
 18632,Yellow_Poring_Hairpin,Yellow Poring Hairpin,4,20,,100,,3,,1,0xFFFFFFFF,63,2,256,,1,1,786,{},{},{}
 18633,Pink_Poring_Hairpin,Pink Poring Hairpin,4,20,,100,,3,,1,0xFFFFFFFF,63,2,256,,1,1,787,{},{},{}
 18634,Green_Poring_Hairpin,Green Poring Hairpin,4,20,,100,,3,,1,0xFFFFFFFF,63,2,256,,1,1,788,{},{},{}
@@ -9675,7 +9675,7 @@
 18643,Rockhand_Model,Rockhand Model,4,20,,200,,0,,0,0xFFFFFFFE,63,2,1,,20,0,796,{ bonus bStr,1; },{},{}
 18644,Paperhand_Model,Paperhand Model,4,20,,200,,0,,0,0xFFFFFFFE,63,2,1,,20,0,797,{},{},{}
 18645,Sailor_Hat,Sailor Hat,4,20,,200,,2,,1,0xFFFFFFFF,63,2,256,,1,1,798,{ bonus bInt,1; bonus2 bAddRace,RC_DemiHuman,5; bonus2 bAddRace,RC_Player,5; },{},{}
-18646,Cow_Hat,Cow Hat,4,20,,300,,4,,1,0xFFFFFFFF,63,2,256,,1,1,799,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,100; },{},{}
+18646,Cow_Hat,Cow Hat,4,20,,300,,4,,1,0xFFFFFFFF,63,2,256,,1,1,799,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,10000; },{},{}
 18647,Star_Eyepatch,Star Eyepatch,4,20,,100,,0,,0,0xFFFFFFFF,63,2,256,,1,0,800,{ bonus2 bResEff,Eff_Stun,1500; },{},{}
 18648,Tongue_Charm,Tongue Charm,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1,,1,0,801,{ bonus2 bSubRace,RC_Demon,3; },{},{}
 18649,Lude_Mask,Lude Mask,4,10,,100,,1,,0,0xFFFFFFFF,63,2,513,,0,1,802,{},{},{}
@@ -9768,12 +9768,12 @@
 18749,Majoruros_Horn,Majoruros Horn,4,20,,500,,8,,1,0xFFFFFFFF,63,2,256,,0,1,888,{ bonus bStr,2; bonus bMaxHP,100; },{},{}
 18750,Poker_Card_In_Mouth,Poker Card In Mouth,4,20,,50,,0,,0,0xFFFFFFFF,63,2,1,,10,0,889,{ bonus2 bAddRace,RC_DemiHuman,2; },{},{}
 18752,Cursed_Book,Cursed Book,4,20,,300,,3,,1,0xFFFFFFFE,63,2,256,,99,1,890,{ .@r = getrefine(); bonus2 bHPLossRate,.@r,5000; bonus2 bHPDrainRate,40,4+(.@r/2); bonus2 bSPDrainRate,10,1+(.@r/3); },{},{}
-18753,Tw_Rice_Ball,Tw Rice Ball,4,20,,100,,6,,0,0xFFFFFFFF,63,2,256,,0,0,892,{ bonus bLuk,1; bonus2 bAddMonsterDropItem,564,100; },{},{}
+18753,Tw_Rice_Ball,Tw Rice Ball,4,20,,100,,6,,0,0xFFFFFFFF,63,2,256,,0,0,892,{ bonus bLuk,1; bonus2 bAddMonsterDropItem,564,10000; },{},{}
 18754,Blood_Sucker,Blood Sucker,4,20,,300,,0,,0,0xFFFFFFFF,63,2,1,,40,0,893,{ bonus bUnbreakableHelm; bonus2 bHPDrainRate,30,5; bonus bHPrecovRate,-100; bonus bSPrecovRate,-100; },{},{}
 18755,Feather_Beret_,Feather Beret,4,0,,600,,1,,1,0xFFFFFFFF,63,2,256,,1,1,224,{ bonus bMdef,1; bonus2 bSubRace,RC_DemiHuman,10; bonus2 bSubRace,RC_Player,10; },{},{}
 18756,Black_Shiba_Inu_Hat,Black Shiba Inu Hat,4,20,,400,,6,,1,0xFFFFFFFF,63,2,256,,50,1,894,{ bonus bBaseAtk,30; bonus2 bAddRace,RC_Brute,10; },{},{}
 18758,Hat_Of_Scrat,Hat Of Scrat,4,20,,200,,3,,1,0xFFFFFFFF,63,2,256,,0,1,896,{},{},{}
-18759,Stretched_Nose_M,Wood Goblin's Nose,4,20,,200,,0,,0,0xFFFFFFFF,63,2,512,,50,0,737,{ bonus bUnbreakableHelm; bonus2 bAddMonsterDropItem,1032,400; bonus2 bAddMonsterDropItem,1033,100; bonus3 bAddMonsterDropItem,576,RC_Plant,40; },{},{}
+18759,Stretched_Nose_M,Wood Goblin's Nose,4,20,,200,,0,,0,0xFFFFFFFF,63,2,512,,50,0,737,{ bonus bUnbreakableHelm; bonus2 bAddMonsterDropItem,1032,5000; bonus2 bAddMonsterDropItem,1033,10000; bonus3 bAddMonsterDropItem,576,RC_Plant,5000; },{},{}
 18760,Remodel_Wizardry_Hat,Improved Mage Hat,4,20,,300,,2,,1,0x00810204,63,2,256,,0,1,112,{ bonus bInt,2; bonus bMaxSP,150; .@r = getrefine(); bonus bMatk,.@r; if(.@r>=7) bonus bInt,.@r-6; },{},{}
 18761,Remodel_Magician_Hat,Improved Magician Hat,4,20,,500,,6,,1,0x00818314,63,2,256,,50,1,130,{ bonus bDex,1; bonus bAgi,1; bonus bMaxSP,50; .@r = getrefine(); bonus bMaxSP,.@r*5; if(.@r>=7) bonus bDex,.@r-6; },{},{}
 18762,Remodel_Mask_Of_Fox,Improved Kitsune Mask,4,20,,300,,2,,0,0xFFFFFFFE,63,2,256,,0,1,153,{ bonus bAgi,2; bonus bLuk,2; if(getrefine()>=7) bonus bFlee2,4; },{},{}
@@ -9834,7 +9834,7 @@
 18847,Jolly_Roger,Jolly Roger,4,20,,500,,10,,1,0xFFFFFFFF,63,2,256,,1,1,962,{ bonus bVit,1; bonus2 bSubDefEle,Ele_Water,2; bonus2 bAddEle,Ele_Water,2; .@r = getrefine(); if(.@r>6) { bonus2 bAddEle,Ele_Water,3; } if(.@r>8) { bonus2 bSubDefEle,Ele_Water,3; } },{},{}
 18848,Lush_Rose,Lush Rose,4,10,,200,0:20,0,,1,0xFFFFFFFF,63,2,256,,1,1,963,{ bonus bMagicHPGainValue,100; bonus bMagicSPGainValue,100; },{},{}
 18849,Celines_Ribbon,Celines Ribbon,4,10,,200,,,,1,0xFFFFFFFF,63,2,256,,1,1,967,{ bonus bDex,3; bonus bMatk,40+getrefine(); bonus bMagicHPGainValue,200; bonus2 bHPLossRate,50,5000; },{},{}
-18850,Polar_Bear_Cap,Polar Bear Cap,4,20,,300,,7,,0,0xFFFFFFFF,63,2,256,,1,0,966,{ bonus bUnbreakableHelm; bonus bDex,1; bonus bAgi,1; bonus bMdef,3; bonus bHPrecovRate,5; bonus bSPrecovRate,3; bonus2 bAddMonsterDropItem,12354,100; },{},{}
+18850,Polar_Bear_Cap,Polar Bear Cap,4,20,,300,,7,,0,0xFFFFFFFF,63,2,256,,1,0,966,{ bonus bUnbreakableHelm; bonus bDex,1; bonus bAgi,1; bonus bMdef,3; bonus bHPrecovRate,5; bonus bSPrecovRate,3; bonus2 bAddMonsterDropItem,12354,10000; },{},{}
 //18851,C_Polar_Bear_Cap,Costume Polar Bear Cap,4,20,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,1,966,{ /*Is this correct item?*/ },{},{}
 18851,ValentineHeart,Valentine Heart,4,20,,0,,,,0,0xFFFFFFFF,63,2,256,,1,1,397,{ bonus bMaxHPrate,5+(getrefine()/2); bonus bAllStats,7; },{},{}
 18852,Berry_Hat_Decoration,Tasty Strawberry Hat,4,20,,150,,4,,,0xFFFFFFFF,63,2,256,,30,1,968,{ bonus bAllStats,1; if(getrefine()>11) bonus bAspd,2; },{},{}
@@ -9877,7 +9877,7 @@
 18898,Yggdrasil_Herald_Crown,Yggdrasil Herald Crown,4,0,,200,,6,,1,0xFFFFFFFF,63,2,256,,60,1,997,{ bonus bAllStats,5; bonus bMaxHP,100; bonus bMaxSP,50; .@r = getrefine(); .@rate = max(.@r,7)-7; if(.@rate){ bonus bMaxHPrate,.@rate; bonus bVariableCastrate,-.@rate; } },{},{}
 18900,Weisswurst,Weisswurst,4,20,,100,,1,,0,0xFFFFFFFF,63,2,1,,60,0,1022,{ bonus bMaxHP,50; },{},{}
 18901,Seppl_Hat,Seppl Hat,4,20,,500,,5,,1,0xFFFFFFFF,63,2,256,,60,0,1023,{ bonus bVit,3; bonus bHPrecovRate,10; },{},{}
-18902,Shovel_Hat,Shovel Hat,4,0,,500,,0,,0,0xFFFFFFFF,63,2,256,,50,0,1024,{ bonus bVit,3; bonus2 bAddMonsterDropItem,553,500; bonus2 bAddItemHealRate,553,700; },{},{}
+18902,Shovel_Hat,Shovel Hat,4,0,,500,,0,,0,0xFFFFFFFF,63,2,256,,50,0,1024,{ bonus bVit,3; bonus2 bAddMonsterDropItem,553,5000; bonus2 bAddItemHealRate,553,700; },{},{}
 18908,Isabella_Red_Ear,Isabella Red Ear,4,10,,300,,8,,1,0xFFFFFFFF,63,2,256,,1,1,1030,{ bonus bStr,5; bonus bMaxHPrate,5; bonus2 bSubDefEle,Ele_Fire,10; .@r = getrefine(); if (.@r >= 9) bonus bAspd,.@r-8; },{},{}
 18909,Isabella_Brown_Ear,Isabella Brown Ear,4,10,,300,,8,,1,0xFFFFFFFF,63,2,256,,1,1,1031,{ bonus bMaxHPrate,10; bonus2 bSubRace,RC_DemiHuman,5; bonus2 bSubRace,RC_Player,5; bonus bMatk,getrefine()*2; },{},{}
 18910,Isabella_Blue_Ear,Isabella Blue Ear,4,10,,300,,8,,1,0xFFFFFFFF,63,2,256,,1,1,1032,{ bonus bMaxHPrate,10; bonus2 bSubRace,RC_DemiHuman,5; bonus2 bAddSize,Size_Medium,10; if(getrefine()>=12){ bonus bShortWeaponDamageReturn,5; } },{},{}
@@ -9965,7 +9965,7 @@
 19140,Squirrel_Ear_Hat,Squirrel Ear Hat,4,0,,200,,10,,1,0xFFFFFFFF,63,2,256,,100,1,1486,{ .@r = getrefine(); bonus bAspd,1; bonus bCriticalLong,5; bonus bCritAtkRate,10; bonus2 bIgnoreDefRaceRate,RC_All,10; if (.@r > 4) { bonus bAspd,1; bonus bCriticalLong,10; bonus bCritAtkRate,2; bonus2 bIgnoreDefRaceRate,RC_All,20; } if (.@r > 6) { bonus bAspd,1; bonus bCriticalLong,15; bonus bCritAtkRate,6; bonus2 bIgnoreDefRaceRate,RC_All,30; } if (.@r > 8) { bonus bAspd,1; bonus bCriticalLong,20; bonus bCritAtkRate,12; bonus2 bIgnoreDefRaceRate,RC_All,40; autobonus "{ bonus bCritAtkRate,100; }",70,5000; } },{},{}
 19141,Dolor_Thanatos_Mask,Dolor Thanatos Mask,4,20,,200,,6,,0,0xFFFFFFFF,63,2,513,,100,0,666,{ bonus bMdef,8; bonus bAllStats,1; bonus2 bSubRace,RC_DemiHuman,5; bonus2 bSubRace,RC_Player,1; bonus2 bSubEle,Ele_Fire,5; bonus2 bSubEle,Ele_Water,5; bonus2 bSubEle,Ele_Wind,5; bonus2 bSubEle,Ele_Earth,5; },{},{}
 19142,Drooping_Rebellion,Drooping Rebellion,4,20,,500,,1,,1,0xFFFFFFFF,63,2,256,,1,0,1444,{ bonus bLongAtkRate,10; },{},{}
-19143,Poring_Balloon,Poring Balloon,4,20,,10,,0,,0,0xFFFFFFFF,63,2,1,,1,0,1426,{ bonus2 bAddMonsterDropItem,909,2000; bonus2 bExpAddRace,RC_All,5; bonus2 bDropAddRace,RC_All,5; },{},{}
+19143,Poring_Balloon,Poring Balloon,4,20,,10,,0,,0,0xFFFFFFFF,63,2,1,,1,0,1426,{ bonus2 bAddMonsterDropItem,909,5000; bonus2 bExpAddRace,RC_All,5; bonus2 bDropAddRace,RC_All,5; },{},{}
 19144,Ferlock's_Hat,Ferlock's Hat,4,20,,1000,,1,,1,0xFFFFFFFF,63,2,256,,50,0,1489,{},{},{}
 19145,Whistle,Whistle,4,20,,10,,0,,0,0xFFFFFFFF,63,2,1,,1,0,1478,{ bonus bBaseAtk,10; bonus bMatk,10; bonus bHPGainValue,10; bonus bSPGainValue,3; },{},{}
 19146,Marin_Balloon,Marin Balloon,4,20,,10,,0,,0,0xFFFFFFFF,63,2,1,,1,0,1430,{ bonus4 bAutoSpellWhenHit,"WZ_QUAGMIRE",1,50,0; bonus2 bExpAddRace,RC_All,5; bonus2 bDropAddRace,RC_All,5; },{},{}
@@ -9986,7 +9986,7 @@
 19164,Para_Team_Hat100,Awakened Eden Group Hat I,4,20,,0,,10,,1,0xFFFFFFFF,63,2,256,,100,1,1529,{ autobonus "{ bonus bBaseAtk,15; }",70,5000,BF_WEAPON,"{ specialeffect2 EF_ENHANCE; }"; autobonus "{ bonus bMatk,15; }",50,5000,BF_MAGIC,"{ specialeffect2 EF_SPELLBREAKER; }"; .@r = getrefine(); if(.@r >= 7){ bonus bAtk,10; bonus bMatk,10; if(.@r >= 9){ bonus bAllStats,1; if(.@r >= 12){ bonus2 bRegenPercentSP,1,10000; } } } },{},{}
 19165,Para_Team_Hat160,Awakened Eden Group Hat II,4,20,,0,,10,,1,0xFFFFFFFF,63,2,256,,160,1,1530,{ autobonus "{ bonus bBaseAtk,30; }",70,5000,BF_WEAPON,"{ specialeffect2 EF_ENHANCE; }"; autobonus "{ bonus bMatk,30; }",50,5000,BF_MAGIC,"{ specialeffect2 EF_SPELLBREAKER; }"; .@r = getrefine(); if(.@r >= 7){ bonus bAtk,15; bonus bMatk,15; if(.@r >= 9){ bonus bAllStats,2; if(.@r >= 12){ bonus2 bRegenPercentHP,2,10000; bonus2 bRegenPercentSP,1,10000; } } } },{},{}
 19166,RO_Celebration_Hat,RO Celebration Hat,4,20,,140,,14,,1,0xFFFFFFFF,63,2,256,,14,1,1541,{ bonus bMaxSP,140; bonus2 bSPRegenRate,6,4000; },{},{}
-19168,Band_Of_Kafra_,Kafra Staff Headband,4,20,,500,,0,,1,0xFFFFFFFF,63,2,256,,,1,106,{ bonus2 bSubClass,Class_All,5; .@r = getrefine()*10; bonus2 bAddMonsterDropItem,23177,10+.@r; bonus2 bAddMonsterDropItem,7059,10+.@r; bonus2 bAddMonsterDropItem,7060,10+.@r; },{},{}
+19168,Band_Of_Kafra_,Kafra Staff Headband,4,20,,500,,0,,1,0xFFFFFFFF,63,2,256,,,1,106,{ bonus2 bSubClass,Class_All,5; .@r = getrefine()*10; bonus2 bAddMonsterDropItem,23177,1000+.@r; bonus2 bAddMonsterDropItem,7059,1000+.@r; bonus2 bAddMonsterDropItem,7060,1000+.@r; },{},{}
 19176,Fallen_Angel_Blessing_,Fallen Angel Blessing,4,20,,200,,1,,1,0xFFFFFFFF,63,2,512,,10,0,1250,{ bonus2 bAddRace,RC_Angel,5; bonus2 bSubRace,RC_Angel,5; },{},{}
 19177,Elemental_Crown_,Elemental Crown,4,0,,500,,10,,0,0xFFFFFFFF,63,2,256,,50,1,1219,{ .@r = getrefine(); bonus bDex,3 + (.@r/2); bonus bLongAtkRate,4; },{},{}
 19178,Elemental_Crown__,Elemental Crown,4,0,,500,,10,,1,0xFFFFFFFF,63,2,256,,50,1,1219,{ .@r = getrefine(); bonus bDex,3 + (.@r/2); bonus bLongAtkRate,4; },{},{}
@@ -10041,7 +10041,7 @@
 19539,C_Reginleif_Hairband,Costume Hairband Of Reginleif,4,20,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,0,468,{ bonus bAllStats,1; },{},{}
 19540,C_Rabbit_Earplug,Costume Rabbit Earplugs,4,20,,0,,0,,0,0xFFFFFFFF,63,2,7168,,1,0,515,{ bonus bAgi,1; bonus bFlee,2; },{},{}
 19541,C_Romantic_White_Flower,Costume Romantic White Flower,4,20,,0,,0,,0,0xFFFFFFFF,63,2,4096,,1,0,259,{ bonus bUnbreakableHelm; },{},{}
-19542,C_Devil_Whisper,Costume Devil Whisper,4,20,,0,,0,,0,0xFFFFFFFF,63,2,2048,,1,0,712,{ bonus bUnbreakableHelm; bonus2 bSubRace,RC_Angel,1; bonus2 bSubRace,RC_Demon,1; bonus3 bAddMonsterDropItem,12020,RC_Angel,400; bonus3 bAddMonsterDropItem,523,RC_Demon,400; },{},{}
+19542,C_Devil_Whisper,Costume Devil Whisper,4,20,,0,,0,,0,0xFFFFFFFF,63,2,2048,,1,0,712,{ bonus bUnbreakableHelm; bonus2 bSubRace,RC_Angel,1; bonus2 bSubRace,RC_Demon,1; bonus3 bAddMonsterDropItem,12020,RC_Angel,5000; bonus3 bAddMonsterDropItem,523,RC_Demon,5000; },{},{}
 19543,Oliver_Wolf_Hood,Oliver Wolf Hood,4,20,,300,,0,,0,0xFFFFFFFF,63,2,1024,,70,0,849,{ bonus bUnbreakableHelm; },{},{}
 19544,C_Tare_Neko_Cru,Costume Tare Neko Cru,4,20,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,0,692,{ bonus bUnbreakableHelm; },{},{}
 19545,C_Boys_Cap,Costume Boy's Cap,4,20,,100,,0,,0,0xFFFFFFFF,63,2,1024,,100,0,102,{ bonus bUnbreakableHelm; },{},{}
@@ -10298,7 +10298,7 @@
 19852,C_Galapago_Cap,Costume Galapago Cap,4,20,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,0,192,{},{},{}
 19853,C_Filir_Wing_Ears,Costume Filir Wings,4,20,,0,,0,,0,0xFFFFFFFF,63,2,2048,,1,0,595,{ bonus2 bExpAddClass,Class_All,5; },{},{}
 19854,C_Ear_Of_Black_Cat_,Costume Black Cat Ears,4,20,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,0,141,{},{},{}
-19856,C_Iceflake_Hat,Costume Snow Cone Hat,4,10,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,0,1080,{ bonus2 bAddEle,Ele_Fire,5; bonus2 bMagicAddEle,Ele_Fire,5; bonus2 bAddMonsterDropItem,11589,5; },{},{}
+19856,C_Iceflake_Hat,Costume Snow Cone Hat,4,10,,0,,0,,0,0xFFFFFFFF,63,2,1024,,1,0,1080,{ bonus2 bAddEle,Ele_Fire,5; bonus2 bMagicAddEle,Ele_Fire,5; bonus2 bAddMonsterDropItem,11589,5000; },{},{}
 19857,C_King_Prawn_Hat,Costume Crayfish Hat,4,10,,10,,0,,,0xFFFFFFFF,63,2,1024,,1,0,728,{},{},{}
 19858,C_Leaf_Headgear,Costume Smokie Leaf,4,20,,,,,,,0xFFFFFFFF,63,2,1024,,1,0,148,{},{},{}
 19859,C_Flying_Angel,Costume Flying Angel,4,20,,0,,0,,0,0xFFFFFFFF,63,2,1024,,0,0,264,{},{},{}
@@ -10413,10 +10413,10 @@
 20022,C_Love_Fragment,Costume Love Fragment,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,1,734,{},{},{}
 20023,C_Red_Beret,Costume Red Beret,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,559,{},{},{}
 20024,C_Orange_Ribbon,Costume Orange Ribbon,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,247,{},{},{}
-20025,C_Cow_Hat1,Costume Cow Hat 1,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1211,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,100; },{},{}
-20026,C_Cow_Hat2,Costume Cow Hat 2,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1212,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,100; },{},{}
-20027,C_Cow_Hat3,Costume Cow Hat 3,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1213,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,100; },{},{}
-20028,C_Cow_Hat4,Costume Cow Hat 4,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1214,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,100; },{},{}
+20025,C_Cow_Hat1,Costume Cow Hat 1,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1211,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,10000; },{},{}
+20026,C_Cow_Hat2,Costume Cow Hat 2,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1212,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,10000; },{},{}
+20027,C_Cow_Hat3,Costume Cow Hat 3,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1213,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,10000; },{},{}
+20028,C_Cow_Hat4,Costume Cow Hat 4,4,10,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1214,{ bonus bDex,2; bonus2 bAddMonsterDropItem,519,10000; },{},{}
 20029,C_Donut_in_Mouth,Costume Donut in Mouth,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,1,569,{},{},{}
 20030,C_Choco_Donut_in_Mouth,Costume Choco Donut in Mouth,4,0,,0,,,,0,0xFFFFFFFF,63,2,4096,,1,1,653,{},{},{}
 20031,C_Bunny_Head_Dress,Costume Bunny Headress,4,0,,0,,,,0,0xFFFFFFFF,63,2,1024,,1,1,1215,{},{},{}

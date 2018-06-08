@@ -1,4 +1,4 @@
-prontera,147,230,5	script	Cashpoints Trader	493,{
+prontera,164,168,4	script	Cashpoints Trader	493,{
 
 	if (ZENY < 1000000) {
 		mes "[ Cashpoints Trader ]";
@@ -20,7 +20,7 @@ prontera,147,230,5	script	Cashpoints Trader	493,{
         close;
     }
 	
-	if (.@amount > 1000000) {
+	if (.@amount > 1000) {
 		mes "[ Cashpoints Trader ]";
         mes "This is serious! Please don't joking!!";
         close;

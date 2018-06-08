@@ -60,6 +60,7 @@
 6,12211,1		// Kafra Card
 
 // Other
+7,6635,1		// Blacksmith Blessing
 7,7620,2		// Enrich Oridedon
 7,7619,2		// Enrich Elunium
 7,6240,4		// HD Oridedon
