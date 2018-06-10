@@ -5,3 +5,14 @@
 //
 // The MobID*, NameID*, and Rate* reflect special values for quests that can drop an item at given rate from given mob.
 // If no MobID* is given, then any mob has a chance to drop the given ItemID*.
+
+7568,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Explore the tower"
+7569,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Treat the injured"
+7570,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Destroy the demons!"
+7571,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Tower Expedition"
+7572,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Lucile...?"
+7573,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Magic Swordman Thanatos"
+7574,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Thanatos Tower"
+7575,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Evil followers"
+7576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Morocc castle seal"
+7577,82800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Space distortion"

@@ -173,7 +173,7 @@
 4125	//Deviace_Card
 4126	//Minorous_Card
 4127	//Nightmare_Card
-4128	//Golden_Bug_Card
+4128  // Golden_Bug_Card
 4129	//Baphomet__Card
 4130	//Scorpion_King_Card
 4131	//Moonlight_Flower_Card
