@@ -16,16 +16,6 @@
 //============================================================================
 
 prontera,147,193,7	script	PvP Warper	635,{
-
-	if (countitem (7621) >= 1){ // Token Check
-        mes "[PvP Warper]";
-        mes "^FF0000Token of Siegfried^000000 is prohibited to bring in PVP Arena!!";
-		next;
-		mes "[PvP Warper]";
-		mes "Please save in your storage!";
-		callfunc "F_KafStor",2,0,0;
-		close;
-		}
 		
 	Player_Menu:	
 	query_sql("SELECT COUNT(char_id) FROM `char` LEFT JOIN `login` ON `char`.account_id=login.account_id WHERE online AND last_ip = (SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+")",.@count);
