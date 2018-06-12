@@ -17,28 +17,6 @@
 
 prontera,147,193,7	script	PvP Warper	635,{
 	
-	
-	/*// Old Token Check
-	if (countitem (7621) >= 1){ // Token Check
-        mes "[PvP Warper]";
-        mes "^FF0000Token of Siegfried^000000 is prohibited to bring in PVP Arena!!";
-		next;
-		mes "[PvP Warper]";
-		mes "Please save in your storage!";
-		callfunc "F_KafStor",2,0,0;
-		close;
-		}*/
-	// Auto-Kick When Died!
-	OnPCDieEvent:
-		if (countitem (7621) >= 1){
-		setarray .map$,"izlude_pvp";
-		getmapxy(@map$, @xb, @yb, 0 );
-        if (@map$ == .map$) {
-		announce "[ PVP WARNING ] : You've killed and warping to savepoint. Please store Token of Siegfried if you want to continue stay dead in PVP Arena next time~", bc_self;
-		warp "SavePoint",0,0;
-			}
-		}
-		
 	Player_Menu:	
 	query_sql("SELECT COUNT(char_id) FROM `char` LEFT JOIN `login` ON `char`.account_id=login.account_id WHERE online AND last_ip = (SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+")",.@count);
 	
@@ -584,7 +562,21 @@ prontera,147,156,5	script	PVP Rank	645,{
 				break;
 		}
 	}
+	
+	OnPCDieEvent:
+		if (countitem (7621) >= 1){
+			
+		set .map$,"izlude_pvp";
+		getmapxy(@map$, @xb, @yb, 0 );
+        if (@map$ == "izlude_pvp") {
+		announce "[ PVP WARNING ] : You've killed and warping to savepoint. Please store Token of Siegfried if you want to continue stay dead in PVP Arena next time~", bc_self;
+		warp "SavePoint",0,0;
+			}
+		}
+	end;
+	
 }
+
 
 izlude_pvp	mapflag	nosave	SavePoint
 izlude_pvp	mapflag	pvp
