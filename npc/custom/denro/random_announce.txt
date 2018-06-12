@@ -1,0 +1,14 @@
+-	script	News	-1,{
+OnInit:
+set .Time,60;		// Announce every x Minute.
+
+setarray .News$[0],	// Random Message to be Announced
+		"Den RO : Join our Official Discord Server at http://denro.my/discord",
+		"Den RO : We're currently hold an BETA EVENT, please visit http://denro.my/event for more information.";
+		
+while( 1 ){
+	announce .News$[ rand( getarraysize( .News$ ) ) ],0;
+	sleep ( .Time * 60000 );
+	}
+end;
+}

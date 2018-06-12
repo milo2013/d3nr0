@@ -16,7 +16,9 @@
 //============================================================================
 
 prontera,147,193,7	script	PvP Warper	635,{
-
+	
+	
+	/*// Old Token Check
 	if (countitem (7621) >= 1){ // Token Check
         mes "[PvP Warper]";
         mes "^FF0000Token of Siegfried^000000 is prohibited to bring in PVP Arena!!";
@@ -25,27 +27,30 @@ prontera,147,193,7	script	PvP Warper	635,{
 		mes "Please save in your storage!";
 		callfunc "F_KafStor",2,0,0;
 		close;
+		}*/
+	// Auto-Kick When Died!
+	OnPCDieEvent:
+		if (countitem (7621) >= 1){
+		setarray .map$,"izlude_pvp";
+		getmapxy(@map$, @xb, @yb, 0 );
+        if (@map$ == .map$) {
+		announce "[ PVP WARNING ] : You've killed and warping to savepoint. Please store Token of Siegfried if you want to continue stay dead in PVP Arena next time~", bc_self;
+		warp "SavePoint",0,0;
+			}
 		}
 		
 	Player_Menu:	
 	query_sql("SELECT COUNT(char_id) FROM `char` LEFT JOIN `login` ON `char`.account_id=login.account_id WHERE online AND last_ip = (SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+")",.@count);
-	query_sql("SELECT COUNT(char_id) FROM `char` LEFT JOIN `login` ON `char`.account_id=login.account_id WHERE online AND last_unique_id = (SELECT `last_unique_id` FROM `login` WHERE `account_id` = "+getcharid(3)+")",.@mac);
-	if( ( (.@count) > 1 ) && ((.@mac) > 1) ) {
-			
+	
+	if	( (.@count) > 1 ){
+	
 	// IP Address 
 	query_sql("SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+" ",.IP$);
 	
-	// MAC Address
-	query_sql("SELECT `last_unique_id` FROM `login` WHERE `account_id` = "+getcharid(3)+" ",.macID$);
-	
 	mes "[PVP Officer]";
-	mes "It's seem you have more than 1 client online!";
+	mes "It's seem you have more than 1 client online in PVP Arena!";
 	mes "^FF0000"+(.@count)+"^000000 of ^FF0000"+(.IP$)+"^000000 IP Address.";
-	mes "^FF0000"+(.@mac)+"^000000 of ^FF0000"+(.macID$)+"^000000 MAC Adress.";
-	next;
-	mes "[PVP Officer]";
-	mes "Please make sure only 1 running to enter this PVP!";
-	close;
+	atcommand "@kick " + strcharinfo(0);
 	end;
 	}
 	

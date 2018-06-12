@@ -281,3 +281,6 @@
 20703,8175	// TE_Woe_Manteau
 20704,8175	// TE_Woe_Magic_Manteau
 21006,8175	// TE_Woe_Two_Hand_Sword
+
+// DenRO Custom
+7621,2		// Token of Siegfried

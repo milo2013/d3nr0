@@ -1,0 +1,12 @@
+prontera,164,156,7	script	Discord Channel	75,{
+
+mes " [ Den RO ] ";
+mes "===================================";
+mes "Visit our official Discord Channel to connect with other players!";
+mes "<URL>http://denro.my/discord/<INFO>http://denro.my/discord/</INFO></URL>";
+mes "===================================";
+mes "Latest Events to join!";
+mes "<URL>http://denro.my/event/<INFO>http://denro.my/event/</INFO></URL>";
+mes "===================================";
+close;
+}
