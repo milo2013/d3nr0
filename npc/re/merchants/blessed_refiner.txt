@@ -21,7 +21,8 @@
 	mes "I only refine equipment at the +6 ~ 12 levels.";
 	next;
 	mes "[Blacksmith Dister]";
-	mes "I will need ^ff9999Blessed Weapon Ore^000000 for weapons, and ^ff9999Blessed Armor Ore^000000 for armors.";
+	//mes "I will need ^ff9999Blessed Weapon Ore^000000 for weapons, and ^ff9999Blessed Armor Ore^000000 for armors.";
+	mes "I will need ^ff9999Blacksmith Blessing^000000 for weapons and armors.";
 	mes "Failed refines ^FF0000will not break or reduce the refine level^000000.";
 	next;
 	mes "[Blacksmith Dister]";
@@ -79,31 +80,37 @@
 	default:
 	case 0:
 		set .@price,20000;
-		set .@material,6439; //Unbreakable_Def
+		//set .@material,6439; //Unbreakable_Def
+		set .@material,6635; //Blacksmith Blessing
 		set .@type$,"Armor";
 		break;
 	case 1:
 		set .@price,1000;
-		set .@material,6438; //Unbreakable_Weap
+		//set .@material,6438; //Unbreakable_Weap
+		set .@material,6635; //Blacksmith Blessing
 		set .@type$,"Weapon";
 		break;
 	case 2:
 		set .@price,2000;
-		set .@material,6438; //Unbreakable_Weap
+		//set .@material,6438; //Unbreakable_Weap
+		set .@material,6635; //Blacksmith Blessing
 		set .@type$,"Weapon";
 		break;
 	case 3:
 		set .@price,20000;
-		set .@material,6438; //Unbreakable_Weap
+		//set .@material,6438; //Unbreakable_Weap
+		set .@material,6635; //Blacksmith Blessing
 		set .@type$,"Weapon";
 		break;
 	case 4:
 		set .@price,40000;
-		set .@material,6438; //Unbreakable_Weap
+		//set .@material,6438; //Unbreakable_Weap
+		set .@material,6635; //Blacksmith Blessing
 		set .@type$,"Weapon";
 		break;
 	}
-	set .@ore$,"^ff9999Blessed "+.@type$+" Ore^000000";
+	//set .@ore$,"^ff9999Blessed "+.@type$+" Ore^000000";
+	set .@ore$,"^ff9999Blacksmith Blessing^000000";
 	mes "[Blacksmith Dister]";
 	mes "This "+.@type$+" has been refined to "+.@equip_refine+". To refine it, I need "+.@ore$+" and a "+callfunc("F_InsertComma",.@price)+" zeny refining fee.";
 	mes "Do you want to proceed?";
@@ -161,7 +168,7 @@
 	mes "My mood is worse when I fail!!";
 	close;
 }
-prt_in,52,56,3	duplicate(BlacksmithDister)	Blacksmith Dister#prt	826
+prt_in,52,56,5	duplicate(BlacksmithDister)	Blacksmith Dister#prt	826
 payon,148,172,3	duplicate(BlacksmithDister)	Blacksmith Dister#pay	826
 alberta_in,20,56,3	duplicate(BlacksmithDister)	Blacksmith Dister#alb	826
 yuno_in01,175,18,3	duplicate(BlacksmithDister)	Blacksmith Dister#yuno	826
