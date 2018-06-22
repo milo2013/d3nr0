@@ -28,3 +28,26 @@
 //   for different monsters, override drop rate with Ratio=100 and edit
 //   base drop rates in mob_db.
 // - This file is reloaded by @reloadmobdb.
+
+// Deleter 20% setting 2223
+// sollider 20% setting 2500
+
+2899,200 		// 	Sound Amplication Device 		[/]
+15126,100 		//	Doram Suits [1]					[/]
+20788,100		//	Doram Manteau [1]				[/]
+22083,100		//	Doram Shoes [1]					[/]
+15129,100		//	Luxurious Doram Suit [1]		[/]
+20789,100		//  Luxurious Doram Manteau [1]		[/]
+22084,100		//	Luxurious Doram Shoes [1]		[/]
+15156,100		//	Elegant Doram Suit [1]			[/]
+20790,100		//	Elegant Doram Manteau [1]		[/]
+22085,100		//	Elegant Doram Shoes [1]			[/]
+1695,100		//	Fine Foxtail Replica [2]
+1691,100		//	Wondrous Foxtail Staff [2]
+1696,100		//	Elaborate Foxtail Replica [2]
+1692,100		//	Magic Foxtail Staff [2]
+1697,100		//	Elaborate Yellow Foxtail Replica [1]
+1693,100		//	Magic Yellow Foxtail Staff [1]
+28380,100		//	Fresh Grass Necklace [1]
+28381,100		//	Cute Grass Necklace [1]
+28382,100		//	Charming Grass Necklace [1]
