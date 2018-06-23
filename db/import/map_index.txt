@@ -16,3 +16,6 @@
 //
 //mymap	1250
 //mymap-2
+
+// Den RO Custom Map
+izlude_pvp

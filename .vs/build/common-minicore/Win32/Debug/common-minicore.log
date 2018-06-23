@@ -1,19 +1,17 @@
-﻿  utils.c
-  strlib.c
-  showmsg.c
-  random.c
-  raconf.c
-  nullpo.c
-  msg_conf.c
-  md5calc.c
-  mapindex.c
-  malloc.c
-  grfio.c
-  des.c
-  conf.c
-  cli.c
-  Generating Code...
-  winapi.cpp
+﻿  winapi.cpp
+  utils.cpp
+  strlib.cpp
+  showmsg.cpp
+  random.cpp
+  nullpo.cpp
+  msg_conf.cpp
+  md5calc.cpp
+  mapindex.cpp
+  malloc.cpp
+  grfio.cpp
+  des.cpp
   core.cpp
+  conf.cpp
+  cli.cpp
   Generating Code...
   common-minicore.vcxproj -> C:\Users\Incik Rakuzas\Documents\d3nr0\.vs\build\common-minicore.lib

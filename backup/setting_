@@ -1,0 +1,41 @@
+src\config\core.hpp
+
+/// Uncomment to enable the job base HP/SP table (job_basehpsp_db.txt)
+#define HP_SP_TABLES
+
+/// Uncomment to enable VIP system.
+#define VIP_ENABLE
+
+/// Enable VIP script changes? (requires VIP_ENABLE)
+/// The primary effects of this are restrictions on non-VIP players, such as requiring
+/// a Reset Stone to change into third classes, paying more for equipment upgrades, and
+/// so forth. Note that the changes are based on euRO, not iRO.
+#define VIP_SCRIPT 0
+
+#ifdef VIP_ENABLE
+	#define MIN_STORAGE 600 // Default number of storage slots.
+	#define MIN_CHARS 9 // Default number of characters per account.
+	#define MAX_CHAR_VIP 6 // This must be less than MAX_CHARS
+	#define MAX_CHAR_BILLING 0 // This must be less than MAX_CHARS
+#endif
+
+=======================================================
+src\common\mmo.hpp
+
+#ifndef MAX_CHARS
+	#if PACKETVER >= 20180124
+		#define MAX_CHARS 15
+	#elif PACKETVER >= 20100413
+		#define MAX_CHARS 15
+	#else
+		#define MAX_CHARS 15
+	#endif
+#endif
+
+#define MAX_STORAGE 900 ///Max number of storage slots a player can have
+
+=======================================================
+src\custom\defines_pre.hpp
+
+#define PACKETVER 20170614
+//#define PACKETVER 20170920
