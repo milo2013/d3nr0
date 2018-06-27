@@ -715,11 +715,11 @@
 6415,507,100	// Strange_Embryo
 6416,499,100	// Pet_Exchange
 6417,475,100	// Silvervine
-6418,499,100	// Agrade_Coin
-6419,499,100	// Bgrade_Coin
-6420,499,100	// Cgrade_Coin
-6421,499,100	// Dgrade_Coin
-6422,499,100	// Egrade_Coin
+6418,401,100	// Agrade_Coin
+6419,401,100	// Bgrade_Coin
+6420,401,100	// Cgrade_Coin
+6421,401,100	// Dgrade_Coin
+6422,401,100	// Egrade_Coin
 6424,499,100	// Halloween_Fragment
 6425,499,100	// Halloween_Certificate
 6426,499,100	// Bad_Can
