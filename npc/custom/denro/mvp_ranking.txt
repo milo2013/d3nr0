@@ -40,11 +40,11 @@ if ( getmonsterinfo( killedrid, MOB_MVPEXP )) {
 					}
 				}
 				if (rand(100) < .chance) getitem .p_rwd[0], .p_rwd[1], .@partymemberaid[ rand( .@c ) ];
-				announce "[ System ] : Player ["+ strcharinfo(0) +"] of party ["+ strcharinfo(1) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" at "+ strcharinfo(3), bc_all;
+				//announce "[ System ] : Player ["+ strcharinfo(0) +"] of party ["+ strcharinfo(1) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" at "+ strcharinfo(3), bc_all;
 			}
 			else {
 				if (rand(100) < .chance) getitem .s_rwd[0], .s_rwd[1];
-				announce "[ System ] : Player ["+ strcharinfo(0) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" alone at "+ strcharinfo(3), bc_all;
+				//announce "[ System ] : Player ["+ strcharinfo(0) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" alone at "+ strcharinfo(3), bc_all;
 			}
 		MVPKills = MVPKills+1;
 		dispbottom "---------------------------------------------------";
@@ -54,10 +54,10 @@ if ( getmonsterinfo( killedrid, MOB_MVPEXP )) {
 		}
 	}
 	if ( getcharid(1) ) {
-		announce "[ System ] : Player ["+ strcharinfo(0) +"] of party ["+ strcharinfo(1) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" at "+ strcharinfo(3), bc_all;
+		//announce "[ System ] : Player ["+ strcharinfo(0) +"] of party ["+ strcharinfo(1) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" at "+ strcharinfo(3), bc_all;
 		} 
 		else {
-		announce "[ System ] : Player ["+ strcharinfo(0) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" alone at "+ strcharinfo(3), bc_all;
+		//announce "[ System ] : Player ["+ strcharinfo(0) +"] has killed "+ getmonsterinfo( killedrid, MOB_NAME ) +" alone at "+ strcharinfo(3), bc_all;
 		}
 	end;
 	}

@@ -18,7 +18,7 @@
 	disable_items;
 	mes "[Blacksmith Dister]";
 	mes "In this highly competitive society, we must be different in order to survive!";
-	mes "I only refine equipment at the +6 ~ 12 levels.";
+	mes "I only refine equipment at the +7 ~ 9 levels.";
 	next;
 	mes "[Blacksmith Dister]";
 	//mes "I will need ^ff9999Blessed Weapon Ore^000000 for weapons, and ^ff9999Blessed Armor Ore^000000 for armors.";
@@ -70,9 +70,9 @@
 		close;
 	}
 	set .@equip_refine, getequiprefinerycnt(.@part);
-	if (.@equip_refine < 6 || .@equip_refine > 12) {
+	if (.@equip_refine < 6 || .@equip_refine > 8) {
 		mes "[Blacksmith Dister]";
-		mes "This equipment has refined to "+.@equip_refine+". I only handle items with refine levels from +6 to +12!";
+		mes "This equipment has refined to "+.@equip_refine+". I only handle items with refine levels from +6 to +9!";
 		close;
 	}
 	set .@equip_lv, getequipweaponlv(.@part);
