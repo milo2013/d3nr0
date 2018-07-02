@@ -9,7 +9,7 @@ glast_01,210,273,5	script	Hugin's Buttler	69,{
 	mes "[Hugin's Buttler]";
 	mes "Bring Temporal Crystal items for various Temporal boots items. Pick something you want.";
 	next;
-	switch (select("Cancel","Buy Temporal Boots (Need 1 Temporal Crystal)","Upgrade Temporal Boots (Need 5 Temporal Crystals)")) {
+	switch (select("Cancel","Buy Temporal Boots (Need 1 Time Crystal)","Upgrade Temporal Boots (Need 5 Temporal Crystals)","Upgrade Modified Boots (Need 5 Time Crystals)" )) {
 	case 1:
 		mes "[Hugin's Buttler]";
 		mes "Come back whenever you want.";
@@ -18,64 +18,72 @@ glast_01,210,273,5	script	Hugin's Buttler	69,{
 		if (countitem(6607) > 0) {
 			mes "[Hugin's Buttler]";
 			mes "Take these Temporal Boots. We can upgrade your Temporal Boots with 5 Temporal Crystals.";
-			delitem 6607,1; //Temporal_Crystal
-			getitem 2499,1; //Temporal_Boots
+			delitem 6607,1;// Temporal_Crystal
+			getitem 2499,1;// Temporal_Boots
 			close;
 		}
 		mes "[Hugin's Buttler]";
 		mes "You need more Temporal Crystals. Come back when you get some more Temporal Crystals during your travel through Old Glast Heim.";
 		close;
 	case 3:
-		set .@part,EQI_SHOES;
-		if (!getequipisequiped(.@part)) {
-			mes "[Hugin's Buttler]";
-			mes "Only the item you are wearing can be upgraded.";
-			mes "Wear the ^0000FFTemporal Boots^000000 you want to upgrade, and then talk to me once again.";
-			close;
-		}
-		if (isequipped(2499)) {
-			if (countitem(6607) > 4) {
-				mes "[Hugin's Buttler]";
-				mes "You can trade ^0000FF1 Temporal Boots and 5 Temporal Crystals^000000 for 1 of the following items. ^FF0000Previous refine rate will not be retained with these new ones^000000.";
-				next;
-				setarray .@type$[0],"Strength","Intelligence","Agility","Vitality","Dexterity","Lucky";
-				setarray .@equip_type[0],22000,22001,22002,22003,22004,22005;
-				set .@select,select("Cancel","Str Boots","Int Boots","Agi Boots","Vit Boots","Dex Boots","Luk Boots");
-				switch (.@select) {
-				case 1:
-					mes "[Hugin's Buttler]";
-					mes "Come back anytime you want.";
-					close;
-				case 2:
-				case 3:
-				case 4:
-				case 5:
-				case 6:
-				case 7:
-					mes "[Hugin's Buttler]";
-					mes "Are you sure about buying Temporal ^FF0000"+.@type$[.@select-2]+"^000000 Boots? There's no refunds.";
-					next;
-					if (select("Think again","Yes, I am sure.") == 2) {
-						mes "[Hugin's Buttler]";
-						mes "The boots have been upgraded as you want.";
-						delequip .@part;
-						delitem 6607,5; //Temporal_Crystal
-						getitem .@equip_type[.@select-2],1; //Temporal_Str_Boots,Temporal_Int_Boots,Temporal_Agi_Boots,Temporal_Vit_Boots,Temporal_Dex_Boots,Temporal_Luk_Boots
-						close;
-					}
-					mes "[Hugin's Buttler]";
-					mes "Ok, come back again when you are sure.";
-					close;
-				}
-			}
-			mes "[Hugin's Buttler]";
-			mes "Not enough Temporal Crystals. You need 5 Temporal Crystals to upgrade your item.";
-			close;
-		}
+		setarray .@equip_type[0],
+			22000,	// Temporal_STR_Boots
+			22001,	// Temporal_INT_Boots
+			22002,	// Temporal_AGI_Boots
+			22003,	// Temporal_VIT_Boots
+			22004,	// Temporal_DEX_Boots
+			22005;	// Temporal_LUK_Boots
+		break;
+	case 4:
+		setarray .@equip_type[0],
+			22107,	// Modified_STR_Boots
+			22108,	// Modified_INT_Boots
+			22109,	// Modified_AGI_Boots
+			22110,	// Modified_VIT_Boots
+			22111,	// Modified_DEX_Boots
+			22112;	// Modified_LUK_Boots
+		break;
+	}
+	if (!getequipisequiped(EQI_SHOES)) {
+		mes "[Hugin's Buttler]";
+		mes "Only the item you are wearing can be upgraded.";
+		mes "Wear the ^0000FFTemporal Boots^000000 you want to upgrade, and then talk to me once again.";
+		close;
+	}
+	if (getequipid(EQI_SHOES) != 2499) {
 		mes "[Hugin's Buttler]";
 		mes "You are not wearing the Temporal Boots. Talk to me once you're wearing them.";
 		close;
 	}
+	if (countitem(6607) < 5) {
+		mes "[Hugin's Buttler]";
+		mes "Not enough Temporal Crystals. You need 5 Temporal Crystals to upgrade your item.";
+		close;
+	}
+	mes "[Hugin's Buttler]";
+	mes "You can trade ^0000FF1 Temporal Boots and 5 Temporal Crystals^000000 for 1 of the following items. ^FF0000Previous refine rate will not be retained with these new ones^000000.";
+	next;
+	.@s = select( "Cancel", "Str Boots", "Int Boots", "Agi Boots", "Vit Boots", "Dex Boots", "Luk Boots" ) - 2;
+	if (.@s == -1) {
+		mes "[Hugin's Buttler]";
+		mes "Come back anytime you want.";
+		close;
+	}
+	setarray .@type$[0], "Strength", "Intelligence", "Agility", "Vitality", "Dexterity", "Lucky";
+	mes "[Hugin's Buttler]";
+	mes "Are you sure about buying Temporal ^FF0000" + .@type$[.@s] + "^000000 Boots? There's no refunds.";
+	next;
+	if (select( "Think again", "Yes, I am sure." ) == 1) {
+		mes "[Hugin's Buttler]";
+		mes "Ok, come back again when you are sure.";
+		close;
+	}
+	mes "[Hugin's Buttler]";
+	mes "The boots have been upgraded as you want.";
+	delequip EQI_SHOES;
+	delitem 6607,5;// Temporal_Crystal
+	getitem .@equip_type[.@s],1;
+	close;
 }
 
 // Enchant and Socket NPC
@@ -129,11 +137,13 @@ glast_01,212,273,4	script	Hugin's Magic Master	66,{
 	set .@equip_id,getequipid(.@part);
 	set .@equip_name$,getequipname(.@part);
 	set .@card3,getequipcardid(.@part,3);
+	
 	setarray .@enchant1st[0],4808,4832,4814,4741,4869,4752; //Fighting_Spirit4,Expert_Archer1,Spell2,Vitality2,DelayafterAttack1Lv,Luck3
 	setarray .@enchant2nd[0],4820,4833,4813,4742,4872,4753; //Fighting_Spirit5,Expert_Archer2,Spell3,Vitality3,DelayafterAttack2Lv,Luck4
 	setarray .@enchant3rd[0],4821,4834,4812,4861,4873,4754; //Fighting_Spirit6,Expert_Archer3,Spell4,MHP1,DelayafterAttack3Lv,Luck5
 	setarray .@enchant4th[0],4822,4835,4826,4862,4881,4755; //Fighting_Spirit7,Expert_Archer4,Spell5,MHP2,DelayafterAttack4Lv,Luck6
 	setarray .@enchant_cost[0],1,4,15,30,10;
+	
 	switch (.@equip_id) {
 	case 22000: //Temporal_Str_Boots
 	case 22001: //Temporal_Int_Boots
@@ -141,6 +151,14 @@ glast_01,212,273,4	script	Hugin's Magic Master	66,{
 	case 22003: //Temporal_Vit_Boots
 	case 22004: //Temporal_Dex_Boots
 	case 22005: //Temporal_Luk_Boots
+	
+	case 22107:	// Modified_STR_Boots
+	case 22108:	// Modified_INT_Boots
+	case 22109:	// Modified_AGI_Boots
+	case 22110:	// Modified_VIT_Boots
+	case 22111:	// Modified_DEX_Boots
+	case 22112:	// Modified_LUK_Boots
+	
 		if (!.@card3) { //4th slot 1st try enchanting
 			set .@cost,.@enchant_cost[0];
 			set .@number,1;
@@ -297,6 +315,12 @@ glast_01,212,273,4	script	Hugin's Magic Master	66,{
 		mes "Remember, only those 6 types of Temporal Boots are available for enchanting.";
 		close;
 	}
+	
+	if (countitem(6608) < .@cost) {
+			mes "[Hugin's Magic Master]";
+			mes "Hmm, you are missing " + (.@cost - countitem(6608)) + " Coagulated Spell items. Go get more, and then we can talk about more enchants.";
+			close;
+		}
 	specialeffect2 EF_REPAIRWEAPON;
 	set .@equip_refine,getequiprefinerycnt(.@part);
 	delitem 6608,.@cost; //Coagulated_Spell
@@ -344,6 +368,14 @@ glast_01,210,270,8	script	Hugin's Craftsman	726,{
 	case 22003: //Temporal_Vit_Boots
 	case 22004: //Temporal_Dex_Boots
 	case 22005: //Temporal_Luk_Boots
+	
+	case 22107:	// Modified_STR_Boots
+	case 22108:	// Modified_INT_Boots
+	case 22109:	// Modified_AGI_Boots
+	case 22110:	// Modified_VIT_Boots
+	case 22111:	// Modified_DEX_Boots
+	case 22112:	// Modified_LUK_Boot
+	
 		mes "[Hugin's Craftsman]";
 		mes "And ^FF0000all enchant or refine rates will be lost if you fail this.^000000";
 		mes "Still want to risk it?";
@@ -367,7 +399,7 @@ glast_01,210,270,8	script	Hugin's Craftsman	726,{
 			mes "You must bring ^0000FF5 Temporal Crystal items^000000. Nothing is free you know...";
 			close;
 		}
-		set .@random,rand(100,100);
+		/*set .@random,rand(100,100);
 		if (.@random <= 80) { //Custom rates
 			mes "[Hugin's Craftsman]";
 			mes "Arrggg, we failed. Better luck next time.";
@@ -375,7 +407,7 @@ glast_01,210,270,8	script	Hugin's Craftsman	726,{
 			delitem 6607,5; //Temporal_Crystal
 			delequip .@part;
 			close;
-		}
+		*/}
 		
 		// Magic Copy
 	
@@ -404,12 +436,26 @@ glast_01,210,270,8	script	Hugin's Craftsman	726,{
 			getitem2 22008,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; //Temporal_Dex_Boots_
 		} else if (.@equip_id == 22005) {
 			getitem2 22011,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; //Temporal_Luk_Boots_
+		} else if (.@equip_id == 22107) {
+			getitem2 22113,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; // Modified_STR_Boots_
+		} else if (.@equip_id == 22108) {
+			getitem2 22114,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; // Modified_INT_Boots_
+		} else if (.@equip_id == 22109) {
+			getitem2 22115,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; // Modified_AGI_Boots_
+		} else if (.@equip_id == 22110) {
+			getitem2 22116,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; // Modified_VIT_Boots_
+		} else if (.@equip_id == 22111) {
+			getitem2 22117,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; // Modified_DEX_Boots_
+		} else if (.@equip_id == 22112) {
+			getitem2 22118,1,1,.@equip_refine,0,0,0,.@enchant,.@card3; // Modified_LUK_Boots_
 		}
 		close;
+	/*
 	default:
 		mes "[Hugin's Craftsman]";
 		mes "This is not it! We need ^0000FFAdvanced Temporal Boots^000000 items! The item ^0000FFwith a stat effect and without a slot^000000!";
 		close;
 	}
+	*/
 }
 

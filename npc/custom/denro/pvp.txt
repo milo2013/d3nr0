@@ -300,16 +300,16 @@ OnPCKillEvent:
 	if ( .@dota_multikills == 2 ) {
 		if ( .announce ) mapannounce .@map$, strcharinfo(0) +" just got a Double Kill !",16;
 		else announce strcharinfo(0) +" just got a Double Kill !",16;
-		if ( .sound == 1 ) soundeffectall "doublekill.wav",0,.@map$;
-		else if ( .sound == 2 ) soundeffectall "doublekill.wav",0;
-		else if ( .sound == 3 ) soundeffect "doublekill.wav",0;
+		if ( .sound == 1 ) soundeffectall "Double_Kill.wav",0,.@map$;
+		else if ( .sound == 2 ) soundeffectall "Double_Kil..wav",0;
+		else if ( .sound == 3 ) soundeffect "Double_Kill.wav",0;
 	}
 	else if ( .@dota_multikills == 3 ) {
 		if ( .announce ) mapannounce .@map$, strcharinfo(0) +" just got a Triple Kill !!!",16;
 		else announce strcharinfo(0) +" just got a Triple Kill !!!",16;
-		if ( .sound == 1 ) soundeffectall "triplekill.wav",0,.@map$;
-		else if ( .sound == 2 ) soundeffectall "triplekill.wav",0;
-		else if ( .sound == 3 ) soundeffect "triplekill.wav",0;
+		if ( .sound == 1 ) soundeffectall "triple_kill.wav",0,.@map$;
+		else if ( .sound == 2 ) soundeffectall "triple_kill.wav",0;
+		else if ( .sound == 3 ) soundeffect "triple_kill.wav",0;
 	}
 	else if ( .@dota_multikills == 4 ) {
 		if ( .announce ) mapannounce .@map$, strcharinfo(0) +" just got a Ultra Kill !!!",16;
