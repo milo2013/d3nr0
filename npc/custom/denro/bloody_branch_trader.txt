@@ -1,0 +1,40 @@
+prt_fild08,180,377,5	script	Bloody Bob	796,{
+
+//	Setting
+set .@iChange, 604;	// Dead branch
+set .@iAmount, 500;	// Amount to trade
+  
+mes " [ Bloody Bob ] ";
+mes "I craft Bloody Branch for every soul you kill,";
+mes "prove me you are worthy.";
+next;
+mes " [ Bloody Bob ] ";
+mes "for this season, bring me : ";
+mes "^FF0000 "+(.@iAmount)+" -  "+(getitemname(.@iChange))+" ^000000";
+next;
+if (select("Trade:Cancel") - 1) close;
+
+if (countitem (.@iChange) < 500){
+	mes " [ Bloody Bob ] ";
+	mes "Did you count correctly?";
+	close;
+	}
+
+if (countitem (.@iChange) >= 500){
+	mes " [ Bloody Bob ] ";
+	mes "Take this Bloody Branch!";
+	close2;
+	delitem .@iChange,500;
+	getitem 12103,1; // Bloody Branch
+	}
+}
+	
+	
+	
+// List Double Spawn Mobs
+pay_fild07,0,0	monster	Elder Willow	1033,70
+pay_fild09,0,0	monster	Elder Willow	1033,140,5000
+prt_fild10,0,0	monster	Elder Willow	1033,140,5000
+gef_fild02,0,0	monster	Elder Willow	1033,20,5000
+mjolnir_02,0,0	monster	Elder Willow	1033,20,5000
+moc_fild03,0,0	monster	Elder Willow	1033,70

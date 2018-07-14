@@ -1,0 +1,22 @@
+prontera,147,173,5	script	Freebies	626,{
+
+	// IP Address Check
+	query_sql("SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+" ",.IP$);
+	
+	if (.IP$ == $IP_Claimed$){
+	mes "[ Freebies ]";
+	mes "You already claimed with this IP!!";
+	close;
+	}
+	
+	mes "[ Freebies ]";
+	mes "Have a nice day~";
+	close2;
+	query_sql("SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+" ",$IP_Claimed$);
+	getitem 14545,5; 	// Field Battle Manual X3  - 5
+	getitem 17229,1; 	// Infinite Flywing Box
+	getitem 16682,1; 	// Halter Lead - 7 days
+	getitem 12914,1;	// Agi Scroll Box
+	getitem	12913,1;	// Bless Scroll Box 
+	
+}

@@ -128,8 +128,8 @@ OnInit:
 	set .Wait,0;
 	set .Winner,0;
 	set .ResetCounter,0;
-	set .Rounds,10;
-	set .Prize,512;
+	set .Rounds,3;
+	set .Prize,41113;
 	set .PrizeAmt,1;
 	set .Rule,1;
 	setarray .MVP[0],1038,1039,1046,1059,1086,1087,1112,1115,1147,1150,1157,1159,1190,1251,1252,1272,1312,1373,
@@ -147,18 +147,8 @@ OnInit:
 	    "2100,2101,2012,2103,2104,2105,2106,2107,2108,2109,2110,2111,2112,2113," + 
 	    "2114,2115,2116,2117,2118,2119,2120,2121,2123,2124,2125,1496,";
 	end;
-OnClock0000:
-OnClock0200:
-OnClock0400:
-OnClock0600:
-OnClock0800:
-OnClock1000:
-OnClock1200:
-OnClock1400:
-OnClock1600:
-OnClock1800:
-OnClock2000:
-OnClock2200:
+OnClock1100:
+OnClock2300:
 	set .ResetCounter,.ResetCounter+1;
 	set .EventON,1;
 	set .Timer,1;

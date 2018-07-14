@@ -7323,7 +7323,7 @@
 13113,P_Revolver2,Eden Revlover II,5,0,,0,60,,7,0,0x41000000,63,2,34,1,40,0,17,{ bonus bHit,-5; },{},{}
 13114,P_Revolver3,Eden Revolver III,5,0,,0,76,,7,0,0x41000000,63,2,34,3,60,0,17,{ bonus bHit,-5; },{},{}
 13115,Upg_Revolver,Upg Revolver,5,20,,500,35,,7,1,0x41000000,63,2,34,3,1,1,17,{ .@r = getrefine(); bonus bBaseAtk,(.@r*5); bonus bLongAtkRate,(.@r*2); if(BaseLevel>70) bonus bBaseAtk,(((BaseLevel-70)/10)*5); },{},{}
-13116,Novice_Revolver,Novice Revolver,5,0,,500,20,,7,0,0x41000000,63,2,34,1,1,0,17,{ bonus bHit,-5; },{},{}
+13116,Novice_Revolver,Novice Revolver,5,100,,500,20,,7,0,0x41000000,63,2,34,1,1,0,17,{ bonus bHit,-5; },{},{}
 13117,TE_Woe_Pistol,TE Woe Pistol,5,0,,0,60,,7,0,0x41000000,63,2,34,3,40,1,17,{ bonus2 bAddRace,RC_Player,40; bonus2 bAddEff,Eff_Curse,3000; },{},{}
 13118,Tiny_Flame,Fading Flame,5,1,,100,0,,7,0,0x01000000,63,2,34,1,1,1,17,{},{},{}
 13119,Freedom_Flame,Freedom Flame,5,1,,100,100,,7,2,0x01000000,63,2,34,3,99,1,17,{},{},{}
