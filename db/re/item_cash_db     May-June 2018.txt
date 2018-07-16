@@ -19,16 +19,29 @@
 //    Item cost, in cash points (#CASHPOINTS).
 
 //New
-0,41114,50		// Den Spectacular Pack
-
+0,14178,10		// Token of Siegfried 10 Box
+0,14216,100		// Bubblegum 5 Box
+0,41110,1		// Korean Rice Cake 50 Box
+0,41112,2		// Acid Bottle 5 Box
+0,13710,20		// Gym Pass 10 Box 
+0,14545,3		// Battle Manual X3
+0,14005,2		// Poison Bottle Combo 50 Box
+0,6417,3		// Silvervine Fruit
 
 // Headgear 
-1,5782,20 		// Hoplite Helmet
-1,5420,20		// Mask of Ifrit
-1,18709,20		// Black Knitted Hat
-1,18522,20		// Evil Marcher Hat
-1,5374,30 		// Gigantic Majestic Goat
-1,41114,50		// Den Spectacular Pack
+1,18600,30 		// Cat Ear Beret
+1,18539,30 		// Red Skull Cap
+1,18601,30		// Red Pom Band
+1,18528,30		// Drooping Neko Crew
+1,18508,30		// Garuda Hat
+1,5654,30		// Holy Marching Hat
+1,18565,30		// Leprechaun Hat
+1,18597,30		// Mercury Riser Hat
+1,5469,30		// Musketeer Hat
+1,5379,30		// Tam
+1,19178,30		// Elemental Crown
+1,5531,30		// Baby Dragon Hat
+
 
 // Rental
 3,16682,10 		// Halter Lead - 7 Days
@@ -40,24 +53,12 @@
 4,2589,30 		// Fallen Angel Wing
 4,2573,30 		// Archangel Wing
 4,2576,30		// Heroic Bagpack
-4,20749,30 		// Cloak of Casualties (Manteau of The Fallen)
-4,2168,150		// Immune Shield
-4,15040,100		// Prison Uniform
-4,15164,100		// Consultative Robe
-4,15163,100 	// Fictitious Robe
-4,5823,50		// Love Arrow
-4,2913,50 		// Thief Handcuff
-
+4,20748,30 		// Cloak of Casualties
+4,15040,30 		// Prison Uniform
 
 // Useable
-6,12211,5		// Kafra Card
-6,14178,10		// Token of Siegfried 10 Box
-6,14216,50		// Bubblegum 5 Box
-6,14545,10		// Battle Manual X3
-6,41110,5		// Korean Rice Cake 50 Box
-6,13752,5		// Small Magic Defense Potion 10 Box 
-6,13746,5		// Small Defense Potion 10 Box
-
+6,12103,10		// Bloody Branch
+6,12211,1		// Kafra Card
 
 // Other
 7,6635,1		// Blacksmith Blessing
@@ -67,8 +68,4 @@
 7,6241,4		// HD Elunium
 7,6226,8		// HD Branium
 7,6225,8		// HD Carnium
-7,6417,3		// Silvervine Fruit
-7,13710,20		// Gym Pass 10 Box 
-
-
 

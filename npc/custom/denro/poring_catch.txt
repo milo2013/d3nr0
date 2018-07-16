@@ -152,7 +152,7 @@ OnInit:
 	disablenpc "PoringCatcher";
 }
 //---------All Job Registration----------------------------------------
-kampung,165,130,0	warp	PoringCatcher	2,2,poring,94,96
+prontera,156,175,0	warp	PoringCatcher	2,2,poring,94,96
 
 //---------------------------------------------------------------------
 

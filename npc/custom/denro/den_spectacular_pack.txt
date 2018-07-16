@@ -1,0 +1,9 @@
+
+function	script	DenSpecBoxFunc	{
+
+	setarray .@items[0],"18679","18716","18678","18677","18666","18566","18546","18505","5463","5462","5445","5361","5305";
+	set .item_id, .@items[rand (getarraysize(.@items)) ];
+	set .item_amount, 1;
+
+	getitem .item_id, .item_amount;
+}

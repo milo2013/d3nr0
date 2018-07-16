@@ -71,3 +71,4 @@
 41111,Silvervine_Fruit_Bag,Silvervine Fruit Bag,2,20,,10,,,,,0xFFFFFFFF,63,2,,,,,,{ getitem 6417,100; },{},{}
 41112,Acid Bottle Box,Acid Bottle Box,2,20,,10,,,,,0xFFFFFFFF,63,2,,,,,,{ getitem 7136,50; getitem 7135,50; },{},{}
 41113,Den Coin,Den Coin,3,100,,10,,,,,,,,,,,,,{},{},{}
+41114,Den Spectacular Pack,Den Spectacular Pack,2,20,,10,,,,,0xFFFFFFFF,63,2,,,,,,{ callfunc "DenSpecBoxFunc"; },{},{}
