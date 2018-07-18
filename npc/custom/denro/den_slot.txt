@@ -13,6 +13,7 @@ prontera,155,223,1	script	Den Slot Machine	563,{
 		menu "Play Game",-,"Change Slot Machine Mode",iMode;
 		next;
 		}
+		
 switch( getd(".mode"+strnpcinfo(3)+"") ){
 	case 0: // Single Slot machine mode.
 		mes "Do you want to play a game?";
@@ -150,12 +151,12 @@ switch( getd(".mode"+strnpcinfo(3)+"") ){
 					if( .soundeffects ) { soundeffect "slot_jackpot.wav",0; }
 					break;
 				case 20:
-					set ZENY, ZENY + 5000000	// 5m Zeny
+					set ZENY, ZENY + 5000000;	// 5m Zeny
 					specialeffect2 10;
 					if( .soundeffects ) { soundeffect "slot_jackpot.wav",0; }
 					break;
 				case 21:
-					set ZENY, ZENY + 10000000	// 10m Zeny
+					set ZENY, ZENY + 10000000;	// 10m Zeny
 					specialeffect2 10;
 					if( .soundeffects ) { soundeffect "slot_jackpot.wav",0; }
 					break;
@@ -321,12 +322,12 @@ switch( getd(".mode"+strnpcinfo(3)+"") ){
 					if( .soundeffects ) { soundeffect "slot_jackpot.wav",0; }
 					break;
 				case 20:
-					set ZENY, ZENY + 5000000	// 5m Zeny
+					set ZENY, ZENY + 5000000;	// 5m Zeny
 					specialeffect2 10;
 					if( .soundeffects ) { soundeffect "slot_jackpot.wav",0; }
 					break;
 				case 21:
-					set ZENY, ZENY + 10000000	// 10m Zeny
+					set ZENY, ZENY + 10000000;	// 10m Zeny
 					specialeffect2 10;
 					if( .soundeffects ) { soundeffect "slot_jackpot.wav",0; }
 					break;
@@ -470,3 +471,4 @@ setarray .tsm_payment[0],0,41113,6; // Triple Slot Machine Payment Price
 setarray .ssm_payment_message$[0],""+ .ssm_payment[0] +" zeny",""+ getitemname(.ssm_payment[1]) +" x"+ .ssm_payment[2] +"";
 setarray .tsm_payment_message$[0],""+ .tsm_payment[0] +" zeny",""+ getitemname(.tsm_payment[1]) +" x"+ .tsm_payment[2] +"";
 end;
+}

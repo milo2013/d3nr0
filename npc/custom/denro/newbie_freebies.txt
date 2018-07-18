@@ -1,22 +1,40 @@
 prontera,147,173,5	script	Freebies	626,{
 
-	// IP Address Check
-	query_sql("SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+" ",.IP$);
-	
-	if (.IP$ == $IP_Claimed$){
-	mes "[ Freebies ]";
-	mes "You already claimed with this IP!!";
-	close;
-	}
-	
-	mes "[ Freebies ]";
-	mes "Have a nice day~";
-	close2;
-	query_sql("SELECT `last_ip` FROM `login` WHERE `account_id` = "+getcharid(3)+" ",$IP_Claimed$);
-	getitem 14545,5; 	// Field Battle Manual X3  - 5
-	getitem 17229,1; 	// Infinite Flywing Box
-	getitem 16682,1; 	// Halter Lead - 7 days
-	getitem 12914,1;	// Agi Scroll Box
-	getitem	12913,1;	// Bless Scroll Box 
-	
+set .@n$, "[ Freebies ]";
+setarray .@rwd[0],
+	 14545,5, 	// Field Battle Manual X3  - 5
+	 17229,1, 	// Infinite Flywing Box
+	 16682,1, 	// Halter Lead - 7 days
+	 12914,1,	// Agi Scroll Box
+	 12913,1;	// Bless Scroll
+
+query_sql ("SELECT `last_ip` FROM `login` WHERE `account_id`=" + getcharid(3) + "", .@lip$);
+
+if ( getd("$" + .@lip$ + "_NG") > 0 || #NewbieGift > 0)
+{
+mes .@n$;
+mes "Sorry, the rewards are exclusive for new players.";
+close;
 }
+
+mes .@n$;
+mes "Welcome! ^0099CC"+ strcharinfo(0) +"^000000!";
+mes "Here are some free gifts"; 
+mes "for newcomers:";
+
+for ( set .@i, 0; .@i < getarraysize(.@rwd); set .@i, .@i + 2 )
+mes .@rwd[.@i+1] + " x " + getitemname(.@rwd[.@i]);
+//announce (Sex?"Welcome":"Welcome")+" "+strcharinfo(0)+" to Den RO!",bc_all|bc_blue;
+npctalk "["+strcharinfo(0)+"] just got a ["+getitemname(.@rwd)+"] to start the adventure.",0;
+
+close2;
+set #NewbieGift, 1;
+setd "$" + .@lip$ + "_NG", getd("$" + .@lip$ + "_NG") + 1;
+
+for ( set .@i, 0; .@i < getarraysize(.@rwd); set .@i, .@i + 2 )
+getitem .@rwd[.@i], .@rwd[.@i+1];
+
+end;
+
+}
+

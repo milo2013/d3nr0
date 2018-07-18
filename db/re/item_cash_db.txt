@@ -19,7 +19,7 @@
 //    Item cost, in cash points (#CASHPOINTS).
 
 //New
-0,41114,50		// Den Spectacular Pack
+//0,41114,50		// Den Spectacular Pack
 
 
 // Headgear 
@@ -28,7 +28,7 @@
 1,18709,20		// Black Knitted Hat
 1,18522,20		// Evil Marcher Hat
 1,5374,30 		// Gigantic Majestic Goat
-1,41114,50		// Den Spectacular Pack
+//1,41114,50		// Den Spectacular Pack
 
 // Rental
 3,16682,10 		// Halter Lead - 7 Days
