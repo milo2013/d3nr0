@@ -19,7 +19,7 @@
 //    Item cost, in cash points (#CASHPOINTS).
 
 //New
-//0,41114,50		// Den Spectacular Pack
+//0,41114,50		// Den Spectacular Pack 
 
 
 // Headgear 
@@ -50,25 +50,24 @@
 
 
 // Useable
-6,12211,5		// Kafra Card
 6,14178,10		// Token of Siegfried 10 Box
-6,14216,50		// Bubblegum 5 Box
+6,12412,50		// Bubblegum HE
 6,14545,10		// Battle Manual X3
+6,12211,5		// Kafra Card
 6,41110,5		// Korean Rice Cake 50 Box
 6,13752,5		// Small Magic Defense Potion 10 Box 
 6,13746,5		// Small Defense Potion 10 Box
 
 
 // Other
-7,6635,1		// Blacksmith Blessing
-7,7620,2		// Enrich Oridedon
-7,7619,2		// Enrich Elunium
-7,6240,4		// HD Oridedon
-7,6241,4		// HD Elunium
-7,6226,8		// HD Branium
-7,6225,8		// HD Carnium
-7,6417,3		// Silvervine Fruit
-7,13710,20		// Gym Pass 10 Box 
+7,7620,3		// Enrich Oridedon
+7,7619,3		// Enrich Elunium
+7,6240,5		// HD Oridedon
+7,6241,5		// HD Elunium
+7,6226,10		// HD Branium
+7,6225,10		// HD Carnium
+7,6417,5		// Silvervine Fruit
+7,7776,5		// Gym Pass 
 
 
 
